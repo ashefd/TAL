@@ -4,7 +4,7 @@
 
 ### Question 1 : Désambiguïser morpho syntaxiquement un text
 ```
-python exercice1.py wsj_0010_sample.txt wsj_0010_sample.txt.pos.nltk
+python desambiguate.py wsj_0010_sample.txt wsj_0010_sample.txt.pos.nltk
 ```
 Avec  *wsj_0010_sample.txt*          : le fichier que l'on doit désambiguïser morpho syntaxiquement
 
@@ -23,6 +23,12 @@ python evaluate.py wsj_0010_sample.txt.pos.nltk wsj_0010_sample.pos.ref
 
 Résultats :
 ```
+Word precision: 0.944954128440367
+Word recall: 0.944954128440367
+Tag precision: 0.944954128440367
+Tag recall: 0.944954128440367
+Word F-measure: 0.944954128440367
+Tag F-measure: 0.944954128440367
 ```
 
 Avec *wsj_0010_sample.txt.pos.nltk* : le fichier à évaluer
@@ -59,13 +65,29 @@ python evaluate.py wsj_0010_sample.txt.pos.univ.nltk wsj_0010_sample.pos.txt.pos
 
 Résultat :
 ```
+Word precision: 0.963302752293578
+Word recall: 0.963302752293578
+Tag precision: 0.963302752293578
+Tag recall: 0.963302752293578
+Word F-measure: 0.963302752293578
+Tag F-measure: 0.963302752293578
 ```
 
 #### C. Conclusion
-Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats.
+Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats : en effet, nous constatons une augmentation de la fiabilité de 2%.
 
 
 ## Exercice 2
+Afin de pouvoir laisser a l'utiliser le choix de trouver dans le texte, les structures qu'il souhaite, la commande est la suivante :  
+
 ```
-python composedWord.py ... ...
+python chunkParser.py wsj_0010_sample.txt wsj_0010_sample.txt.chk.nltk Adjectif-Adjectif-Nom 
 ```
+Avec *wsj_0010_sample.txt* : le fichier que l'on veut chunker
+Et *wsj_0010_sample.txt.chk.nltk* : le fichier résultat contenant les mots composés
+Et *Adjectif-Adjectif-Nom* : une string qui indique la structure souhaitée. On peut indiquer les différentes structures qui suivent :
+1. Adjectif-Nom 
+2. Nom-Nom 
+3. Adjectif-Nom-Nom 
+
+
