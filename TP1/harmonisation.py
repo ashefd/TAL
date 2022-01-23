@@ -9,8 +9,8 @@ if __name__ == '__main__':
     f1.close()
     f2.close()
 
-    f1 = open(sys.argv[1]+'harmonisation.nltk', "w") # Premier fichier donne
-    f2 = open(sys.argv[2]+'harmonisation.ref', "w") # ref
+    f1 = open(sys.argv[1], "w") # Premier fichier donne
+    f2 = open(sys.argv[2], "w") # ref
 
     text1 = []
     text2 = []

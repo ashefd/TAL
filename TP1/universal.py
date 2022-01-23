@@ -19,8 +19,8 @@ if __name__ == '__main__':
         mydict[lines3[i]] = lines3[i+1]
     print(mydict)
 
-    f1 = open(sys.argv[1]+'.universal.nltk', "w") # fichier a remplacer
-    f2 = open(sys.argv[2]+'.universal.ref', "w") # fichier a remplacer
+    f1 = open('wsj_0010_sample.txt.pos.univ.nltk', "w") # fichier a remplacer
+    f2 = open('wsj_0010_sample.pos.txt.pos.univ.ref', "w") # fichier a remplacer
 
     for i in range(0,len(lines1),2):
         f1.write("\t".join((lines1[i], mydict[lines1[i+1]])))
