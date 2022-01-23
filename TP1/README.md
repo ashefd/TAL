@@ -4,7 +4,7 @@
 
 ### Question 1 : Désambiguïser morpho syntaxiquement un text
 ```
-python exercice1.py wsj_0010_sample.txt wsj_0010_sample.txt.pos.nltk
+python desambiguate.py wsj_0010_sample.txt wsj_0010_sample.txt.pos.nltk
 ```
 Avec  *wsj_0010_sample.txt*          : le fichier que l'on doit désambiguïser morpho syntaxiquement
 
@@ -67,5 +67,8 @@ Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats
 
 ## Exercice 2
 ```
-python composedWord.py ... ...
+python chunkParser.py wsj_0010_sample.txt wsj_0010_sample.txt.chk.nltk
 ```
+Avec *wsj_0010_sample.txt* : le fichier que l'on veut chunker
+Et *wsj_0010_sample.txt.chk.nltk* : le fichier résultat contenant les mots composés
+
