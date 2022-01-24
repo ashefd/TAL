@@ -1,16 +1,11 @@
 import nltk
 import sys
-from nltk import word_tokenize
+
 from nltk import pos_tag
-nltk.download('averaged_perceptron_tagger')
+from nltk import word_tokenize
 
-if __name__ == '__main__':
-    print(sys.argv[1]) # Premier fichier donne
-    print(sys.argv[2]) # Deuxieme fichier donne
-    print("\n\n\n")
-
-    f = open(sys.argv[1], "r")
-    s = open(sys.argv[2], "w")
+def tokenize_tag(file_name_in):
+    f = open(file_name_in, "r")
 
     text = []
 
@@ -21,9 +16,23 @@ if __name__ == '__main__':
         tag = nltk.pos_tag(listing)
         for t in tag:
             text.append(t)
-        
-    for i in range(len(text)):
-        s.write('\t'.join(text[i]))
+
+    return text
+
+def write_text_in_file(tokenized_tagged_text,  file_name_out):
+    s = open(file_name_out, "w")
+    for i in tokenized_tagged_text:
+        s.write('\t'.join(i))
         s.write("\n")
 
     s.close()
+    return tokenized_tagged_text
+
+if __name__ == '__main__':
+    tokenized_tagged_text = tokenize_tag(sys.argv[1])
+    print(tokenized_tagged_text)
+
+    write_text_in_file(tokenized_tagged_text, sys.argv[2])  # Deuxieme fichier donne
+    print("tagged written in file" + sys.argv[2])
+
+

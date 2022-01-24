@@ -81,13 +81,13 @@ Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats
 Afin de pouvoir laisser a l'utiliser le choix de trouver dans le texte, les structures qu'il souhaite, la commande est la suivante :  
 
 ```
-python chunkParser.py wsj_0010_sample.txt wsj_0010_sample.txt.chk.nltk Adjectif-Adjectif-Nom 
+python chunkParser.py wsj_0010_sample.txt wsj_0010_sample.txt.chk.nltk Déterminant-Adjectif-Nom
 ```
 Avec *wsj_0010_sample.txt* : le fichier que l'on veut chunker
 Et *wsj_0010_sample.txt.chk.nltk* : le fichier résultat contenant les mots composés
-Et *Adjectif-Adjectif-Nom* : une string qui indique la structure souhaitée. On peut indiquer les différentes structures qui suivent :
+Et *Déterminant-Adjectif-Nom* : une string qui indique la structure souhaitée. On peut indiquer les différentes structures qui suivent :
 1. Adjectif-Nom 
 2. Nom-Nom 
 3. Adjectif-Nom-Nom 
-
+4. Adjectif-Adjectif-Nom 
 
