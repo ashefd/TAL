@@ -101,15 +101,17 @@ def write_compounds_in_file(compounds, structure, file_name):
 
           Parameters
           ----------
+          compounds : list of string
+          Liste de mots composés qui match la syntaxe "structure"
+          structure : string
+          nom de la structure syntaxique des mots à extraire
+          file_name : string
+          nom du fichier dans lequel on souhaite ecrire
 
-          dict_file : string
-          nom du fichier qui associe des structures syntaxiques à des expression régulières python (Regex)
 
-          structure : nom de la structure syntaxique des mots à extraire
           Returns
           -------
-          pattern : RegexpChunkRule
-              Expression régulière qui correspond à la structure syntaxique donnée en entrée
+          void
           """
     f3 = open(file_name, "w")
     f3.write(structure + ": \n")
