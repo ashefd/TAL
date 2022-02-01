@@ -7,13 +7,12 @@ from nltk.tokenize import PunktSentenceTokenizer
 def process_content(filename):
     file = open(filename, 'w')
     try:
-        for i in tokenized:
-            words = nltk.word_tokenize(i)
-            tagged = nltk.pos_tag(words)
-            namedEnt = nltk.ne_chunk(tagged, binary=True)
-            namedEnt.draw()
-    
-            with io.open(filename, 'w', encoding='utf8') as fout:
+        with io.open(filename, 'w', encoding='utf8') as fout:
+            for i in tokenized:
+                words = nltk.word_tokenize(i)
+                tagged = nltk.pos_tag(words)
+                namedEnt = nltk.ne_chunk(tagged, binary=True)
+                namedEnt.draw()
                 fout.write(str(namedEnt)+'\n\n')
     
     except Exception as e:

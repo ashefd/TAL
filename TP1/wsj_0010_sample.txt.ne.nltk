@@ -1,4 +1,76 @@
 (S
+  When/WRB
+  it/PRP
+  's/VBZ
+  time/NN
+  for/IN
+  their/PRP$
+  biannual/JJ
+  powwow/NN
+  ,/,
+  the/DT
+  nation/NN
+  's/POS
+  manufacturing/NN
+  titans/NNS
+  typically/RB
+  jet/VBP
+  off/IN
+  to/TO
+  the/DT
+  sunny/JJ
+  confines/NNS
+  of/IN
+  resort/NN
+  towns/NNS
+  like/IN
+  (NE Boca/NNP Raton/NNP)
+  and/CC
+  (NE Hot/NNP Springs/NNP)
+  ./.)
+
+(S Not/RB this/DT year/NN ./.)
+
+(S
+  The/DT
+  (NE National/NNP Association/NNP)
+  of/IN
+  Manufacturers/NNPS
+  settled/VBN
+  on/IN
+  the/DT
+  (NE Hoosier/NNP)
+  capital/NN
+  of/IN
+  Indianapolis/NNP
+  for/IN
+  its/PRP$
+  fall/JJS
+  board/NN
+  meeting/NN
+  ./.)
+
+(S
+  And/CC
+  the/DT
+  city/NN
+  decided/VBD
+  to/TO
+  treat/VB
+  its/PRP$
+  guests/NNS
+  more/RBR
+  like/IN
+  royalty/NN
+  or/CC
+  rock/NN
+  stars/NNS
+  than/IN
+  factory/NN
+  owners/NNS
+  ./.)
+
+(S
   The/DT
   idea/NN
   ,/,
