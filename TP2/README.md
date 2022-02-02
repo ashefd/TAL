@@ -26,3 +26,12 @@ wsj_0010_sample.pos.stanford.ref
 ```
 python from_PTB_to_universal.py wsj_0010_sample.txt.pos.stanford wsj_0010_sample.pos.stanford.ref POSTags_PTB_Universal.txt wsj_0010_sample.txt.pos.univ.stanford wsj_0010_sample.txt.pos.univ.ref. wsj_0010_sample.pos.ref
 ```
+Avec *wsj_0010_sample.txt.pos.stanford* : premier fichier à convertir
+*wsj_0010_sample.pos.stanford.ref* : deuxième fichier à convertir
+*POSTags_PTB_Universal.txt* : le dictionnaire
+*wsj_0010_sample.txt.pos.univ.stanford* : le fichier résultat de *wsj_0010_sample.txt.pos.stanford*
+
+*wsj_0010_sample.txt.pos.univ.ref. wsj_0010_sample.pos.ref* : le fichier résultat de *wsj_0010_sample.pos.stanford.ref*
+
+
+
