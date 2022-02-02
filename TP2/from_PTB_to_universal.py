@@ -32,13 +32,24 @@ def create_dictionary(dictionnaire_file):
 def convert_PTB_to_universal(file_in_name, file_out_name, dictionnaire):
     f = open(file_in_name, "r")
     g = open(file_out_name, "w")
-
-    lines = f.read().splitlines()
+    """
+    lines = f.read()
     print(lines)
+    for key in dictionnaire:
+        lines = lines.replace("_"+ key, "_"+dictionnaire[key])
+    print(lines)
+    """
+    
+    lines = f.read().splitlines()
+
     for i in range(len(lines)):
-        m = re.findall(r"_[A-Z]*", lines[i])
-        print(m)
-        #lines[i] = re.sub(r"_[^_]+$", )
+        line = lines[i].split()
+        for j in range(len(line)):
+            m = re.findall(r"_[^_]+$", line[j])
+            line[j] = line[j].replace(m[0][1:], dictionnaire[m[0][1:]])
+        g.write(' '.join(line) + '\n')
+    f.close()
+    g.close()
     return lines
 
 
@@ -50,6 +61,6 @@ if __name__ == '__main__':
     # sys.argv[5] : deuxieme fichier a enregistrer
     mydict = create_dictionary(sys.argv[3])
 
-    #convert_PTB_to_universal(sys.argv[1], sys.argv[4], mydict)
+    convert_PTB_to_universal(sys.argv[1], sys.argv[4], mydict)
     convert_PTB_to_universal(sys.argv[2], sys.argv[5], mydict)
 
