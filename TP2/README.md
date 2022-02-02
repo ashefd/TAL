@@ -23,12 +23,12 @@ python evaluate.py wsj_0010_sample.txt.pos.stanford wsj_0010_sample.pos.stanford
 Résultats obtenus : 
 
 ```
-Word precision: 0.967741935483871
-Word recall: 0.26785714285714285
-Tag precision: 0.9354838709677419
-Tag recall: 0.25892857142857145
-Word F-measure: 0.41958041958041964
-Tag F-measure: 0.40559440559440557
+Word precision: 0.9636363636363636
+Word recall: 0.9464285714285714
+Tag precision: 0.9454545454545454
+Tag recall: 0.9285714285714286
+Word F-measure: 0.9549549549549549
+Tag F-measure: 0.9369369369369368
 ```
 
 ### Question d
