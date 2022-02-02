@@ -78,7 +78,7 @@ Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats
 
 
 ## Exercice 2
-Afin de pouvoir laisser a l'utiliser le choix de trouver dans le texte, les structures qu'il souhaite, la commande est la suivante :  
+Afin de pouvoir laisser a l'utilisateur le choix de trouver dans le texte, les structures qu'il souhaite, la commande est la suivante :  
 
 ```
 python chunkParser.py .\wsj_0010_sample.txt .\structures_rules.txt Adjectif-Nom
@@ -95,4 +95,39 @@ python chunkParser.py .\wsj_0010_sample.txt .\structures_rules.txt Adjectif-Nom
 2. Nom-Nom 
 3. Adjectif-Nom-Nom 
 4. Adjectif-Adjectif-Nom 
+
+## Exercice 3
+### Question 1
+Afin d'obtenir les entités nommées présentes dans le texte d'un fichier, on note la commande suivante :
+
+```
+python use_ne_chunk.py wsj_0010_sample.txt wsj_0010_sample.txt.ne.nltk
+```
+
+Avec *wsj_0010_sample.txt*     : le fichier à évaluer
+
+Et   *wsj_0010_sample.txt.ne.nltk*          : le fichier final qui contiendra un arbre syntaxique décrivant les entités nommées présentent dans le premier fichier
+
+
+### Question 2
+
+```
+python from_nltk_to_standard.py wsj_0010_sample.txt.ne.nltk wsj_0010_sample.standard.txt.ne.nltk
+```
+
+Avec   *wsj_0010_sample.txt.ne.nltk*          : le fichier à convertir 
+
+Et *res.txt* : le fichier résultat contenant un arbre syntaxique décrivant les entités nommées présentent dans le premier fichier mais avec uniquement les étiquettes nltk.
+
+
+### Question 3
+Première commande : 
+```
+python use_ne_chunk.py formal-tst.NE.key.04oct95_sample.txt formal-tst.NE.key.04oct95_sample.txt.ne.nltk
+```
+
+Deuxième commande :
+```
+python use_ne_chunk.py formal-tst.NE.key.04oct95_sample.txt.ne.nltk res.txt
+```
 

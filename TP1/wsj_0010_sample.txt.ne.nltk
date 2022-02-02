@@ -24,25 +24,25 @@
   resort/NN
   towns/NNS
   like/IN
-  (NE Boca/NNP Raton/NNP)
+  (PERSON Boca/NNP Raton/NNP)
   and/CC
-  (NE Hot/NNP Springs/NNP)
+  (PERSON Hot/NNP Springs/NNP)
   ./.)
 
 (S Not/RB this/DT year/NN ./.)
 
 (S
   The/DT
-  (NE National/NNP Association/NNP)
+  (ORGANIZATION National/NNP Association/NNP)
   of/IN
   Manufacturers/NNPS
   settled/VBN
   on/IN
   the/DT
-  (NE Hoosier/NNP)
+  (ORGANIZATION Hoosier/NNP)
   capital/NN
   of/IN
-  Indianapolis/NNP
+  (GPE Indianapolis/NNP)
   for/IN
   its/PRP$
   fall/JJS
@@ -89,7 +89,7 @@
   buckle/NN
   on/IN
   the/DT
-  (NE Rust/NNP Belt/NNP)
+  (ORGANIZATION Rust/NNP Belt/NNP)
   is/VBZ
   n't/RB
   so/RB
