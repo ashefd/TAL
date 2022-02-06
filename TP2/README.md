@@ -4,7 +4,7 @@
 Disponible sur : https://nlp.stanford.edu/software/tagger.shtml
 
 
-## Partie 2 : Evaluation
+## Partie 1 : Evaluation
 ### Question a
 ```
 cd stanford-postagger-full-2018-10-16/
@@ -59,3 +59,17 @@ Tag F-measure: 0.9727272727272728
 ```
 
 ### Question f
+Nous observons de meilleurs résultats sur les fichiers contenant des étiquettes universelles. Cela est dû à un nombre d'étiquettes moins important et donc une meilleure précision.
+
+
+## Partie 2 : Evaluation
+
+### Question a
+```
+java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile formal-tst.NE.key.04oct95_small.txt > formal-tst.NE.key.04oct95_small.txt.ne.stanford
+```
+
+### Question b
+```
+python from_file_to_ne.py formal-tst.NE.key.04oct95_small.txt.ne.stanford 
+```
