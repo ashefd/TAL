@@ -12,8 +12,24 @@ def process_content(filename, tokenized):
                 words = nltk.word_tokenize(i)
                 tagged = nltk.pos_tag(words)
                 namedEnt = nltk.ne_chunk(tagged, binary=False)
-                namedEnt.draw()
-                fout.write(str(namedEnt)+'\n\n')
+                #namedEnt.draw()
+                #fout.write(str(namedEnt)+'\n\n')
+                for subtree in namedEnt.subtrees():
+                    if subtree.label() != 'S':
+                        x = str(subtree)
+                        fout.write(x[1:len(x)-1]+'\n')
+                """
+                ## Partie qui extrait seulement les sous arbres qui ont la structure syntaxique souhaitée
+                    print("Only Matched Coumpound : ")
+                    matched_compounds = []
+                    for subtree in tree.subtrees():
+                        if subtree.label() == 'COMPOUND':
+                            print(subtree)
+                            matched_compounds.append(subtree)
+                    return matched_compounds   # Si on veut tout écrire dans le fichier y compris
+                    #les élements qui ne sont pas "matchés" par le regexParser, il suffit de retourner tout le tree
+
+                """
     
     except Exception as e:
         print(str(e))
