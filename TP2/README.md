@@ -63,3 +63,13 @@ Nous observons de meilleurs résultats sur les fichiers contenant des étiquette
 
 
 ## Partie 2 : Evaluation
+
+### Question a
+```
+java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile formal-tst.NE.key.04oct95_small.txt > formal-tst.NE.key.04oct95_small.txt.ne.stanford
+```
+
+### Question b
+```
+python from_file_to_ne.py formal-tst.NE.key.04oct95_small.txt.ne.stanford 
+```
