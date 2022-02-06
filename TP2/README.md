@@ -59,6 +59,7 @@ Tag F-measure: 0.9727272727272728
 ```
 
 ### Question f
+
 Nous observons de meilleurs résultats sur les fichiers contenant des étiquettes universelles. Cela est dû à un nombre d'étiquettes moins important et donc une meilleure précision.
 
 
@@ -71,5 +72,8 @@ java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -l
 
 ### Question b
 ```
-python from_file_to_ne.py formal-tst.NE.key.04oct95_small.txt.ne.stanford 
+python from_file_to_ne.py .\formaltst.NE.key.04oct95_small.txt.ne.stanford .\formaltst.NE.key.04oct95_small.txt.ne.stanford
 ```
+
+Résultats obtenus : 
+![alt text](./tp2.png)
