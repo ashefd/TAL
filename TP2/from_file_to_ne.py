@@ -31,16 +31,6 @@ def write_rows_in_file(file_name_out, rows):
         writer.writerows(rows)
 
 
-"""
-import csv
-row_list = [["SN", "Name", "Contribution"],
-             [1, "Linus Torvalds", "Linux Kernel"],
-             [2, "Tim Berners-Lee", "World Wide Web"],
-             [3, "Guido van Rossum", "Python Programming"]]
-with open('protagonist.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerows(row_list)
-    """
 if __name__ == '__main__':
     dict_occurences, dict_ne, size = extract_ne(sys.argv[1])
     rows = create_ne_rows(dict_occurences, dict_ne, size)
