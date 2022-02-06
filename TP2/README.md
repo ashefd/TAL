@@ -43,4 +43,19 @@ Avec *wsj_0010_sample.txt.pos.stanford* : premier fichier à convertir
 *wsj_0010_sample.txt.pos.univ.ref* : le fichier résultat de *wsj_0010_sample.pos.stanford.ref*
 
 
+### Question e
+```
+python evaluate.py wsj_0010_sample.txt.pos.univ.stanford wsj_0010_sample.txt.pos.univ.ref
+```
 
+Résultats obtenus
+```
+Word precision: 0.990909090909091
+Word recall: 0.990909090909091
+Tag precision: 0.9727272727272728
+Tag recall: 0.9727272727272728
+Word F-measure: 0.990909090909091
+Tag F-measure: 0.9727272727272728
+```
+
+### Question f
