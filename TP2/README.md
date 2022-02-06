@@ -4,7 +4,7 @@
 Disponible sur : https://nlp.stanford.edu/software/tagger.shtml
 
 
-## Partie 2 : Evaluation
+## Partie 1 : Evaluation
 ### Question a
 ```
 cd stanford-postagger-full-2018-10-16/
@@ -59,3 +59,7 @@ Tag F-measure: 0.9727272727272728
 ```
 
 ### Question f
+Nous observons de meilleurs résultats sur les fichiers contenant des étiquettes universelles. Cela est dû à un nombre d'étiquettes moins important et donc une meilleure précision.
+
+
+## Partie 2 : Evaluation
