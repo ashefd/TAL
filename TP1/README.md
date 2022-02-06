@@ -112,13 +112,13 @@ Et   *wsj_0010_sample.txt.ne.nltk*          : le fichier final qui contiendra un
 ### Question 2
 
 ```
-python from_nltk_to_standard.py wsj_0010_sample.txt.ne.nltk wsj_0010_sample.standard.txt.ne.nltk
+python .\ne_standard_etiquettes.py .\wsj_0010_sample.txt.ne.nltk .\dict_ne_standard_etiquettes.txt .\wsj_0010_sample.txt.ne.univ.nltk
+
 ```
 
 Avec   *wsj_0010_sample.txt.ne.nltk*          : le fichier à convertir 
 
-Et *res.txt* : le fichier résultat contenant un arbre syntaxique décrivant les entités nommées présentent dans le premier fichier mais avec uniquement les étiquettes nltk.
-
+Et *wsj_0010_sample.txt.ne.univ.nltk* : le fichier résultat contenant les entités nommées avec les étiquettes universelles (et sans les indicateurs)
 
 ### Question 3
 Première commande : 
@@ -127,7 +127,8 @@ python use_ne_chunk.py formal-tst.NE.key.04oct95_sample.txt formal-tst.NE.key.04
 ```
 
 Deuxième commande :
+
 ```
-python use_ne_chunk.py formal-tst.NE.key.04oct95_sample.txt.ne.nltk res.txt
+python ne_standard_etiquettes.py formal-tst.NE.key.04oct95_sample.txt.ne.nltk dict_ne_standard_etiquettes.txt formal-tst.NE.key.04oct95_sample.txt.ne.univ.nltk
 ```
 
