@@ -5,17 +5,16 @@ from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
 
 def process_content(filename, tokenized):
-    """ Recuperer les entites nommees d'un fichier pour le stocker dans un autre
-
-    Cette fonction permet de recuperer les entites nommees d'un fichier pour le stocker dans un autre
+    """ Recuperer l'ensemble des entites nommees identifiees contenu dans une liste de mot tokenisee.
+    Cet ensemble est ensuite stocke dans un fichier
 
     Parameters
     ----------
     filename : string
-        Nom du fichier qui contient le texte duquel on souhaite extraire les "chunk" (groupes de mots)
+        Nom du fichier dans lequel on stocke les entites nommees
 
-    tokenized : Tokenizer choisi
-        Tokenizer choisi dans le main
+    tokenized : list of string
+        Liste des mots tokenisee contenus dans un fichier txt
 
     Returns
     -------
@@ -39,7 +38,21 @@ def process_content(filename, tokenized):
         print(str(e))
 
 if __name__ == '__main__':
+    """ Recuperer l'ensemble des entites nommees identifiees contenu dans un fichier txt.
+    Cet ensemble est ensuite stocke dans un autre fichier
 
+    Parameters
+    ----------
+    sys.argv[1] : string
+        Nom du fichier que l'on souhaite etudier. Le fichier contient un texte dont on souhaite extraire les "chunk" (groupes de mots)
+
+    sys.argv[2] : string
+        Nom du fichier output qui contiendra l'ensemble des entites nommees identifiees
+
+    Returns
+    -------
+    None
+    """
     f = open(sys.argv[1], 'r') # wsj_0010_sample.txt
     file = open(sys.argv[2], 'w') # wsj_0010_sample.txt.ne.nltk
     lignes = f.read()
