@@ -5,6 +5,22 @@ from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
 
 def process_content(filename, tokenized):
+    """ Recuperer les entites nommees d'un fichier pour le stocker dans un autre
+
+    Cette fonction permet de recuperer les entites nommees d'un fichier pour le stocker dans un autre
+
+    Parameters
+    ----------
+    filename : string
+        Nom du fichier qui contient le texte duquel on souhaite extraire les "chunk" (groupes de mots)
+
+    tokenized : Tokenizer choisi
+        Tokenizer choisi dans le main
+
+    Returns
+    -------
+    None
+    """
     file = open(filename, 'w')
     try:
         with io.open(filename, 'w', encoding='utf8') as fout:
@@ -27,8 +43,6 @@ if __name__ == '__main__':
     f = open(sys.argv[1], 'r') # wsj_0010_sample.txt
     file = open(sys.argv[2], 'w') # wsj_0010_sample.txt.ne.nltk
     lignes = f.read()
-
-    # lignes = state_union.raw("2006-GWBush.txt")
 
     custom_sent_tokenizer = PunktSentenceTokenizer(lignes)
 
