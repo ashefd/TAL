@@ -11,7 +11,7 @@ Avec  *wsj_0010_sample.txt*          : le fichier que l'on doit désambiguïser 
 Et    *wsj_0010_sample.txt.pos.nltk* : le fichier obtenu
 
 Output sauvegardé et disponible sur : 
-'output/question_1_saving.txt'
+- 'output/EXO1_question_1_saving.txt'
 
 
 ### Question 2 : Evaluer à l'aide des étiquettes Penn TreeBank (PTB)
@@ -19,6 +19,10 @@ Avant d'évaluer le fichier *wsj_0010_sample.txt.pos.nltk*, il faut harmoniser c
 ```
 python harmonisation.py wsj_0010_sample.txt.pos.nltk wsj_0010_sample.pos.ref
 ```
+Output sauvegardé et disponible sur : 
+- 'output/EXO1_question_2_saving.txt' : fichier wsj_0010_sample.txt.pos.nltk harmonisé
+- 'output/EXO1_question_2_saving_ref.txt' fichier wsj_0010_sample.pos.ref harmonisé
+
 
 Par la suite, pour évaluer à l'aide des étiquettes Penn TreeBank, il faut entrer la commande :
 ```
@@ -60,6 +64,10 @@ A la fin, les fichiers en étiquette universelle seront :
 
 *wsj_0010_sample.pos.ref* -> *wsj_0010_sample.pos.txt.pos.univ.ref*
 
+Output sauvegardé et disponible sur : 
+'output/EXO1_question_3A_saving.txt' : fichier wsj_0010_sample.txt.pos.nltk avec etiquette universelle (wsj_0010_sample.txt.pos.univ.nltk)
+'output/EXO1_question_3A_saving_ref.txt' fichier wsj_0010_sample.pos.ref avec etiquette universelle (wsj_0010_sample.pos.txt.pos.univ.ref))
+
 #### B. Evaluer le texte à étiquette universelle
 
 La commande est :
@@ -85,7 +93,7 @@ Utiliser les étiquettes universelles permettent d'avoir de meilleurs résultats
 Afin de pouvoir laisser a l'utilisateur le choix de trouver dans le texte, les structures qu'il souhaite, la commande est la suivante :  
 
 ```
-python chunkParser.py .\wsj_0010_sample.txt .\structures_rules.txt Adjectif-Nom
+python chunkParser.py wsj_0010_sample.txt structures_rules.txt Adjectif-Nom
 
 ```
 - *wsj_0010_sample.txt* : le fichier que l'on veut chunker
@@ -100,6 +108,11 @@ python chunkParser.py .\wsj_0010_sample.txt .\structures_rules.txt Adjectif-Nom
 3. Adjectif-Nom-Nom 
 4. Adjectif-Adjectif-Nom 
 
+
+Output sauvegardé et disponible sur : 
+'output/EXO2_question_1_savings.txt'
+
+
 ## Exercice 3
 ### Question 1
 Afin d'obtenir les entités nommées présentes dans le texte d'un fichier, on note la commande suivante :
@@ -112,17 +125,22 @@ Avec *wsj_0010_sample.txt*     : le fichier à évaluer
 
 Et   *wsj_0010_sample.txt.ne.nltk*          : le fichier final qui contiendra un arbre syntaxique décrivant les entités nommées présentent dans le premier fichier
 
+Output sauvegardé et disponible sur : 
+'output/EXO3_question_1_savings.txt'
 
 ### Question 2
 
 ```
-python .\ne_standard_etiquettes.py .\wsj_0010_sample.txt.ne.nltk .\dict_ne_standard_etiquettes.txt .\wsj_0010_sample.txt.ne.univ.nltk
-
+python ne_standard_etiquettes.py wsj_0010_sample.txt.ne.nltk dict_ne_standard_etiquettes.txt wsj_0010_sample.txt.ne.univ.nltk
 ```
 
 Avec   *wsj_0010_sample.txt.ne.nltk*          : le fichier à convertir 
 
 Et *wsj_0010_sample.txt.ne.univ.nltk* : le fichier résultat contenant les entités nommées avec les étiquettes universelles (et sans les indicateurs)
+
+Output sauvegardé et disponible sur : 
+'output/EXO3_question_2_savings.txt'
+
 
 ### Question 3
 Première commande : 

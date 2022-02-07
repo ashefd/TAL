@@ -9,11 +9,11 @@ powwow	NN
 ,	,
 the	DT
 nation	NN
-manufacturing	NN
+manufacturing	VBG
 titans	NNS
 typically	RB
 jet	VBP
-off	IN
+off	RP
 to	TO
 the	DT
 sunny	JJ
@@ -36,8 +36,8 @@ The	DT
 National	NNP
 Association	NNP
 of	IN
-Manufacturers	NNPS
-settled	VBN
+Manufacturers	NNP
+settled	VBD
 on	IN
 the	DT
 Hoosier	NNP
@@ -46,7 +46,7 @@ of	IN
 Indianapolis	NNP
 for	IN
 its	PRP$
-fall	JJS
+fall	NN
 board	NN
 meeting	NN
 .	.
@@ -58,7 +58,7 @@ to	TO
 treat	VB
 its	PRP$
 guests	NNS
-more	RBR
+more	JJR
 like	IN
 royalty	NN
 or	CC
