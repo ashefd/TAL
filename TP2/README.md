@@ -11,10 +11,18 @@ cd stanford-postagger-full-2018-10-16/
 ./stanford-postagger.sh models/english-left3words-distsim.tagger ../wsj_0010_sample.txt > ../wsj_0010_sample.txt.pos.stanford
 ```
 
+Output sauvegardé et disponible sur :
+- 'output/EXO1_question_A_savings.txt'
+
 ### Question b
 ```
 python from_ref_to_stanford_pos_tagger.py wsj_0010_sample.pos.ref wsj_0010_sample.pos.stanford.ref
 ```
+
+Output sauvegardé et disponible sur :
+- 'output/EXO1_question_B_savings_ref.txt'
+
+
 ### Question c
 ```
 python evaluate.py wsj_0010_sample.txt.pos.stanford wsj_0010_sample.pos.stanford.ref
@@ -41,6 +49,10 @@ Avec *wsj_0010_sample.txt.pos.stanford* : premier fichier à convertir
 *wsj_0010_sample.txt.pos.univ.stanford* : le fichier résultat de *wsj_0010_sample.txt.pos.stanford*
 
 *wsj_0010_sample.txt.pos.univ.ref* : le fichier résultat de *wsj_0010_sample.pos.stanford.ref*
+
+Output sauvegardé et disponible sur :
+- 'output/EXO1_question_D_savings_univ.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.stanford
+- 'output/EXO1_question_D_savings_univ_ref.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.ref
 
 
 ### Question e
