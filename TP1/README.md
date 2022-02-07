@@ -10,6 +10,10 @@ Avec  *wsj_0010_sample.txt*          : le fichier que l'on doit désambiguïser 
 
 Et    *wsj_0010_sample.txt.pos.nltk* : le fichier obtenu
 
+Output sauvegardé et disponible sur : 
+'output/question_1_saving.txt'
+
+
 ### Question 2 : Evaluer à l'aide des étiquettes Penn TreeBank (PTB)
 Avant d'évaluer le fichier *wsj_0010_sample.txt.pos.nltk*, il faut harmoniser ce fichier et sa référence.
 ```
