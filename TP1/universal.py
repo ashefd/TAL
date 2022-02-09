@@ -103,5 +103,11 @@ if __name__ == '__main__':
 
     mydict = create_dictionary(lines3)
 
-    write_with_uni_tag('wsj_0010_sample.txt.pos.univ.nltk', 'wsj_0010_sample.pos.txt.pos.univ.ref', lines1, lines2, mydict)
+
+    #Si on veut donner des noms spécifiques '.harm' aux fichiers harmonisés :
+    nltk_out = sys.argv[1][:-9] + "univ"+sys.argv[1][-5:]
+    ref_out =  sys.argv[2][:-8] + "univ"+sys.argv[2][-4:]
+
+    write_with_uni_tag(nltk_out, ref_out, lines1, lines2, mydict)
+    print("files with universal etiquettes written in file " + nltk_out + " and  " + ref_out)
     

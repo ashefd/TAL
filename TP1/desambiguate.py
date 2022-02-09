@@ -62,10 +62,13 @@ def write_text_in_file(tokenized_tagged_text,  file_name_out):
     return tokenized_tagged_text
 
 if __name__ == '__main__':
+    nltk.download('punkt')
+    nltk.download('averaged_perceptron_tagger')
+
     tokenized_tagged_text = tokenize_tag(sys.argv[1])
     print(tokenized_tagged_text)
 
     write_text_in_file(tokenized_tagged_text, sys.argv[2])  # Deuxieme fichier donne
-    print("tagged written in file" + sys.argv[2])
+    print("tagged written in file " + sys.argv[2])
 
 

@@ -51,3 +51,4 @@ if __name__ == '__main__':
     dict_etiquettes = create_dictionary(sys.argv[2])
     lines = replace_etiquettes(sys.argv[1], dict_etiquettes )
     write_lines_file(lines, sys.argv[3])
+    print("File with named entities with universal etiquettes written in " + sys.argv[3])

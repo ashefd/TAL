@@ -127,4 +127,5 @@ if __name__ == '__main__':
 
     pattern = find_regex_rule(sys.argv[2], sys.argv[3].lower())
     compounds = chunk_parse(sys.argv[1],  pattern)
-    write_compounds_in_file(compounds, sys.argv[3], sys.argv[1] + '.chk.nltk')
+    write_compounds_in_file(compounds, sys.argv[3], "out/"+sys.argv[1] + '.chk.nltk')
+    print("File with extracted compounds written in " + "out/"+sys.argv[1] + '.chk.nltk')

@@ -55,7 +55,7 @@ def harmonise(lines1, lines2):
     text1 = []
     text2 = []
 
-    for i in range(0,len(lines1),2):
+    for i in range(0,min(len(lines1), len(lines2)),2):
         if(lines2[i] != lines1[i]):
             print(lines2[i])
             print(lines1[i])
@@ -104,4 +104,9 @@ if __name__ == '__main__':
 
     text1, text2 = harmonise(lines1, lines2)
 
-    write_text_in_file(sys.argv[1],  sys.argv[2], text1, text2)
+    #Si on veut donner des noms spécifiques '.harm' aux fichiers harmonisés :
+    nltk_out = sys.argv[1][:-4] + "harm"+sys.argv[1][-5:]
+    ref_out =  "out/" + sys.argv[2][:-3] + "harm"+sys.argv[2][-4:]
+
+    write_text_in_file(nltk_out, ref_out, text1, text2)
+    print("harmonized files written in file " + nltk_out+ " and  " + ref_out )

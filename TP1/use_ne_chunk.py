@@ -33,6 +33,7 @@ def process_content(filename, tokenized):
                     if subtree.label() != 'S':
                         x = str(subtree)
                         fout.write(x[1:len(x)-1]+'\n')
+
     
     except Exception as e:
         print(str(e))
@@ -53,6 +54,10 @@ if __name__ == '__main__':
     -------
     None
     """
+    nltk.download('words')
+    nltk.download('maxent_ne_chunker')
+
+
     f = open(sys.argv[1], 'r') # wsj_0010_sample.txt
     file = open(sys.argv[2], 'w') # wsj_0010_sample.txt.ne.nltk
     lignes = f.read()
@@ -62,6 +67,6 @@ if __name__ == '__main__':
     tokenized = custom_sent_tokenizer.tokenize(lignes)
 
     process_content(sys.argv[2], tokenized) 
-
+    print("File with named entities written in " + sys.argv[2])
 
 # python use_ne_chunk.py wsj_0010_sample.txt wsj_0010_sample.txt.ne.nltk
