@@ -8,7 +8,7 @@ Disponible sur : https://nlp.stanford.edu/software/tagger.shtml
 ### Question a
 ```
 cd stanford-postagger-full-2018-10-16/
-./stanford-postagger.sh models/english-left3words-distsim.tagger ../wsj_0010_sample.txt > ../wsj_0010_sample.txt.pos.stanford
+./stanford-postagger.sh models/english-left3words-distsim.tagger ../wsj_0010_sample.txt > ../out/wsj_0010_sample.txt.pos.stanford
 ```
 
 Output sauvegardé et disponible sur :

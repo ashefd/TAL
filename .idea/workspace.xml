@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TP1/POSTags_PTB_Universal_Linux.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/POSTags_PTB_Universal_Linux.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/REF.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/TP-1_Analyse-linguistique_NLTK.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/TP-1_Analyse-linguistique_NLTK.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/chunkParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/chunkParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/desambiguate.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/desambiguate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/formal-tst.NE.key.04oct95_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/formal-tst.NE.key.04oct95_sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/harmonisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/harmonisation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/ne_standard_etiquettes.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/ne_standard_etiquettes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO1_question_1_saving.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO1_question_2_savings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO1_question_2_savings_ref.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO1_question_3A_savings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO1_question_3A_savings_ref.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO2_question_1_savings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO3_question_1_savings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/output/EXO3_question_2_savings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/universal.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/universal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/use_ne_chunk.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/use_ne_chunk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.pos.ref" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/wsj_0010_sample.pos.ref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.pos.txt.pos.univ.ref" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt.chk.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt.ne.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt.ne.univ.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt.pos.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/wsj_0010_sample.txt.pos.univ.nltk" beforeDir="false" />
+    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="try">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP2" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -95,5 +69,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try" />
+    <option name="LAST_COMMIT_MESSAGE" value="try" />
   </component>
 </project>
