@@ -18,7 +18,10 @@ Etapes :
 cd stanford-postagger-full-2018-10-16/
 ./../TP/TP2/stanford-postagger.sh models/english-left3words-distsim.tagger ../pos_text.txt > ../out/wsj_0010_sample.txt.pos.stanford
 ```
-
+3. Lancer la commande suivante :
+```
+python convert_format_stanford_two_columns.py ../data/pos_text.txt.pos.stanford
+```
 
 
 
