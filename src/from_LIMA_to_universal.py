@@ -119,8 +119,9 @@ if __name__ == '__main__':
     dictionary_LIMA_universal = createDirectDictionary(dictionary_LIMA_PTB, dictionary_PTB_universal)
     #print(dictionary_LIMA_universal)
 
-    lima_out = "out/" + sys.argv[1][:-5] + ".univ"+sys.argv[1][-5:]
+    lima_out = "out/" + sys.argv[1][8:-5] + ".univ"+sys.argv[1][-5:]
     print(lima_out)
+
     write_with_uni_tag(lines1, lima_out, dictionary_LIMA_universal)
 
     #Si on veut donner des noms spécifiques '.harm' aux fichiers harmonisés :

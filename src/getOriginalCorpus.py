@@ -36,12 +36,12 @@ if __name__ == '__main__':
 
     lines, line_without_compounds, ref_without_compounds = extractSentences(sys.argv[1])
     writeLines(lines, sys.argv[2])
-    print("Corpus written in out/"+ sys.argv[2])
+    print("Corpus written in "+ sys.argv[2])
 
     corpus_without_comp_out = sys.argv[2][:-4] + ".wc"+sys.argv[2][-4:]
-    ref_without_comp_out = "out/" + sys.argv[1][:-5] + ".wc" + sys.argv[1][-5:]
+    ref_without_comp_out = "out/" + sys.argv[1][8:-5] + ".wc" + sys.argv[1][-5:]
 
     writeLines(line_without_compounds, corpus_without_comp_out)
-    print("Corpus without compounds written in " + sys.argv[2])
+    print("Corpus without compounds written in " + corpus_without_comp_out)
     writeLines(ref_without_compounds, ref_without_comp_out)
-    print("Ref lima without compounds written in " + sys.argv[2])
+    print("Ref lima without compounds written in " + ref_without_comp_out)
