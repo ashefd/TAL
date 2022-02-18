@@ -25,16 +25,23 @@ def nltk_parse(text_file_name):
     """
     text  = open(text_file_name, 'r')
     print(text)
+    line_tag = []
+    lines = text.read().splitlines()
+    for line in lines:
+        line_tag.append(pos_tag(line.split()))
+    print(line_tag)
+    """
     #Separation des lignes du text
     text = text.read().split()
     #Etiquettage (Tag) des mots de la liste
     tokens_tag = pos_tag(text)
-    print("After Token:", tokens_tag)
+    """
+    #print("After Token:", tokens_tag)
     ##patterns = """COMPOUND:{<DT>?<JJ>*<NN>}""" # le pattern qui specifie la structure syntaxique à extraire
 
-    return tokens_tag
+    return line_tag
 
-def write_compounds_in_file(tags, file_name):
+def write_compounds_in_file(list_of_tags, file_name):
     """
     Cette fonction permet d'ecrire dans un fichier les elements de la liste compound,
     en precisant au debut le nom de la structure syntaxique qui concerne ces elements
@@ -53,15 +60,16 @@ def write_compounds_in_file(tags, file_name):
     void
     """
     f3 = open(file_name, "w")
-    for i in range(len(tags)):
-        print(str(i) + " : " + str(tags[i]))
-        f3.write('\t'.join(tags[i]))
-        f3.write("\n")
-
+    for line_tag in list_of_tags:
+        for i in range(len(line_tag)):
+            print(str(i) + " : " + str(line_tag[i]))
+            f3.write('\t'.join(line_tag[i]))
+            f3.write("\n")
+        f3.write('\n')
     f3.close()
 
 if __name__ == '__main__':
 
-    tags = nltk_parse(sys.argv[1])
-    print(tags)
-    write_compounds_in_file(tags, "out/pos_test.txt.pos.nltk")
+    list_of_tags = nltk_parse(sys.argv[1])
+    print(list_of_tags)
+    write_compounds_in_file(list_of_tags, "out/pos_test.txt.pos.nltk")
