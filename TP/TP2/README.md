@@ -11,22 +11,29 @@ cd stanford-postagger-full-2018-10-16/
 ./stanford-postagger.sh models/english-left3words-distsim.tagger ../tp/TP2/data/wsj_0010_sample.txt > ../tp/TP2/out/wsj_0010_sample.txt.pos.stanford
 ```
 
-Output sauvegardé et disponible sur :
-- 'output/EXO1_question_A_savings.txt'
+results sauvegardé après execution dans :
+- 'tp/TP2/out/wsj_0010_sample.txt.pos.stanford'
 
+Résultat (sans exe)  disponible sur :
+- 'tp/results/EXO1_question_A_savings.txt'
+
+
+Pour la suite du TP, se placer dans le repertoire tp/TP2
 ### Question b
 ```
-python from_ref_to_stanford_pos_tagger.py wsj_0010_sample.pos.ref wsj_0010_sample.pos.stanford.ref
+python from_ref_to_stanford_pos_tagger.py data/wsj_0010_sample.pos.ref out/wsj_0010_sample.pos.stanford.ref
 ```
 
+Output sauvegardé après execution dans :
+- tp/TP2/out/wsj_0010_sample.pos.stanford.ref
 
-Output sauvegardé et disponible sur :
-- 'output/EXO1_question_B_savings_ref.txt'
+résultats disponible sur :
+- 'tp/TP2/results/EXO1_question_B_savings_ref.txt'
 
 
 ### Question c
 ```
-python evaluate.py wsj_0010_sample.txt.pos.stanford wsj_0010_sample.pos.stanford.ref
+python evaluate.py out/wsj_0010_sample.txt.pos.stanford out/wsj_0010_sample.pos.stanford.ref
 ```
 
 Résultats obtenus : 
@@ -42,23 +49,27 @@ Tag F-measure: 0.9369369369369368
 
 ### Question d
 ```
-python from_PTB_to_universal.py wsj_0010_sample.txt.pos.stanford wsj_0010_sample.pos.stanford.ref POSTags_PTB_Universal.txt wsj_0010_sample.txt.pos.univ.stanford wsj_0010_sample.txt.pos.univ.ref
+python from_PTB_to_universal.py out/wsj_0010_sample.txt.pos.stanford out/wsj_0010_sample.pos.stanford.ref data/POSTags_PTB_Universal.txt out/wsj_0010_sample.txt.pos.univ.stanford out/wsj_0010_sample.txt.pos.univ.ref
 ```
-Avec *wsj_0010_sample.txt.pos.stanford* : premier fichier à convertir
-*wsj_0010_sample.pos.stanford.ref* : deuxième fichier à convertir
-*POSTags_PTB_Universal.txt* : le dictionnaire
-*wsj_0010_sample.txt.pos.univ.stanford* : le fichier résultat de *wsj_0010_sample.txt.pos.stanford*
+Avec :
+- *wsj_0010_sample.txt.pos.stanford* : premier fichier à convertir
+- *wsj_0010_sample.pos.stanford.ref* : deuxième fichier à convertir
+- *POSTags_PTB_Universal.txt* : le dictionnaire
+- *wsj_0010_sample.txt.pos.univ.stanford* : le fichier résultat de *wsj_0010_sample.txt.pos.stanford*
+- *wsj_0010_sample.txt.pos.univ.ref* : le fichier résultat de *wsj_0010_sample.pos.stanford.ref*
 
-*wsj_0010_sample.txt.pos.univ.ref* : le fichier résultat de *wsj_0010_sample.pos.stanford.ref*
+Output sauvegardé après execution dans :
+- tp/TP2/out/wsj_0010_sample.txt.pos.univ.stanford
+- tp/TP2/out/wsj_0010_sample.txt.pos.univ.ref
 
-Output sauvegardé et disponible sur :
-- 'output/EXO1_question_D_savings_univ.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.stanford
-- 'output/EXO1_question_D_savings_univ_ref.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.ref
+Résultats (sans exe) disponibles sur :
+- 'results/EXO1_question_D_savings_univ.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.stanford
+- 'results/EXO1_question_D_savings_univ_ref.txt' : c'est le fichier wsj_0010_sample.txt.pos.univ.ref
 
 
 ### Question e
 ```
-python evaluate.py wsj_0010_sample.txt.pos.univ.stanford wsj_0010_sample.txt.pos.univ.ref
+python evaluate.py out/wsj_0010_sample.txt.pos.univ.stanford out/wsj_0010_sample.txt.pos.univ.ref
 ```
 
 Résultats obtenus
@@ -79,14 +90,16 @@ Nous observons de meilleurs résultats sur les fichiers contenant des étiquette
 ## Partie 2 : Evaluation
 
 ### Question a
+Se placer dans le repertoire du stanford ner (à la racine du git)
 ```
-java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile formal-tst.NE.key.04oct95_small.txt > formal-tst.NE.key.04oct95_small.txt.ne.stanford
+cd stanford-ner-2018-10-16
+java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile ../tp/TP2/data/formal-tst.NE.key.04oct95_small.txt > ../tp/TP2/out/formal-tst.NE.key.04oct95_small.txt.ne.stanford
 ```
 
 ### Question b
 ```
-python from_file_to_ne.py .\formaltst.NE.key.04oct95_small.txt.ne.stanford .\formaltst.NE.key.04oct95_small.txt.ne.stanford
+python from_file_to_ne.py  data/formaltst.NE.key.04oct95_small.txt.ne.stanford out/formaltst.NE.key.04oct95_small.txt.ne.stanford
 ```
 
 Résultats obtenus : 
-![alt text](./tp2.png)
+![alt text](./results/tp2.png)
