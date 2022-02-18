@@ -23,7 +23,7 @@ cd stanford-postagger-full-2018-10-16/
 python convert_format_stanford_two_columns.py ../data/pos_text.txt.pos.stanford
 ```
 
-
+### NLTK
 
 Tout refaire avec ce fichier la : out/pos_reference.txt.wc.lima
 
