@@ -121,6 +121,19 @@ def harmonize_by_jump(file_name_ref, file_to_change):
     return final_ref, final_to_change_file
 
 
+def evaluate(reference_file):
+    """
+    TP : Le nombre de mot étiquetté correctement par les experts
+    FN : Le nombre de mot qui n'est étiquetté par aucune étiquette
+    FP : Le nombre de mot qui n'a pas été étiquetté correctement
+    TN : Les occurences ont été catégorisées comme des instances normales
+
+    Précision : Le ration entre les étiquettes correctement étiquettés et l'ensemble des mots étiquetés 
+    Précision = TP / (TP + FP)
+
+    Rappel: Le ratio entre tous les exemples (mots) correctement étiquettés avec tous les exemples (mots) étiquettés par les experts
+    Rappel = TP / (TP + FN)
+    """
 
 
 def writeLines(lines, file_out):

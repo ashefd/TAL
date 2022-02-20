@@ -31,12 +31,29 @@ python doPOStag.py out/pos_test.wc.txt
 
 ## Question 4 : Traduire les tag PTB en tag universel
 ### Stanford
-
+```
+python universal.py out/pos_test.txt.pos.stanford ../data/POSTags_PTB_Universal_Linux.txt
+```
 
 ### NLTK
+```
+python universal.py out/pos_test.txt.pos.nltk ../data/POSTags_PTB_Universal_Linux.txt
+```
+
+## Question 5
+Le fichier evaluate permet l'harmonisation ainsi que l'évaluation des fichiers de Stanford et NLTK
+### Stanford
+```
+python evaluate.py out/pos_test.txt.pos.stanford.univ out/pos_reference.txt.wc.lima 
+```
+
+### NLTK
+```
+python evaluate.py out/pos_test.txt.pos.nltk.univ out/pos_reference.txt.wc.lima 
+```
 
 
-## Faire en sorte que ce soit le bon format
+Attention : cette commande a été modifié pour ce qui a été écrit dans la question 5
 python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk
 
 python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford
