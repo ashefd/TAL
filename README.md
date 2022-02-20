@@ -20,22 +20,24 @@ cd stanford-postagger-full-2018-10-16/
 ```
 3. Lancer la commande suivante :
 ```
-python convert_format_stanford_two_columns.py ../data/pos_test.txt.pos.stanford
+python post_processing_stanford.py ../data/pos_test.txt.pos.stanford
 ```
 
 ### NLTK
-
-Tout refaire avec ce fichier la : out/pos_reference.txt.wc.lima
-
-// python pos_test.txt.pos.stanford pos_test.txt.pos.nltk
 
 ```
 python doPOStag.py out/pos_test.wc.txt
 ```
 
-### Faire en sorte que ce soit le bon format
+## Question 4 : Traduire les tag PTB en tag universel
+### Stanford
+
+
+### NLTK
+
+
+## Faire en sorte que ce soit le bon format
 python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk
 
 python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford
-
 

@@ -225,7 +225,7 @@ are	VBP
 at	IN
 risk	NN
 ,	,
-"	''
+"	"
 said	VBD
 of	IN
 .	.
@@ -259,7 +259,7 @@ in	IN
 very	RB
 modest	JJ
 amounts	NNS
-"	''
+"	"
 in	IN
 making	VBG
 paper	NN
@@ -377,7 +377,7 @@ asbestos	NN
 related	JJ
 diseases	NNS
 ,	,
-"	''
+"	"
 said	VBD
 Dr.	NNP
 Talcott	NNP
@@ -656,7 +656,7 @@ clouds	NNS
 of	IN
 blue	JJ
 dust	NN
-"	''
+"	"
 that	WDT
 hung	VBD
 over	IN
@@ -689,7 +689,7 @@ asbestos	NN
 related	JJ
 diseases	NNS
 ,	,
-"	''
+"	"
 said	VBD
 ,	,
 vice	NN
@@ -903,7 +903,7 @@ may	MD
 again	RB
 before	IN
 they	PRP
-"	''
+"	"
 recent	JJ
 rises	NNS
 in	IN
@@ -2188,7 +2188,7 @@ with	IN
 ``	``
 page	NN
 bonuses	NNS
-"	''
+"	"
 advertisers	NNS
 who	WP
 in	IN
@@ -2269,7 +2269,7 @@ fine	NN
 this	DT
 fall	NN
 ,	,
-"	''
+"	"
 said	VBD
 Mr.	NNP
 Spoon	NNP
@@ -2570,7 +2570,7 @@ hard	RB
 to	TO
 take	VB
 ,	,
-"	''
+"	"
 he	PRP
 added	VBD
 .	.
@@ -2627,7 +2627,7 @@ of	IN
 the	DT
 risk	NN
 factors	NNS
-"	''
+"	"
 that	WDT
 led	VBD
 to	TO
@@ -2703,7 +2703,7 @@ is	VBZ
 less	RBR
 cluttered	JJ
 ,	,
-"	''
+"	"
 he	PRP
 added	VBD
 .	.
@@ -2962,7 +2962,7 @@ round	NN
 of	IN
 appeals	NNS
 ,	,
-"	''
+"	"
 Judge	NNP
 Curry	NNP
 said	VBD
@@ -3669,7 +3669,7 @@ of	IN
 a	DT
 choice	NN
 ,	,
-"	''
+"	"
 chief	JJ
 financial	JJ
 officer	NN
@@ -3744,7 +3744,7 @@ that	IN
 a	DT
 worst	JJS
 case	NN
-"	''
+"	"
 scenario	NN
 .	.
 
@@ -3806,7 +3806,7 @@ for	IN
 the	DT
 investor	NN
 ,	,
-"	''
+"	"
 said	VBD
 of	IN
 ,	,
@@ -3820,7 +3820,7 @@ a	DT
 concept	NN
 stock	NN
 ,	,
-"	''
+"	"
 he	PRP
 said	VBD
 .	.
@@ -4523,7 +4523,7 @@ made	VBN
 ``	``
 genuine	JJ
 progress	NN
-"	''
+"	"
 on	IN
 this	DT
 touchy	JJ
@@ -4537,7 +4537,7 @@ is	VBZ
 ``	``
 growing	VBG
 realization	NN
-"	''
+"	"
 around	IN
 the	DT
 world	NN
@@ -4561,9 +4561,9 @@ and	CC
 inventiveness	NN
 of	IN
 an	DT
-{	-LRB-
+{	(
 offending	VBG
-}	-RRB-
+}	)
 own	JJ
 citizens	NNS
 .	.
@@ -4811,7 +4811,7 @@ on	IN
 the	DT
 ``	``
 priority	NN
-"	''
+"	"
 list	NN
 .	.
 
@@ -4870,7 +4870,7 @@ law	NN
 is	VBZ
 working	VBG
 ,	,
-"	''
+"	"
 he	PRP
 said	VBD
 .	.
@@ -5079,7 +5079,7 @@ its	PRP$
 external	JJ
 debt	NN
 ,	,
-"	''
+"	"
 Mr.	NNP
 Rapanelli	NNP
 said	VBD
@@ -5161,7 +5161,7 @@ debt	NN
 forgiven	VBN
 .	.
 
-(	-LRB-
+(	(
 During	IN
 its	PRP$
 centennial	NN
@@ -5797,7 +5797,7 @@ in	IN
 ``	``
 significant	JJ
 quantities	NNS
-"	''
+"	"
 in	IN
 the	DT
 U.S.	NNP
@@ -6038,7 +6038,7 @@ achieved	VBN
 and	CC
 maintained	VBN
 ,	,
-"	''
+"	"
 Magna	NNP
 said	VBD
 .	.
@@ -6122,9 +6122,9 @@ of	IN
 16.125	CD
 Canadian	JJ
 dollars	NNS
-(	-LRB-
+(	(
 US	NNP
-)	-RRB-
+)	)
 .	.
 
 On	IN
@@ -6947,7 +6947,7 @@ closed	JJ
 end	NN
 fund	NN
 mania	NN
-"	''
+"	"
 of	IN
 the	DT
 1920s	CD
@@ -6993,7 +6993,7 @@ the	DT
 ``	``
 closed	JJ
 end	NN
-"	''
+"	"
 type	NN
 ,	,
 issuing	VBG
@@ -7049,7 +7049,7 @@ to	TO
 stake	VB
 their	PRP$
 claims	NNS
-"	''
+"	"
 now	RB
 before	IN
 the	DT
@@ -7431,7 +7431,7 @@ these	DT
 rich	JJ
 valuations	NNS
 ,	,
-"	''
+"	"
 says	VBZ
 Mr.	NNP
 Porter	NNP
@@ -7497,7 +7497,7 @@ funds	NNS
 listed	VBN
 here	RB
 ,	,
-"	''
+"	"
 Mr.	NNP
 Porter	NNP
 says	VBZ
@@ -7682,7 +7682,7 @@ too	RB
 early	JJ
 to	TO
 say	VB
-"	''
+"	"
 whether	IN
 that	DT
 will	MD
@@ -8187,7 +8187,7 @@ lack	NN
 of	IN
 ``	``
 imbalances	NNS
-"	''
+"	"
 that	WDT
 provide	VBP
 early	JJ
@@ -8263,7 +8263,7 @@ landing	NN
 '	''
 scenario	NN
 ,	,
-"	''
+"	"
 said	VBD
 Elliott	NNP
 Platt	NNP
@@ -8937,7 +8937,7 @@ to	TO
 the	DT
 list	NN
 ,	,
-"	''
+"	"
 Mr.	NNP
 Bretz	NNP
 noted	VBD
@@ -9043,14 +9043,14 @@ A	DT
 Wild	NNP
 Sheep	NNP
 Chase	NNP
-"	''
-(	-LRB-
+"	"
+(	(
 Kodansha	NNP
 ,	,
 320	CD
 pages	NNS
 ,	,
-)	-RRB-
+)	)
 ,	,
 baby	NN
 boomers	NNS
@@ -9093,7 +9093,7 @@ whistle	VBP
 Johnny	NNP
 B.	NNP
 Goode	NNP
-"	''
+"	"
 and	CC
 watch	VB
 Bugs	NNP
@@ -9183,7 +9183,7 @@ aggrandizing	VBG
 ``	``
 we	PRP
 Japanese	NNPS
-"	''
+"	"
 school	NN
 of	IN
 writers	NNS
@@ -9207,7 +9207,7 @@ A	DT
 Wild	NNP
 Sheep	NNP
 Chase	NNP
-"	''
+"	"
 carries	VBZ
 an	DT
 implicit	JJ
@@ -9246,7 +9246,7 @@ A	DT
 Wild	NNP
 Sheep	NNP
 Chase	NNP
-"	''
+"	"
 is	VBZ
 rooted	VBN
 in	IN
@@ -9378,8 +9378,8 @@ novel	NN
 ``	``
 Norwegian	JJ
 Wood	NNP
-"	''
-(	-LRB-
+"	"
+(	(
 every	DT
 Japanese	NN
 under	IN
@@ -9391,7 +9391,7 @@ fluent	JJ
 in	IN
 Beatles	NNP
 lyrics	NNS
-)	-RRB-
+)	)
 ,	,
 has	VBZ
 sold	VBN
@@ -9451,14 +9451,14 @@ In	IN
 You	PRP
 Have	VBP
 Wa	,
-"	''
-(	-LRB-
+"	"
+(	(
 Macmillan	NNP
 ,	,
 339	CD
 pages	NNS
 ,	,
-)	-RRB-
+)	)
 ,	,
 the	DT
 Beatles	NNPS
@@ -9503,14 +9503,14 @@ and	CC
 harmony	NN
 .	.
 Wa	NNP
-"	''
+"	"
 is	VBZ
 Japanese	NNP
 for	IN
 ``	``
 team	NN
 spirit	NN
-"	''
+"	"
 and	CC
 Japanese	JJ
 ballplayers	NNS
@@ -9556,7 +9556,7 @@ uncomplaining	JJ
 obedient	JJ
 soul	NN
 ,	,
-"	''
+"	"
 as	IN
 the	DT
 male	JJ
@@ -9651,7 +9651,7 @@ road	NN
 You	PRP
 Have	VBP
 Wa	,
-"	''
+"	"
 is	VBZ
 the	DT
 often	RB
@@ -9706,14 +9706,14 @@ home	NN
 ``	``
 Funny	NNP
 Business	NNP
-"	''
-(	-LRB-
+"	"
+(	(
 Soho	NNP
 ,	,
 228	CD
 pages	NNS
 ,	,
-)	-RRB-
+)	)
 by	IN
 is	VBZ
 anything	NN
@@ -9794,7 +9794,7 @@ and	CC
 at	IN
 ``	``
 home	NN
-"	''
+"	"
 in	IN
 the	DT
 austere	JJ
