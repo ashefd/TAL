@@ -44,12 +44,12 @@ python universal.py out/pos_test.txt.pos.nltk ../data/POSTags_PTB_Universal_Linu
 Le fichier evaluate permet l'harmonisation ainsi que l'évaluation des fichiers de Stanford et NLTK
 ### Stanford
 ```
-python evaluate.py out/pos_test.txt.pos.stanford.univ out/pos_reference.txt.wc.lima 
+python evaluate.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford.univ
 ```
 
 ### NLTK
 ```
-python evaluate.py out/pos_test.txt.pos.nltk.univ out/pos_reference.txt.wc.lima 
+python evaluate.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk.univ
 ```
 
 
