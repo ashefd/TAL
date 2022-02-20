@@ -19,6 +19,9 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
     final_ref = []
     final_to_change_file = []
 
+    nb_FN = 0
+    found = False
+
     # for line_index in range(min_range):
     line_index_ref = 0
     line_index_change = 0
@@ -26,6 +29,7 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
         words_ref = lines_ref_file[line_index_ref].split('\t')
         words_to_change_file = lines_to_change_file[line_index_change].split('\t')
 
+        # on trouve 
         if(words_ref[0] == words_to_change_file[0]):
             final_ref.append(lines_ref_file[line_index_ref])
             final_to_change_file.append(lines_to_change_file[line_index_change])
@@ -38,19 +42,22 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
             if(words_ref[0] == words_to_change_file[0] + words2_to_change_file[0]):
                 line_index_ref += 1 
                 line_index_change += 2
+                nb_FN += 1
+
             elif(words_ref[0] + words2_ref[0] == words_to_change_file[0]):
                 line_index_ref += 2 
                 line_index_change += 1
+                nb_FN += 1
+
             else : 
+                found = False
                 for i in range(window):
                     words_to_change_file_i = lines_to_change_file[line_index_change + i].split('\t')
                     if(words_ref[0] == words_to_change_file_i[0]):
+                        found = True
                         line_index_change += i
                         final_ref.append(lines_ref_file[line_index_ref])
                         final_to_change_file.append(lines_to_change_file[line_index_change])
-                        #window = 3
-                        #break
-                #line_index_ref += 1 
 
                 print(line_index_ref)
                 print(line_index_change)
@@ -60,13 +67,14 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
                 print(words2_to_change_file[0])
                 print('\n')
                 #break
-
+                if(not found):
+                    nb_FN += 1
                 line_index_ref += 1 
                 line_index_change += 1
                 
                 #print("aucun des cas")
 
-    return final_ref, final_to_change_file
+    return final_ref, final_to_change_file, len(lines_ref_file), nb_FN
 
 def harmonize_by_jump(file_name_ref, file_to_change):
     """
@@ -121,19 +129,28 @@ def harmonize_by_jump(file_name_ref, file_to_change):
     return final_ref, final_to_change_file
 
 
-def evaluate(reference_file):
+def evaluate(reference_file, to_evaluate_file, nb_TP, nb_FN):
     """
-    TP : Le nombre de mot étiquetté correctement par les experts
-    FN : Le nombre de mot qui n'est étiquetté par aucune étiquette
-    FP : Le nombre de mot qui n'a pas été étiquetté correctement
+    nb_TP : Le nombre de mot étiquetté correctement par les experts
+    nb_FN : Le nombre de mot qui n'est étiquetté par aucune étiquette
+    nb_FP : Le nombre de mot qui n'a pas été étiquetté correctement
     TN : Les occurences ont été catégorisées comme des instances normales
 
     Précision : Le ration entre les étiquettes correctement étiquettés et l'ensemble des mots étiquetés 
-    Précision = TP / (TP + FP)
+    Précision = nb_TP / (nb_TP + nb_FP)
 
     Rappel: Le ratio entre tous les exemples (mots) correctement étiquettés avec tous les exemples (mots) étiquettés par les experts
-    Rappel = TP / (TP + FN)
+    Rappel = nb_TP / (nb_TP + nb_FN)
     """
+    ################################################## TODO ###################################################
+    #
+    #                               Calculer la precision de tout ca
+    #
+    ###########################################################################################################
+
+    rappel = nb_TP / (nb_TP + nb_FN)
+
+    return rappel
 
 
 def writeLines(lines, file_out):
@@ -145,10 +162,16 @@ if __name__ == '__main__':
     # sys.argv[1] : le fichier qui ressemble à la reference (en terme de nombre de mots) / La reference
     # sys.argv[2] : le fichier que l'on va transformer au fur et a mesure
 
-    final_ref, final_to_change_file = harmonize_by_concatenation(sys.argv[1], sys.argv[2])
+    final_ref, final_to_change_file, nb_TP, nb_FN = harmonize_by_concatenation(sys.argv[1], sys.argv[2])
+
+    # Pour evaluer
+    evaluate(final_ref, final_to_change_file, nb_TP, nb_FN)
 
     #final_ref, final_to_change_file = harmonize_by_jump(sys.argv[1], sys.argv[2])
 
+
+
+    # Cette partie ne sert a rien
     final_ref_name_file = sys.argv[1][:-5] + ".harmonised." + sys.argv[2][-4:] + sys.argv[1][-5:]
     final_to_change_file_name_file = sys.argv[2] + ".harmonised"
 
@@ -156,3 +179,8 @@ if __name__ == '__main__':
     #print(final_to_change_file_name_file)
     writeLines(final_ref, final_ref_name_file)
     writeLines(final_to_change_file, final_to_change_file_name_file)
+
+
+
+
+
