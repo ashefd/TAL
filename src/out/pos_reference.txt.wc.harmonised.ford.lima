@@ -143,7 +143,6 @@ latest	ADJ
 results	NOUN
 appear	VERB
 in	ADP
-today's	NOUN
 ,	COMMA
 a	DET
 forum	NOUN
@@ -194,9 +193,6 @@ our	PRON
 products	NOUN
 now	ADV
 .	SENT
-
-"	QUOT
-Neither	DET
 Lorillard	PROPN
 nor	CONJ
 the	DET
@@ -232,7 +228,6 @@ risk	NOUN
 "	QUOT
 said	VERB
 of	ADP
-Boston's	PROPN
 .	SENT
 
 Dr.	PROPN
@@ -802,7 +797,6 @@ Average	ADJ
 maturity	NOUN
 of	ADP
 the	DET
-funds'	NOUN
 investments	NOUN
 lengthened	VERB
 by	ADP
@@ -814,7 +808,6 @@ the	DET
 longest	ADJ
 since	ADP
 ,	COMMA
-Donoghue's	PROPN
 .	SENT
 
 Longer	ADJ
@@ -927,7 +920,6 @@ Treasury	PROPN
 bills	NOUN
 sold	VERB
 at	ADP
-Monday's	PROPN
 auction	NOUN
 ,	COMMA
 ,	COMMA
@@ -1285,7 +1277,6 @@ said	VERB
 .	SENT
 
 The	DET
-government's	NOUN
 borrowing	NOUN
 authority	NOUN
 dropped	VERB
@@ -1384,7 +1375,6 @@ position	NOUN
 he	PRON
 will	AUX
 oversee	VERB
-Mazda's	PROPN
 U.S.	PROPN
 sales	NOUN
 ,	COMMA
@@ -1434,7 +1424,6 @@ biannual	ADJ
 powwow	NOUN
 ,	COMMA
 the	DET
-nation's	NOUN
 manufacturing	VERB
 titans	NOUN
 typically	ADV
@@ -1653,7 +1642,6 @@ Then	ADV
 ,	COMMA
 in	ADP
 the	DET
-guests'	NOUN
 honor	NOUN
 ,	COMMA
 the	DET
@@ -1709,7 +1697,6 @@ their	PRON
 machines	NOUN
 for	ADP
 another	DET
-sponsor's	NOUN
 name	NOUN
 or	CONJ
 two	NUM
@@ -1859,7 +1846,6 @@ October	PROPN
 ,	COMMA
 reflecting	VERB
 the	DET
-country's	NOUN
 economic	ADJ
 sluggishness	NOUN
 ,	COMMA
@@ -1986,7 +1972,6 @@ to	ADP
 October	PROPN
 ,	COMMA
 the	DET
-nation's	NOUN
 accumulated	VERB
 exports	NOUN
 increased	VERB
@@ -2099,7 +2084,6 @@ Newsweek	PROPN
 president	NOUN
 ,	COMMA
 said	VERB
-Newsweek's	PROPN
 ad	NOUN
 rates	NOUN
 would	AUX
@@ -2146,7 +2130,6 @@ lower	ADJ
 circulation	NOUN
 base	NOUN
 ,	COMMA
-Time's	PROPN
 ad	NOUN
 rate	NOUN
 will	AUX
@@ -2198,9 +2181,6 @@ on	ADP
 renewal	NOUN
 advertising	NOUN
 .	SENT
-
-"	QUOT
-The	DET
 magazine	NOUN
 will	AUX
 reward	VERB
@@ -2250,7 +2230,6 @@ first	ADJ
 of	ADP
 1989	PROPN
 ;	COLON
-Newsweek's	PROPN
 ad	NOUN
 pages	NOUN
 totaled	VERB
@@ -2354,7 +2333,6 @@ decrease	NOUN
 of	ADP
 .	SENT
 
-Newsweek's	PROPN
 circulation	NOUN
 for	ADP
 the	DET
@@ -2374,7 +2352,6 @@ year	NOUN
 .	SENT
 
 U.S.	PROPN
-News'	PROPN
 circulation	NOUN
 in	ADP
 the	DET
@@ -2527,7 +2504,6 @@ of	ADP
 ,	COMMA
 said	VERB
 the	DET
-company's	NOUN
 return	NOUN
 on	ADP
 equity	NOUN
@@ -2642,10 +2618,6 @@ attracts	VERB
 attention	NOUN
 .	SENT
 
-.	SENT
-
-.	SENT
-
 it	PRON
 was	VERB
 just	ADV
@@ -2660,7 +2632,6 @@ that	SCONJ
 led	VERB
 to	ADP
 the	DET
-company's	NOUN
 decision	NOUN
 to	PART
 withdraw	VERB
@@ -2680,7 +2651,6 @@ adviser	NOUN
 to	ADP
 the	DET
 troubled	ADJ
-company's	NOUN
 equity	NOUN
 holders	NOUN
 ,	COMMA
@@ -2981,10 +2951,6 @@ refund	NOUN
 pool	NOUN
 .	SENT
 
-.	SENT
-
-.	SENT
-
 may	AUX
 not	PART
 be	VERB
@@ -3016,7 +2982,6 @@ is	VERB
 considering	VERB
 appealing	VERB
 Judge	PROPN
-Curry's	PROPN
 order	NOUN
 .	SENT
 
@@ -3091,9 +3056,6 @@ an	DET
 administrative	ADJ
 nightmare	NOUN
 .	SENT
-
-"	QUOT
-In	ADP
 composite	ADJ
 trading	NOUN
 yesterday	NOUN
@@ -3151,7 +3113,6 @@ consumer	NOUN
 groups	NOUN
 to	ADP
 the	DET
-commission's	NOUN
 rate	NOUN
 increase	NOUN
 and	CONJ
@@ -3183,7 +3144,6 @@ been	VERB
 collecting	VERB
 for	ADP
 the	DET
-plant's	NOUN
 construction	NOUN
 cost	NOUN
 from	ADP
@@ -3206,7 +3166,6 @@ between	ADP
 and	CONJ
 of	ADP
 the	DET
-plant's	NOUN
 construction	NOUN
 cost	NOUN
 was	VERB
@@ -3231,7 +3190,6 @@ an	DET
 additional	ADJ
 to	ADP
 the	DET
-commission's	NOUN
 calculations	NOUN
 .	SENT
 
@@ -3279,7 +3237,6 @@ groups	NOUN
 hope	VERB
 that	SCONJ
 Judge	PROPN
-Curry's	PROPN
 Byron	PROPN
 1	NUM
 order	NOUN
@@ -3342,7 +3299,6 @@ nuclear	ADJ
 plant	NOUN
 .	SENT
 
-Japan's	PROPN
 domestic	ADJ
 sales	NOUN
 of	ADP
@@ -3458,8 +3414,6 @@ from	ADP
 in	ADP
 .	SENT
 
-.	SENT
-
 ,	COMMA
 a	DET
 unit	NOUN
@@ -3560,7 +3514,6 @@ development	NOUN
 of	ADP
 the	DET
 new	ADJ
-company's	NOUN
 initial	ADJ
 machine	NOUN
 tied	VERB
@@ -3767,9 +3720,6 @@ not	PART
 include	VERB
 Seymour	PROPN
 .	SENT
-
-"	QUOT
-The	DET
 documents	NOUN
 also	ADV
 said	VERB
@@ -3831,7 +3781,6 @@ promissory	ADJ
 note	NOUN
 to	ADP
 Mr.	PROPN
-Cray's	PROPN
 presence	NOUN
 will	AUX
 complicate	VERB
@@ -3890,11 +3839,7 @@ you	PRON
 do	VERB
 n't	PART
 .	SENT
-
-"	QUOT
-Besides	ADP
 the	DET
-designer's	NOUN
 age	NOUN
 ,	COMMA
 other	ADJ
@@ -3902,14 +3847,12 @@ risk	NOUN
 factors	NOUN
 for	ADP
 Mr.	PROPN
-Cray's	PROPN
 new	ADJ
 company	NOUN
 include	VERB
 the	DET
 Cray	PROPN
 -	COLON
-3's	NUM
 tricky	ADJ
 ,	COMMA
 unproven	ADJ
@@ -4012,7 +3955,6 @@ will	AUX
 compete	VERB
 with	ADP
 and	CONJ
-Japan's	PROPN
 Big	ADJ
 Three	NUM
 --	COLON
@@ -4407,7 +4349,6 @@ previously	ADV
 president	NOUN
 of	ADP
 the	DET
-company's	NOUN
 unit	NOUN
 .	SENT
 
@@ -4623,13 +4564,9 @@ an	DET
 {	OPAR
 offending	VERB
 }	CPAR
-country's	NOUN
 own	ADJ
 citizens	NOUN
 .	SENT
-
-"	QUOT
-U.S.	PROPN
 trade	NOUN
 negotiators	NOUN
 argue	VERB
@@ -4755,7 +4692,6 @@ That	DET
 measure	NOUN
 could	AUX
 compel	VERB
-Taipei's	PROPN
 growing	VERB
 number	NOUN
 of	ADP
@@ -4908,7 +4844,6 @@ property	NOUN
 is	VERB
 in	ADP
 a	DET
-country's	NOUN
 own	ADJ
 interest	NOUN
 ,	COMMA
@@ -4989,9 +4924,6 @@ progress	NOUN
 in	ADP
 Malaysia	PROPN
 .	SENT
-
-"	QUOT
-She	PRON
 did	VERB
 n't	PART
 elaborate	ADJ
@@ -5251,9 +5183,6 @@ American	ADJ
 business	NOUN
 history	NOUN
 .	SENT
-
-)	CPAR
-THREE	NUM
 COMPUTERS	NOUN
 that	SCONJ
 CHANGED	VERB
@@ -5287,7 +5216,6 @@ computers	NOUN
 were	VERB
 crude	ADJ
 by	ADP
-today's	NOUN
 standards	NOUN
 .	SENT
 
@@ -5582,7 +5510,6 @@ said	VERB
 it	PRON
 owns	VERB
 of	ADP
-Moleculon's	PROPN
 voting	NOUN
 stock	NOUN
 and	CONJ
@@ -5616,7 +5543,6 @@ its	PRON
 interest	NOUN
 to	ADP
 of	ADP
-Moleculon's	PROPN
 voting	NOUN
 stock	NOUN
 .	SENT
@@ -5624,7 +5550,6 @@ stock	NOUN
 Oil	NOUN
 production	NOUN
 from	ADP
-Australia's	PROPN
 fields	NOUN
 will	AUX
 be	VERB
@@ -5663,8 +5588,6 @@ the	DET
 end	NOUN
 of	ADP
 1990	PROPN
-.	SENT
-
 .	SENT
 
 ,	COMMA
@@ -5793,7 +5716,6 @@ group	NOUN
 led	VERB
 by	ADP
 the	DET
-unit's	NOUN
 president	NOUN
 ,	COMMA
 ,	COMMA
@@ -5977,9 +5899,6 @@ U.S.	PROPN
 and	CONJ
 the	DET
 .	SENT
-
-"	QUOT
-Timex	PROPN
 is	VERB
 a	DET
 major	ADJ
@@ -6027,7 +5946,6 @@ main	ADJ
 beneficiaries	NOUN
 of	ADP
 the	DET
-president's	NOUN
 action	NOUN
 .	SENT
 
@@ -6190,7 +6108,6 @@ in	ADP
 half	DET
 and	CONJ
 the	DET
-company's	NOUN
 Class	PROPN
 A	PROPN
 shares	NOUN
@@ -6250,7 +6167,6 @@ unsuccessfully	ADV
 a	DET
 seat	NOUN
 in	ADP
-Canada's	PROPN
 Parliament	PROPN
 .	SENT
 
@@ -6456,7 +6372,6 @@ of	ADP
 the	DET
 U.S.	PROPN
 and	CONJ
-Japan's	PROPN
 .	SENT
 
 The	DET
@@ -6577,9 +6492,6 @@ outside	ADP
 the	DET
 U.S.	PROPN
 .	SENT
-
-"	QUOT
-Such	ADJ
 devices	NOUN
 have	VERB
 boosted	VERB
@@ -6712,7 +6624,6 @@ it	PRON
 court	NOUN
 protection	NOUN
 from	ADP
-creditors'	NOUN
 lawsuits	NOUN
 while	ADP
 it	PRON
@@ -6772,7 +6683,6 @@ offer	NOUN
 ,	COMMA
 advertised	VERB
 in	ADP
-today's	NOUN
 editions	NOUN
 of	ADP
 ,	COMMA
@@ -6792,7 +6702,6 @@ currently	ADV
 owns	VERB
 about	ADV
 of	ADP
-Erbamont's	NOUN
 common	ADJ
 shares	NOUN
 outstanding	ADJ
@@ -6812,7 +6721,6 @@ the	DET
 companies	NOUN
 .	SENT
 
-Japan's	PROPN
 reserves	NOUN
 of	ADP
 gold	NOUN
@@ -6879,7 +6787,6 @@ sharper	ADJ
 decline	NOUN
 in	ADP
 the	DET
-country's	NOUN
 foreign	ADJ
 reserves	NOUN
 in	ADP
@@ -6980,7 +6887,6 @@ week	NOUN
 ,	COMMA
 the	DET
 Philippine	PROPN
-Fund's	PROPN
 launch	NOUN
 will	AUX
 be	VERB
@@ -7019,9 +6925,6 @@ possible	ADJ
 --	COLON
 the	DET
 ?	SENT
-
-"	QUOT
-quips	VERB
 ,	COMMA
 a	DET
 managing	VERB
@@ -7308,7 +7211,6 @@ Another	DET
 concern	NOUN
 :	COLON
 The	DET
-funds'	NOUN
 share	NOUN
 prices	NOUN
 tend	VERB
@@ -7363,7 +7265,6 @@ so	ADV
 wild	ADJ
 about	ADP
 the	DET
-funds'	NOUN
 frenzy	NOUN
 right	ADV
 now	ADV
@@ -7494,7 +7395,6 @@ long-term	ADJ
 play	NOUN
 tied	VERB
 to	ADP
-1992's	PROPN
 European	ADJ
 economic	ADJ
 integration	NOUN
@@ -7681,7 +7581,6 @@ buy	VERB
 the	DET
 funds	NOUN
 ,	COMMA
-Newgate's	PROPN
 Mr.	PROPN
 Foot	PROPN
 says	VERB
@@ -7846,7 +7745,6 @@ was	VERB
 lent	VERB
 to	ADP
 the	DET
-country's	NOUN
 short-lived	ADJ
 democratic	ADJ
 Kerensky	PROPN
@@ -8224,9 +8122,6 @@ to	PART
 the	DET
 slack	NOUN
 ?	SENT
-
-"	QUOT
-he	PRON
 asked	VERB
 .	SENT
 
@@ -8236,14 +8131,10 @@ draw	VERB
 a	DET
 blank	NOUN
 .	SENT
-
-"	QUOT
-By	ADP
 most	ADJ
 measures	NOUN
 ,	COMMA
 the	DET
-nation's	NOUN
 industrial	ADJ
 sector	NOUN
 is	VERB
@@ -8337,7 +8228,6 @@ recession	NOUN
 .	SENT
 
 But	CONJ
-yesterday's	NOUN
 factory	NOUN
 orders	NOUN
 report	NOUN
@@ -8397,9 +8287,6 @@ inventories	NOUN
 are	VERB
 excessive	ADJ
 .	SENT
-
-"	QUOT
-A	DET
 soft	ADJ
 landing	NOUN
 is	VERB
@@ -8489,7 +8376,6 @@ the	DET
 noted	VERB
 .	SENT
 
-Manufacturers'	NOUN
 backlogs	NOUN
 of	ADP
 unfilled	ADJ
@@ -8637,12 +8523,10 @@ ran	VERB
 about	ADV
 above	ADP
 last	ADJ
-year's	NOUN
 level	NOUN
 .	SENT
 
 The	DET
-government's	NOUN
 construction	NOUN
 spending	NOUN
 figures	NOUN
@@ -8705,7 +8589,6 @@ n't	PART
 Although	ADP
 the	DET
 purchasing	NOUN
-managers'	NOUN
 index	NOUN
 continues	VERB
 to	PART
@@ -8727,7 +8610,6 @@ said	VERB
 chairman	NOUN
 of	ADP
 the	DET
-association's	NOUN
 survey	NOUN
 committee	NOUN
 and	CONJ
@@ -8771,7 +8653,6 @@ new	ADJ
 evidence	NOUN
 that	SCONJ
 the	DET
-nation's	NOUN
 export	NOUN
 growth	NOUN
 ,	COMMA
@@ -8820,7 +8701,6 @@ before	ADV
 
 The	DET
 purhasing	NOUN
-managers'	NOUN
 report	NOUN
 also	ADV
 added	VERB
@@ -8917,7 +8797,6 @@ rise	VERB
 
 The	DET
 purchasing	NOUN
-managers'	NOUN
 report	NOUN
 is	VERB
 based	VERB
@@ -8933,7 +8812,6 @@ executives	NOUN
 Each	DET
 of	ADP
 the	DET
-survey's	NOUN
 indicators	NOUN
 gauges	VERB
 the	DET
@@ -9025,9 +8903,6 @@ or	CONJ
 not	PART
 increasing	VERB
 .	SENT
-
-"	QUOT
-Items	NOUN
 listed	VERB
 as	ADP
 being	VERB
@@ -9198,7 +9073,6 @@ in	ADP
 Japan	PROPN
 ,	COMMA
 the	DET
-novel's	NOUN
 texture	NOUN
 is	VERB
 almost	ADV
@@ -9358,7 +9232,6 @@ us	PRON
 think	VERB
 .	SENT
 
-That's	PRON
 is	VERB
 not	PART
 to	PART
@@ -9463,7 +9336,6 @@ who	PRON
 offers	VERB
 the	DET
 hero	NOUN
-God's	PROPN
 phone	NOUN
 number	NOUN
 ;	COLON
@@ -9542,7 +9414,6 @@ several	DET
 youthful	ADJ
 writers	NOUN
 --	COLON
-Tokyo's	PROPN
 brat	NOUN
 pack	NOUN
 --	COLON
@@ -9578,7 +9449,6 @@ Americana	NOUN
 In	ADP
 ``	OQU
 You	PRON
-Gotta	PROPN
 Have	PROPN
 Wa	COMMA
 "	QUOT
@@ -9612,9 +9482,6 @@ a	DET
 ``	OQU
 game	NOUN
 .	SENT
-
-"	QUOT
-As	ADP
 Mr.	PROPN
 Whiting	PROPN
 describes	VERB
@@ -9627,7 +9494,6 @@ a	DET
 ``	OQU
 mirror	NOUN
 of	ADP
-Japan's	PROPN
 fabled	ADJ
 virtues	NOUN
 of	ADP
@@ -9636,9 +9502,6 @@ work	NOUN
 and	CONJ
 harmony	NOUN
 .	SENT
-
-"	QUOT
-``	OQU
 Wa	PROPN
 "	QUOT
 is	VERB
@@ -9660,7 +9523,6 @@ it	PRON
 .	SENT
 
 A	DET
-player's	NOUN
 commitment	NOUN
 to	ADP
 practice	NOUN
@@ -9787,7 +9649,6 @@ road	NOUN
 
 ``	OQU
 You	PRON
-Gotta	PROPN
 Have	PROPN
 Wa	PROPN
 "	QUOT
@@ -9915,7 +9776,6 @@ mundane	ADJ
 aspects	NOUN
 of	ADP
 its	PRON
-workers'	NOUN
 lives	NOUN
 --	COLON
 at	ADP

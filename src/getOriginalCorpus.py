@@ -22,7 +22,7 @@ def extractSentences(file_name):
             line += ' '.join(words) + ' '
             if(len(x) == 2):
                 line_without_compounds += ' '.join(words) + ' '
-                ref_without_compounds += ' '.join(x) + '\n'
+                ref_without_compounds += '\t'.join(x) + '\n'
 
     return line, line_without_compounds, ref_without_compounds
 

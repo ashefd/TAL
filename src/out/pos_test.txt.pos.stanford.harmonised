@@ -143,8 +143,6 @@ latest	JJS
 results	NNS
 appear	VBP
 in	IN
-today	NN
-'s	POS
 ,	,
 a	DT
 forum	NN
@@ -195,9 +193,6 @@ our	PRP$
 products	NNS
 now	RB
 .	.
-"	''
-
-Neither	DT
 Lorillard	NNP
 nor	CC
 the	DT
@@ -233,8 +228,6 @@ risk	NN
 "	''
 said	VBD
 of	IN
-Boston	NNP
-'s	POS
 .	.
 
 Dr.	NNP
@@ -804,8 +797,6 @@ Average	JJ
 maturity	NN
 of	IN
 the	DT
-funds	NNS
-'	POS
 investments	NNS
 lengthened	VBN
 by	IN
@@ -817,8 +808,6 @@ the	DT
 longest	JJS
 since	IN
 ,	,
-Donoghue	NNP
-'s	POS
 .	.
 
 Longer	JJR
@@ -931,8 +920,6 @@ Treasury	NNP
 bills	NNS
 sold	VBN
 at	IN
-Monday	NNP
-'s	POS
 auction	NN
 ,	,
 ,	,
@@ -1290,8 +1277,6 @@ said	VBD
 .	.
 
 The	DT
-government	NN
-'s	POS
 borrowing	NN
 authority	NN
 dropped	VBD
@@ -1390,8 +1375,6 @@ position	NN
 he	PRP
 will	MD
 oversee	VB
-Mazda	NNP
-'s	POS
 U.S.	NNP
 sales	NNS
 ,	,
@@ -1441,8 +1424,6 @@ biannual	JJ
 powwow	NN
 ,	,
 the	DT
-nation	NN
-'s	POS
 manufacturing	NN
 titans	NNS
 typically	RB
@@ -1661,8 +1642,6 @@ Then	RB
 ,	,
 in	IN
 the	DT
-guests	NNS
-'	POS
 honor	NN
 ,	,
 the	DT
@@ -1718,8 +1697,6 @@ their	PRP$
 machines	NNS
 for	IN
 another	DT
-sponsor	NN
-'s	POS
 name	NN
 or	CC
 two	CD
@@ -1869,8 +1846,6 @@ October	NNP
 ,	,
 reflecting	VBG
 the	DT
-country	NN
-'s	POS
 economic	JJ
 sluggishness	NN
 ,	,
@@ -1997,8 +1972,6 @@ to	TO
 October	NNP
 ,	,
 the	DT
-nation	NN
-'s	POS
 accumulated	VBN
 exports	NNS
 increased	VBD
@@ -2111,8 +2084,6 @@ Newsweek	NNP
 president	NN
 ,	,
 said	VBD
-Newsweek	NNP
-'s	POS
 ad	NN
 rates	NNS
 would	MD
@@ -2159,8 +2130,6 @@ lower	JJR
 circulation	NN
 base	NN
 ,	,
-Time	NNP
-'s	POS
 ad	NN
 rate	NN
 will	MD
@@ -2212,9 +2181,6 @@ on	IN
 renewal	NN
 advertising	NN
 .	.
-"	''
-
-The	DT
 magazine	NN
 will	MD
 reward	VB
@@ -2264,8 +2230,6 @@ first	JJ
 of	IN
 1989	CD
 ;	:
-Newsweek	NNP
-'s	POS
 ad	NN
 pages	NNS
 totaled	VBD
@@ -2369,8 +2333,6 @@ decrease	NN
 of	IN
 .	.
 
-Newsweek	NNP
-'s	POS
 circulation	NN
 for	IN
 the	DT
@@ -2390,8 +2352,6 @@ year	NN
 .	.
 
 U.S.	NNP
-News	NNP
-'	POS
 circulation	NN
 in	IN
 the	DT
@@ -2544,8 +2504,6 @@ of	IN
 ,	,
 said	VBD
 the	DT
-company	NN
-'s	POS
 return	NN
 on	IN
 equity	NN
@@ -2659,8 +2617,6 @@ That	DT
 attracts	VBZ
 attention	NN
 .	.
-.	.
-.	.
 
 it	PRP
 was	VBD
@@ -2676,8 +2632,6 @@ that	WDT
 led	VBD
 to	TO
 the	DT
-company	NN
-'s	POS
 decision	NN
 to	TO
 withdraw	VB
@@ -2697,8 +2651,6 @@ adviser	NN
 to	TO
 the	DT
 troubled	JJ
-company	NN
-'s	POS
 equity	NN
 holders	NNS
 ,	,
@@ -2998,8 +2950,6 @@ The	DT
 refund	NN
 pool	NN
 .	.
-.	.
-.	.
 
 may	MD
 not	RB
@@ -3032,8 +2982,6 @@ is	VBZ
 considering	VBG
 appealing	VBG
 Judge	NNP
-Curry	NNP
-'s	POS
 order	NN
 .	.
 
@@ -3108,9 +3056,6 @@ an	DT
 administrative	JJ
 nightmare	NN
 .	.
-"	''
-
-In	IN
 composite	JJ
 trading	NN
 yesterday	NN
@@ -3168,8 +3113,6 @@ consumer	NN
 groups	NNS
 to	TO
 the	DT
-commission	NN
-'s	POS
 rate	NN
 increase	NN
 and	CC
@@ -3201,8 +3144,6 @@ been	VBN
 collecting	VBG
 for	IN
 the	DT
-plant	NN
-'s	POS
 construction	NN
 cost	NN
 from	IN
@@ -3225,8 +3166,6 @@ between	IN
 and	CC
 of	IN
 the	DT
-plant	NN
-'s	POS
 construction	NN
 cost	NN
 was	VBD
@@ -3251,8 +3190,6 @@ an	DT
 additional	JJ
 to	TO
 the	DT
-commission	NN
-'s	POS
 calculations	NNS
 .	.
 
@@ -3300,8 +3237,6 @@ groups	NNS
 hope	VBP
 that	IN
 Judge	NNP
-Curry	NNP
-'s	POS
 Byron	NNP
 1	CD
 order	NN
@@ -3364,8 +3299,6 @@ nuclear	JJ
 plant	NN
 .	.
 
-Japan	NNP
-'s	POS
 domestic	JJ
 sales	NNS
 of	IN
@@ -3480,7 +3413,6 @@ from	IN
 13,056	CD
 in	IN
 .	.
-.	.
 
 ,	,
 a	DT
@@ -3582,8 +3514,6 @@ development	NN
 of	IN
 the	DT
 new	JJ
-company	NN
-'s	POS
 initial	JJ
 machine	NN
 tied	VBN
@@ -3790,9 +3720,6 @@ not	RB
 include	VB
 Seymour	NNP
 .	.
-"	''
-
-The	DT
 documents	NNS
 also	RB
 said	VBD
@@ -3854,8 +3781,6 @@ promissory	JJ
 note	NN
 to	TO
 Mr.	NNP
-Cray	NNP
-'s	POS
 presence	NN
 will	MD
 complicate	VB
@@ -3914,12 +3839,7 @@ you	PRP
 do	VBP
 n't	RB
 .	.
-"	''
-
-Besides	IN
 the	DT
-designer	NN
-'s	POS
 age	NN
 ,	,
 other	JJ
@@ -3927,16 +3847,12 @@ risk	NN
 factors	NNS
 for	IN
 Mr.	NNP
-Cray	NNP
-'s	POS
 new	JJ
 company	NN
 include	VBP
 the	DT
 Cray	NNP
 -	:
-3	CD
-'s	POS
 tricky	JJ
 ,	,
 unproven	JJ
@@ -4039,8 +3955,6 @@ will	MD
 compete	VB
 with	IN
 and	CC
-Japan	NNP
-'s	POS
 Big	NNP
 Three	NNP
 --	:
@@ -4435,8 +4349,6 @@ previously	RB
 president	NN
 of	IN
 the	DT
-company	NN
-'s	POS
 unit	NN
 .	.
 
@@ -4652,14 +4564,9 @@ an	DT
 {	-LRB-
 offending	VBG
 }	-RRB-
-country	NN
-'s	POS
 own	JJ
 citizens	NNS
 .	.
-"	''
-
-U.S.	NNP
 trade	NN
 negotiators	NNS
 argue	VBP
@@ -4785,8 +4692,6 @@ That	DT
 measure	NN
 could	MD
 compel	VB
-Taipei	NNP
-'s	POS
 growing	VBG
 number	NN
 of	IN
@@ -4939,8 +4844,6 @@ property	NN
 is	VBZ
 in	IN
 a	DT
-country	NN
-'s	POS
 own	JJ
 interest	NN
 ,	,
@@ -5021,9 +4924,6 @@ progress	NN
 in	IN
 Malaysia	NNP
 .	.
-"	''
-
-She	PRP
 did	VBD
 n't	RB
 elaborate	JJ
@@ -5283,9 +5183,6 @@ American	JJ
 business	NN
 history	NN
 .	.
-)	-RRB-
-
-THREE	CD
 COMPUTERS	NNS
 that	WDT
 CHANGED	VBD
@@ -5319,8 +5216,6 @@ computers	NNS
 were	VBD
 crude	JJ
 by	IN
-today	NN
-'s	POS
 standards	NNS
 .	.
 
@@ -5615,8 +5510,6 @@ said	VBD
 it	PRP
 owns	VBZ
 of	IN
-Moleculon	NNP
-'s	POS
 voting	NN
 stock	NN
 and	CC
@@ -5650,8 +5543,6 @@ its	PRP$
 interest	NN
 to	TO
 of	IN
-Moleculon	NNP
-'s	POS
 voting	NN
 stock	NN
 .	.
@@ -5659,8 +5550,6 @@ stock	NN
 Oil	NN
 production	NN
 from	IN
-Australia	NNP
-'s	POS
 fields	NNS
 will	MD
 be	VB
@@ -5699,7 +5588,6 @@ the	DT
 end	NN
 of	IN
 1990	CD
-.	.
 .	.
 
 ,	,
@@ -5828,8 +5716,6 @@ group	NN
 led	VBN
 by	IN
 the	DT
-unit	NN
-'s	POS
 president	NN
 ,	,
 ,	,
@@ -6013,9 +5899,6 @@ U.S.	NNP
 and	CC
 the	DT
 .	.
-"	''
-
-Timex	NNP
 is	VBZ
 a	DT
 major	JJ
@@ -6063,8 +5946,6 @@ main	JJ
 beneficiaries	NNS
 of	IN
 the	DT
-president	NN
-'s	POS
 action	NN
 .	.
 
@@ -6227,8 +6108,6 @@ in	IN
 half	NN
 and	CC
 the	DT
-company	NN
-'s	POS
 Class	NN
 A	NNP
 shares	NNS
@@ -6288,8 +6167,6 @@ unsuccessfully	RB
 a	DT
 seat	NN
 in	IN
-Canada	NNP
-'s	POS
 Parliament	NNP
 .	.
 
@@ -6495,8 +6372,6 @@ of	IN
 the	DT
 U.S.	NNP
 and	CC
-Japan	NNP
-'s	POS
 .	.
 
 The	DT
@@ -6617,9 +6492,6 @@ outside	IN
 the	DT
 U.S.	NNP
 .	.
-"	''
-
-Such	JJ
 devices	NNS
 have	VBP
 boosted	VBN
@@ -6752,8 +6624,6 @@ it	PRP
 court	NN
 protection	NN
 from	IN
-creditors	NNS
-'	POS
 lawsuits	NNS
 while	IN
 it	PRP
@@ -6813,8 +6683,6 @@ offer	NN
 ,	,
 advertised	VBN
 in	IN
-today	NN
-'s	POS
 editions	NNS
 of	IN
 ,	,
@@ -6834,8 +6702,6 @@ currently	RB
 owns	VBZ
 about	IN
 of	IN
-Erbamont	NNP
-'s	POS
 common	JJ
 shares	NNS
 outstanding	JJ
@@ -6855,8 +6721,6 @@ the	DT
 companies	NNS
 .	.
 
-Japan	NNP
-'s	POS
 reserves	NNS
 of	IN
 gold	NN
@@ -6923,8 +6787,6 @@ sharper	JJR
 decline	NN
 in	IN
 the	DT
-country	NN
-'s	POS
 foreign	JJ
 reserves	NNS
 in	IN
@@ -7025,8 +6887,6 @@ week	NN
 ,	,
 the	DT
 Philippine	NNP
-Fund	NNP
-'s	POS
 launch	NN
 will	MD
 be	VB
@@ -7065,9 +6925,6 @@ possible	JJ
 --	:
 the	DT
 ?	.
-"	''
-
-quips	NNS
 ,	,
 a	DT
 managing	VBG
@@ -7077,8 +6934,6 @@ of	IN
 Northampton	NNP
 ,	,
 Mass.	NNP
-.	.
-
 The	DT
 recent	JJ
 explosion	NN
@@ -7356,8 +7211,6 @@ Another	DT
 concern	NN
 :	:
 The	DT
-funds	NNS
-'	POS
 share	NN
 prices	NNS
 tend	VBP
@@ -7412,8 +7265,6 @@ so	RB
 wild	JJ
 about	IN
 the	DT
-funds	NNS
-'	POS
 frenzy	NN
 right	RB
 now	RB
@@ -7544,8 +7395,6 @@ long-term	JJ
 play	NN
 tied	VBN
 to	TO
-1992	CD
-'s	POS
 European	JJ
 economic	JJ
 integration	NN
@@ -7732,8 +7581,6 @@ buy	VB
 the	DT
 funds	NNS
 ,	,
-Newgate	NNP
-'s	POS
 Mr.	NNP
 Foot	NNP
 says	VBZ
@@ -7898,8 +7745,6 @@ was	VBD
 lent	VBN
 to	TO
 the	DT
-country	NN
-'s	POS
 short-lived	JJ
 democratic	JJ
 Kerensky	NNP
@@ -8277,9 +8122,6 @@ to	TO
 the	DT
 slack	NN
 ?	.
-"	''
-
-he	PRP
 asked	VBD
 .	.
 
@@ -8289,15 +8131,10 @@ draw	VBP
 a	DT
 blank	NN
 .	.
-"	''
-
-By	IN
 most	JJS
 measures	NNS
 ,	,
 the	DT
-nation	NN
-'s	POS
 industrial	JJ
 sector	NN
 is	VBZ
@@ -8391,8 +8228,6 @@ recession	NN
 .	.
 
 But	CC
-yesterday	NN
-'s	POS
 factory	NN
 orders	NNS
 report	NN
@@ -8452,9 +8287,6 @@ inventories	NNS
 are	VBP
 excessive	JJ
 .	.
-"	''
-
-A	DT
 soft	JJ
 landing	NN
 is	VBZ
@@ -8544,8 +8376,6 @@ the	DT
 noted	VBN
 .	.
 
-Manufacturers	NNS
-'	POS
 backlogs	NNS
 of	IN
 unfilled	JJ
@@ -8693,14 +8523,10 @@ ran	VBD
 about	RB
 above	IN
 last	JJ
-year	NN
-'s	POS
 level	NN
 .	.
 
 The	DT
-government	NN
-'s	POS
 construction	NN
 spending	NN
 figures	NNS
@@ -8763,8 +8589,6 @@ n't	RB
 Although	IN
 the	DT
 purchasing	NN
-managers	NNS
-'	POS
 index	NN
 continues	VBZ
 to	TO
@@ -8786,8 +8610,6 @@ said	VBD
 chairman	NN
 of	IN
 the	DT
-association	NN
-'s	POS
 survey	NN
 committee	NN
 and	CC
@@ -8800,8 +8622,6 @@ at	IN
 Stamford	NNP
 ,	,
 Conn.	NNP
-.	.
-
 He	PRP
 said	VBD
 the	DT
@@ -8833,8 +8653,6 @@ new	JJ
 evidence	NN
 that	IN
 the	DT
-nation	NN
-'s	POS
 export	NN
 growth	NN
 ,	,
@@ -8883,8 +8701,6 @@ before	RB
 
 The	DT
 purhasing	NN
-managers	NNS
-'	POS
 report	NN
 also	RB
 added	VBD
@@ -8981,8 +8797,6 @@ rise	VB
 
 The	DT
 purchasing	NN
-managers	NNS
-'	POS
 report	NN
 is	VBZ
 based	VBN
@@ -8998,8 +8812,6 @@ executives	NNS
 Each	DT
 of	IN
 the	DT
-survey	NN
-'s	POS
 indicators	NNS
 gauges	VBZ
 the	DT
@@ -9091,9 +8903,6 @@ or	CC
 not	RB
 increasing	VBG
 .	.
-"	''
-
-Items	NNS
 listed	VBN
 as	IN
 being	VBG
@@ -9264,8 +9073,6 @@ in	IN
 Japan	NNP
 ,	,
 the	DT
-novel	NN
-'s	POS
 texture	NN
 is	VBZ
 almost	RB
@@ -9425,8 +9232,6 @@ us	PRP
 think	VBP
 .	.
 
-That	DT
-'s	VBZ
 is	VBZ
 not	RB
 to	TO
@@ -9531,8 +9336,6 @@ who	WP
 offers	VBZ
 the	DT
 hero	NN
-God	NNP
-'s	POS
 phone	NN
 number	NN
 ;	:
@@ -9611,8 +9414,6 @@ several	JJ
 youthful	JJ
 writers	NNS
 --	:
-Tokyo	NNP
-'s	POS
 brat	NN
 pack	NN
 --	:
@@ -9648,8 +9449,6 @@ Americana	NNS
 In	IN
 ``	``
 You	PRP
-Got	VBD
-ta	TO
 Have	VBP
 Wa	,
 "	''
@@ -9683,9 +9482,6 @@ a	DT
 ``	``
 game	NN
 .	.
-"	''
-
-As	IN
 Mr.	NNP
 Whiting	NNP
 describes	VBZ
@@ -9698,8 +9494,6 @@ a	DT
 ``	``
 mirror	NN
 of	IN
-Japan	NNP
-'s	POS
 fabled	JJ
 virtues	NNS
 of	IN
@@ -9708,9 +9502,6 @@ work	NN
 and	CC
 harmony	NN
 .	.
-"	''
-
-``	``
 Wa	NNP
 "	''
 is	VBZ
@@ -9732,8 +9523,6 @@ it	PRP
 .	.
 
 A	DT
-player	NN
-'s	POS
 commitment	NN
 to	TO
 practice	VB
@@ -9860,8 +9649,6 @@ road	NN
 
 ``	``
 You	PRP
-Got	VBD
-ta	TO
 Have	VBP
 Wa	,
 "	''
@@ -9989,8 +9776,6 @@ mundane	JJ
 aspects	NNS
 of	IN
 its	PRP$
-workers	NNS
-'	POS
 lives	NNS
 --	:
 at	IN
@@ -10035,4 +9820,3 @@ on	IN
 the	DT
 mark	NN
 .	.
-

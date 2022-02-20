@@ -34,3 +34,8 @@ python doPOStag.py out/pos_test.wc.txt
 ```
 
 ### Faire en sorte que ce soit le bon format
+python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk
+
+python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford
+
+
