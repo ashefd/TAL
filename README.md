@@ -12,15 +12,15 @@ python from_LIMA_to_universal.py ../data/pos_reference.txt.lima ../data/POSTags_
 
 ### Stanford
 Etapes :
-1. Ouvrir un terminal et se positionner dans le dossier Projet
-2. Se placer dans le dossier TP/TP2/stanford-postagger-full-2018-10-16
+1. Ouvrir un terminal
+2. Se placer dans le dossier stanford-postagger-full-2018-10-16 et lancer stanford-postagger.sh
 ```
 cd stanford-postagger-full-2018-10-16/
-./../TP/TP2/stanford-postagger.sh models/english-left3words-distsim.tagger ../pos_text.txt > ../out/wsj_0010_sample.txt.pos.stanford
+./stanford-postagger.sh models/english-left3words-distsim.tagger ../src/out/pos_test.wc.txt > ../data/pos_test.txt.pos.stanford
 ```
 3. Lancer la commande suivante :
 ```
-python convert_format_stanford_two_columns.py ../data/pos_text.txt.pos.stanford
+python convert_format_stanford_two_columns.py ../data/pos_test.txt.pos.stanford
 ```
 
 ### NLTK
@@ -30,7 +30,7 @@ Tout refaire avec ce fichier la : out/pos_reference.txt.wc.lima
 // python pos_test.txt.pos.stanford pos_test.txt.pos.nltk
 
 ```
-python doPOStag.py out/pos_test.txt
+python doPOStag.py out/pos_test.wc.txt
 ```
 
 ### Faire en sorte que ce soit le bon format
