@@ -32,7 +32,16 @@ def process_content(filename, tokenized):
                 for subtree in namedEnt.subtrees():
                     if subtree.label() == 'S':
                         x = str(subtree)
-                        #print(x)
+                        for element in x[3:len(x)-1].splitlines():
+                            line = element.translate({ ord(c): ' ' for c in "()/" })
+                            element_in_line = line.split()
+                            print(element_in_line)
+                            if(len(element_in_line) == 2):
+                                fout.write(element_in_line[0] + '\tO' + '\n')
+                            else:
+                                for w in range(1, len(element_in_line), 2):
+                                    fout.write(element_in_line[w] + '\t' + element_in_line[0] + '\n')
+                        """
                         inside = []
                         for element in x[3:len(x)-1].splitlines():
                             if element[0] == ' ':
@@ -50,7 +59,7 @@ def process_content(filename, tokenized):
                             elif(len(element_in_line) > 2):
                                 for w in range(1, len(element_in_line), 2):
                                     fout.write(element_in_line[w] + '\t' + element_in_line[0] + '\n')
-                        
+                        """
                         fout.write('\n')
 
                 
@@ -81,8 +90,9 @@ if __name__ == '__main__':
 
     f = open(sys.argv[1], 'r') 
     file = open(sys.argv[2], 'w') 
-    lignes = f.read().splitlines()
+    """
 
+    lignes = f.read().splitlines()
     for line in lignes:
         custom_sent_tokenizer = PunktSentenceTokenizer(line)
 
@@ -90,3 +100,14 @@ if __name__ == '__main__':
 
         process_content(sys.argv[2], tokenized) 
         #print("File with named entities written in " + sys.argv[2])
+
+    
+    """
+    lignes = f.read()
+    lignes = lignes[:500]
+    custom_sent_tokenizer = PunktSentenceTokenizer(lignes)
+
+    tokenized = custom_sent_tokenizer.tokenize(lignes)
+
+    process_content(sys.argv[2], tokenized) 
+    #print("File with named entities written in " + sys.argv[2])
