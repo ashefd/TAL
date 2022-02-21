@@ -38,9 +38,13 @@ def process_content(filename, tokenized):
                             print(element_in_line)
                             if(len(element_in_line) == 2):
                                 fout.write(element_in_line[0] + '\tO' + '\n')
-                            else:
+                            elif('/' not in element.split()[0]):
                                 for w in range(1, len(element_in_line), 2):
                                     fout.write(element_in_line[w] + '\t' + element_in_line[0] + '\n')
+                            else:
+                                for w in range(0, len(element_in_line), 2):
+                                    fout.write(element_in_line[w] + '\tO' + '\n')
+
                         """
                         inside = []
                         for element in x[3:len(x)-1].splitlines():
@@ -104,7 +108,8 @@ if __name__ == '__main__':
     
     """
     lignes = f.read()
-    lignes = lignes[:500]
+    #lignes = '\n'.join(lines[115:120])
+    #print(lignes)
     custom_sent_tokenizer = PunktSentenceTokenizer(lignes)
 
     tokenized = custom_sent_tokenizer.tokenize(lignes)
