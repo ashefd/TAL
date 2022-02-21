@@ -89,7 +89,7 @@ python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.stanford.
 
 ### NLTK
 ```
-python evaluate.py - out/reference.txt.wc.univ.lima out/pos_test.txt.pos.nltk.univ
+python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.nltk.univ
 ```
 Il faut aussi rendre lima universel pour pouvoir evaluer 
 
