@@ -43,5 +43,4 @@ if __name__ == '__main__':
 
     file_name = sys.argv[1] + '.univ'
     write_with_uni_tag(file_name ,lines, mydict)
-    
-    # python universal.py out/pos_test.txt.pos.nltk data/POSTags_PTB_Universal_Linux.txt
+    print("Original file " + sys.argv[1]  + "  with universal tags written in " + file_name)

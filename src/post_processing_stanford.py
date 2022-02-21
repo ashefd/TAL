@@ -29,5 +29,6 @@ if __name__ == '__main__':
     #sys.argv[1] # le fichier stanford a convertir pour qu'il y ait :
     # mot\tcategorie
     file_name_out = "out/" + sys.argv[1][8:]
-    print(file_name_out)
+
     lines = two_columns_without_underscore(sys.argv[1], file_name_out)
+    print("Stanford file with post-processing written in " +file_name_out)

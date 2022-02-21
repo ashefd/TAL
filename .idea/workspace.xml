@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="readme new commands stan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doPOStag.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/doPOStag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/from_LIMA_to_universal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/from_LIMA_to_universal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/post_processing_stanford.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/post_processing_stanford.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/universal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tp/TP2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
