@@ -73,3 +73,5 @@ if __name__ == '__main__':
     list_of_tags = nltk_parse(sys.argv[1])
     print(list_of_tags)
     write_compounds_in_file(list_of_tags, "out/pos_test.txt.pos.nltk")
+
+    print("File tagged by nltk written in " + "out/pos_test.txt.pos.nltk")

@@ -120,15 +120,6 @@ if __name__ == '__main__':
     #print(dictionary_LIMA_universal)
 
     lima_out = "out/" + sys.argv[1][8:-5] + ".univ"+sys.argv[1][-5:]
-    print(lima_out)
 
     write_with_uni_tag(lines1, lima_out, dictionary_LIMA_universal)
-
-    #Si on veut donner des noms spécifiques '.harm' aux fichiers harmonisés :
-    """
-    nltk_out = sys.argv[1][:-9] + "univ"+sys.argv[1][-5:]
-    ref_out =  sys.argv[2][:-8] + "univ"+sys.argv[2][-4:]
-
-    write_with_uni_tag(nltk_out, ref_out, lines1, lines2, mydict)
-    print("files with universal etiquettes written in file " + nltk_out + " and  " + ref_out)
-    """
+    print("Reference Lima with universal tags written in " + lima_out)
