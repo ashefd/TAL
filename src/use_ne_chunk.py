@@ -32,24 +32,25 @@ def process_content(filename, tokenized):
                 for subtree in namedEnt.subtrees():
                     if subtree.label() == 'S':
                         x = str(subtree)
-                        for element in x[3:len(x)-1].splitlines():       
-                            print(element)
-                            line = element.translate({ ord(c): ' ' for c in "()/" })
-                            print(line)
-                            #print(line.split())
-                            #print(x[3:len(x)-1].splitlines())
-                            #print(x[2:len(x)-1] + '\n')
-                            element_in_line = line.split()
-                            fout.write(' '.join(element_in_line) + '\n')
-
-                            print(element_in_line)
-                            '''
-                            if(len(element_in_line) > 1):
-                                print('sup a 1')
-                                fout.write(element_in_line[1] + '\t' + element_in_line[2] + '\n')
+                        #print(x)
+                        inside = []
+                        for element in x[3:len(x)-1].splitlines():
+                            if element[0] == ' ':
+                                inside.append(element[2:])
                             else:
-                                fout.write(element_in_line[0] + '\t' + element_in_line[1] + '\n')
-                            '''
+                                single = element.split()
+                                for s in single:
+                                    inside.append(s)
+                        #print(inside)
+                        for element in inside:
+                            line = element.translate({ ord(c): ' ' for c in "()/" })
+                            element_in_line = line.split()
+                            if(len(element_in_line) == 2):
+                                fout.write(element_in_line[0] + '\tO' + '\n')
+                            elif(len(element_in_line) > 2):
+                                for w in range(1, len(element_in_line), 2):
+                                    fout.write(element_in_line[w] + '\t' + element_in_line[0] + '\n')
+                        
                         fout.write('\n')
 
                 
@@ -82,7 +83,7 @@ if __name__ == '__main__':
     file = open(sys.argv[2], 'w') 
     lignes = f.read().splitlines()
 
-    for line in lignes[:5]:
+    for line in lignes:
         custom_sent_tokenizer = PunktSentenceTokenizer(line)
 
         tokenized = custom_sent_tokenizer.tokenize(line)

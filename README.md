@@ -118,5 +118,5 @@ python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
 
 ### NLTK
 ```
-python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltkbf
+python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltk
 ```
