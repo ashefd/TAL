@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="convert to coNLL">
+    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="convert to coNLL bis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dict_ne_standard_etiquettes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dict_ne_standard_etiquettes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/convertToCoNLL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertToCoNLL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/use_ne_chunk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_ne_chunk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk.univ" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk.univ" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645452871548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="convert to coNLL bis">
+      <created>1645454278949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645454278949</updated>
+    </task>
+    <task id="LOCAL-00007" summary="convert to coNLL bis">
+      <created>1645454335807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645454335807</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +144,7 @@
     <MESSAGE value="files" />
     <MESSAGE value="readme mistake" />
     <MESSAGE value="convert to coNLL" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert to coNLL" />
+    <MESSAGE value="convert to coNLL bis" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert to coNLL bis" />
   </component>
 </project>

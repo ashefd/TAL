@@ -19,21 +19,23 @@ def create_dictionary(lines):
 def convert_CoNLL(lines, mydict):
 
     begin = False
+    last_etiquette = ''
     lines_CoNLL = []
     for line in lines:
         print((line))
         if(len(line) != 0 and line.replace('\n', '') != ''):
             words = line.split('\t')
             if(words[1] != "O"):
-                if(not begin):
+                if(words[1] in mydict.keys() and last_etiquette != words[1]):
                     etiquette = "B-"+ mydict[words[1]]
-                    begin = True
-                else:
-                    etiquette = "I-" + mydict[words[1]]
-            else:
-                begin = False
-                etiquette =  "O"
 
+                else:
+
+                    etiquette = "I-" + mydict[words[1]]
+                last_etiquette  =words[1]
+            else:
+                etiquette = "O"
+                last_etiquette =  "O"
             lines_CoNLL.append(words[0] + '\t' + etiquette +"\n")
 
     return lines_CoNLL

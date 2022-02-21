@@ -108,6 +108,8 @@ python getOriginalCorpus.py ../data/ne_reference.txt.conll.txt out/ne_test.txt
 nb : Les fichiers xc ne servent à rien ici
 
 ## Question 2
+Execution des NE recognizers et conversion des fichiers de sortie au bon format :
+
 ### Stanford
 ```
 cd ../stanford-ner-2018-10-16
@@ -117,11 +119,37 @@ python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
 ```
 
 ### NLTK
+
 ```
 python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltk
 ```
 
+
 ## Question 3
+
+Conversion des fichiers en étiquettes coNLL-2003 : 
+
+### Stanford
+
+```
+python convertToCoNLL.py out/ne_test.txt.ne.stanford ../data/dict_ne_standard_etiquettes.txt
+```
+
+Résultat sauvegardé dans :
+- out/ne_test.txt.ne.stanford.univ
+
+
+### NLTK
+
+```
+python convertToCoNLL.py out/ne_test.txt.ne.nltk ../data/dict_ne_standard_etiquettes.txt
+```
+
+Résultat sauvegardé dans : 
+- out/ne_test.txt.ne.nltk.univ
+
+
+## Question 4
 ### Stanford
 
 ```
