@@ -28,3 +28,16 @@ Sujet 1
 # Annexe pour expérimentation en plus (exemple : sujet 2)
     - corrections faites sur les corpus
     - captures d'écran de nos résultats 
+
+
+
+
+Prise de notes lors du projet :
+Ajout dans le dictionnaire ptb -> universal les lignes suivantes : 
+`` .
+' .
+'' .
+" .
+
+C'est okay parce que de Lima à unversal, ces éléments sont au final des .
+Donc okay !

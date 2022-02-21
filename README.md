@@ -58,3 +58,25 @@ python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk
 
 python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford
 
+
+# Partie 2
+## Question 1
+```
+python getOriginalCorpus.py ../data/ne_reference.txt.conll.txt out/ne_test.txt
+```
+
+nb : Les fichiers xc ne servent à rien ici
+
+## Question 2
+### Stanford
+```
+cd ../stanford-ner-2018-10-16
+java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile ../src/out/ne_test.txt > ../src/out/ne_test.txt.ne.stanfordbf
+cd ../src
+python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
+```
+
+### NLTK
+```
+python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltkbf
+```
