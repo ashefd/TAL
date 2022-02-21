@@ -18,7 +18,7 @@ def create_dictionary(lines):
 
 def convert_CoNLL(lines, mydict):
 
-    begin = false
+    begin = False
     lines_CoNLL = []
     for line in lines:
         print((line))
@@ -27,11 +27,12 @@ def convert_CoNLL(lines, mydict):
             if(words[1] != "O"):
                 if(not begin):
                     etiquette = "B-"+ mydict[words[1]]
-                    begin = true
+                    begin = True
                 else:
                     etiquette = "I-" + mydict[words[1]]
             else:
-                begin = false
+                begin = False
+                etiquette =  "O"
 
             lines_CoNLL.append(words[0] + '\t' + etiquette +"\n")
 
@@ -39,7 +40,7 @@ def convert_CoNLL(lines, mydict):
 
 def writeLines(lines, file_out):
     file = open(file_out, 'w')
-    file.write(lines)
+    file.writelines(lines)
 
 if __name__ == '__main__':
 
@@ -49,9 +50,7 @@ if __name__ == '__main__':
     coNLL_dict = create_dictionary(dict_lines)
     lines_CoNLL = convert_CoNLL(lines, coNLL_dict)
 
-    writeLines(lines_CoNLL)
     file_name = sys.argv[1] + '.univ'
-
-
+    writeLines(lines_CoNLL,   file_name )
 
     print("Original file " + sys.argv[1]  + "  with universal tags written in " + file_name)

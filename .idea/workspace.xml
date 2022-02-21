@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="readme mistake">
-      <change afterPath="$PROJECT_DIR$/data/dict_ne_standard_etiquettes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/convertToCoNLL.py" afterDir="false" />
+    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="convert to coNLL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample_lstm_pos_tagging_preparing_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample_lstm_pos_tagging_training_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dict_ne_standard_etiquettes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/dict_ne_standard_etiquettes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertToCoNLL.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertToCoNLL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_ne_chunk.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_ne_chunk.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645439824411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="convert to coNLL">
+      <created>1645452871548</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645452871548</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,7 @@
     <MESSAGE value="evaluate et location of written files (readme)" />
     <MESSAGE value="files" />
     <MESSAGE value="readme mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme mistake" />
+    <MESSAGE value="convert to coNLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert to coNLL" />
   </component>
 </project>
