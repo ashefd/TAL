@@ -86,17 +86,26 @@ Le fichier evaluate permet l'harmonisation ainsi que l'évaluation des fichiers 
 ```
 python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.stanford.univ
 ```
+Résultats obtenus : 
+
+Word precision: 0.979500052295785
+Word recall: 0.987660831048302
+Tag precision: 0.9545957918050941
+Tag recall: 0.9854500103928497
+Word F-measure: 0.9835635141521819
+Tag F-measure: 0.9697775504985937
 
 ### NLTK
 ```
 python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.nltk.univ
 ```
-Il faut aussi rendre lima universel pour pouvoir evaluer 
 
-Attention : cette commande a été modifié pour ce qui a été écrit dans la question 5
-python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.nltk
-
-python harmonisation.py out/pos_reference.txt.wc.lima out/pos_test.txt.pos.stanford
+Word precision: 1.0
+Word recall: 1.0
+Tag precision: 0.9364013430772269
+Tag recall: 1.0
+Word F-measure: 1.0
+Tag F-measure: 0.967156262749898
 
 
 # Partie 2
@@ -136,7 +145,7 @@ python convertToCoNLL.py out/ne_test.txt.ne.stanford ../data/dict_ne_standard_et
 ```
 
 Résultat sauvegardé dans :
-- out/ne_test.txt.ne.stanford.univ
+- out/ne_test.txt.ne.stanford.conll
 
 
 ### NLTK
@@ -146,17 +155,31 @@ python convertToCoNLL.py out/ne_test.txt.ne.nltk ../data/dict_ne_standard_etique
 ```
 
 Résultat sauvegardé dans : 
-- out/ne_test.txt.ne.nltk.univ
+- out/ne_test.txt.ne.nltk.conll
 
 
 ## Question 4
 ### Stanford
 
 ```
-python evaluate.py ne_test.txt.ne.stanford.conll ne_reference.txt.conll 
+python evaluate.py out/ne_test.txt.ne.stanford.conll ../data/ne_reference.txt.conll 
 ```
+Résultats obtenus :
+Word precision: 0.8314756597122988
+Word recall: 0.8661307928947107
+Tag precision: 0.9277296998711103
+Tag recall: 0.8819359355855068
+Word F-measure: 0.8484494993681345
+Tag F-measure: 0.9042534099066762
 
 ### NLTK
 ```
-python evaluate.py ne_test.txt.ne.nltk.conll ne_reference.txt.conll
+python evaluate.py out/ne_test.txt.ne.nltk.conll ../data/ne_reference.txt.conll
 ```
+Résultats obtenus :
+Word precision: 0.8114699437934648
+Word recall: 0.8461309228171252
+Tag precision: 0.9229006233956729
+Tag recall: 0.8666494490358126
+Word F-measure: 0.8284380470725541
+Tag F-measure: 0.8938909607529747

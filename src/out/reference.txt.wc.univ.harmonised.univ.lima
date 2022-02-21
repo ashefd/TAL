@@ -143,6 +143,7 @@ latest	ADJ
 results	NOUN
 appear	VERB
 in	ADP
+today's	NOUN
 ,	.
 a	DET
 forum	NOUN
@@ -193,6 +194,9 @@ our	PRON
 products	NOUN
 now	ADV
 .	.
+
+"	.
+Neither	DET
 Lorillard	NOUN
 nor	CONJ
 the	DET
@@ -228,6 +232,7 @@ risk	NOUN
 "	.
 said	VERB
 of	ADP
+Boston's	NOUN
 .	.
 
 Dr.	NOUN
@@ -797,6 +802,7 @@ Average	ADJ
 maturity	NOUN
 of	ADP
 the	DET
+funds'	NOUN
 investments	NOUN
 lengthened	VERB
 by	ADP
@@ -808,6 +814,7 @@ the	DET
 longest	ADJ
 since	ADP
 ,	.
+Donoghue's	NOUN
 .	.
 
 Longer	ADJ
@@ -920,6 +927,7 @@ Treasury	NOUN
 bills	NOUN
 sold	VERB
 at	ADP
+Monday's	NOUN
 auction	NOUN
 ,	.
 ,	.
@@ -1277,6 +1285,7 @@ said	VERB
 .	.
 
 The	DET
+government's	NOUN
 borrowing	NOUN
 authority	NOUN
 dropped	VERB
@@ -1375,6 +1384,7 @@ position	NOUN
 he	PRON
 will	VERB
 oversee	VERB
+Mazda's	NOUN
 U.S.	NOUN
 sales	NOUN
 ,	.
@@ -1424,6 +1434,7 @@ biannual	ADJ
 powwow	NOUN
 ,	.
 the	DET
+nation's	NOUN
 manufacturing	VERB
 titans	NOUN
 typically	ADV
@@ -1642,6 +1653,7 @@ Then	ADV
 ,	.
 in	ADP
 the	DET
+guests'	NOUN
 honor	NOUN
 ,	.
 the	DET
@@ -1697,6 +1709,7 @@ their	PRON
 machines	NOUN
 for	ADP
 another	DET
+sponsor's	NOUN
 name	NOUN
 or	CONJ
 two	NUM
@@ -1846,6 +1859,7 @@ October	NOUN
 ,	.
 reflecting	VERB
 the	DET
+country's	NOUN
 economic	ADJ
 sluggishness	NOUN
 ,	.
@@ -1972,6 +1986,7 @@ to	ADP
 October	NOUN
 ,	.
 the	DET
+nation's	NOUN
 accumulated	VERB
 exports	NOUN
 increased	VERB
@@ -2084,6 +2099,7 @@ Newsweek	NOUN
 president	NOUN
 ,	.
 said	VERB
+Newsweek's	NOUN
 ad	NOUN
 rates	NOUN
 would	VERB
@@ -2130,6 +2146,7 @@ lower	ADJ
 circulation	NOUN
 base	NOUN
 ,	.
+Time's	NOUN
 ad	NOUN
 rate	NOUN
 will	VERB
@@ -2181,6 +2198,9 @@ on	ADP
 renewal	NOUN
 advertising	NOUN
 .	.
+
+"	.
+The	DET
 magazine	NOUN
 will	VERB
 reward	VERB
@@ -2230,6 +2250,7 @@ first	ADJ
 of	ADP
 1989	NOUN
 ;	.
+Newsweek's	NOUN
 ad	NOUN
 pages	NOUN
 totaled	VERB
@@ -2333,6 +2354,7 @@ decrease	NOUN
 of	ADP
 .	.
 
+Newsweek's	NOUN
 circulation	NOUN
 for	ADP
 the	DET
@@ -2352,6 +2374,7 @@ year	NOUN
 .	.
 
 U.S.	NOUN
+News'	NOUN
 circulation	NOUN
 in	ADP
 the	DET
@@ -2504,6 +2527,7 @@ of	ADP
 ,	.
 said	VERB
 the	DET
+company's	NOUN
 return	NOUN
 on	ADP
 equity	NOUN
@@ -2618,6 +2642,10 @@ attracts	VERB
 attention	NOUN
 .	.
 
+.	.
+
+.	.
+
 it	PRON
 was	VERB
 just	ADV
@@ -2632,6 +2660,7 @@ that	CONJ
 led	VERB
 to	ADP
 the	DET
+company's	NOUN
 decision	NOUN
 to	PRT
 withdraw	VERB
@@ -2651,6 +2680,7 @@ adviser	NOUN
 to	ADP
 the	DET
 troubled	ADJ
+company's	NOUN
 equity	NOUN
 holders	NOUN
 ,	.
@@ -2951,6 +2981,10 @@ refund	NOUN
 pool	NOUN
 .	.
 
+.	.
+
+.	.
+
 may	VERB
 not	PRT
 be	VERB
@@ -2982,6 +3016,7 @@ is	VERB
 considering	VERB
 appealing	VERB
 Judge	NOUN
+Curry's	NOUN
 order	NOUN
 .	.
 
@@ -3056,6 +3091,9 @@ an	DET
 administrative	ADJ
 nightmare	NOUN
 .	.
+
+"	.
+In	ADP
 composite	ADJ
 trading	NOUN
 yesterday	NOUN
@@ -3113,6 +3151,7 @@ consumer	NOUN
 groups	NOUN
 to	ADP
 the	DET
+commission's	NOUN
 rate	NOUN
 increase	NOUN
 and	CONJ
@@ -3144,6 +3183,7 @@ been	VERB
 collecting	VERB
 for	ADP
 the	DET
+plant's	NOUN
 construction	NOUN
 cost	NOUN
 from	ADP
@@ -3166,6 +3206,7 @@ between	ADP
 and	CONJ
 of	ADP
 the	DET
+plant's	NOUN
 construction	NOUN
 cost	NOUN
 was	VERB
@@ -3190,6 +3231,7 @@ an	DET
 additional	ADJ
 to	ADP
 the	DET
+commission's	NOUN
 calculations	NOUN
 .	.
 
@@ -3237,6 +3279,7 @@ groups	NOUN
 hope	VERB
 that	CONJ
 Judge	NOUN
+Curry's	NOUN
 Byron	NOUN
 1	NUM
 order	NOUN
@@ -3299,6 +3342,7 @@ nuclear	ADJ
 plant	NOUN
 .	.
 
+Japan's	NOUN
 domestic	ADJ
 sales	NOUN
 of	ADP
@@ -3414,6 +3458,8 @@ from	ADP
 in	ADP
 .	.
 
+.	.
+
 ,	.
 a	DET
 unit	NOUN
@@ -3514,6 +3560,7 @@ development	NOUN
 of	ADP
 the	DET
 new	ADJ
+company's	NOUN
 initial	ADJ
 machine	NOUN
 tied	VERB
@@ -3720,6 +3767,9 @@ not	PRT
 include	VERB
 Seymour	NOUN
 .	.
+
+"	.
+The	DET
 documents	NOUN
 also	ADV
 said	VERB
@@ -3781,6 +3831,7 @@ promissory	ADJ
 note	NOUN
 to	ADP
 Mr.	NOUN
+Cray's	NOUN
 presence	NOUN
 will	VERB
 complicate	VERB
@@ -3839,7 +3890,11 @@ you	PRON
 do	VERB
 n't	PRT
 .	.
+
+"	.
+Besides	ADP
 the	DET
+designer's	NOUN
 age	NOUN
 ,	.
 other	ADJ
@@ -3847,12 +3902,14 @@ risk	NOUN
 factors	NOUN
 for	ADP
 Mr.	NOUN
+Cray's	NOUN
 new	ADJ
 company	NOUN
 include	VERB
 the	DET
 Cray	NOUN
 -	.
+3's	NUM
 tricky	ADJ
 ,	.
 unproven	ADJ
@@ -3955,6 +4012,7 @@ will	VERB
 compete	VERB
 with	ADP
 and	CONJ
+Japan's	NOUN
 Big	ADJ
 Three	NUM
 --	.
@@ -4349,6 +4407,7 @@ previously	ADV
 president	NOUN
 of	ADP
 the	DET
+company's	NOUN
 unit	NOUN
 .	.
 
@@ -4564,9 +4623,13 @@ an	DET
 {	.
 offending	VERB
 }	.
+country's	NOUN
 own	ADJ
 citizens	NOUN
 .	.
+
+"	.
+U.S.	NOUN
 trade	NOUN
 negotiators	NOUN
 argue	VERB
@@ -4692,6 +4755,7 @@ That	DET
 measure	NOUN
 could	VERB
 compel	VERB
+Taipei's	NOUN
 growing	VERB
 number	NOUN
 of	ADP
@@ -4844,6 +4908,7 @@ property	NOUN
 is	VERB
 in	ADP
 a	DET
+country's	NOUN
 own	ADJ
 interest	NOUN
 ,	.
@@ -4924,6 +4989,9 @@ progress	NOUN
 in	ADP
 Malaysia	NOUN
 .	.
+
+"	.
+She	PRON
 did	VERB
 n't	PRT
 elaborate	ADJ
@@ -5183,6 +5251,9 @@ American	ADJ
 business	NOUN
 history	NOUN
 .	.
+
+)	.
+THREE	NUM
 COMPUTERS	NOUN
 that	CONJ
 CHANGED	VERB
@@ -5216,6 +5287,7 @@ computers	NOUN
 were	VERB
 crude	ADJ
 by	ADP
+today's	NOUN
 standards	NOUN
 .	.
 
@@ -5510,6 +5582,7 @@ said	VERB
 it	PRON
 owns	VERB
 of	ADP
+Moleculon's	NOUN
 voting	NOUN
 stock	NOUN
 and	CONJ
@@ -5543,6 +5616,7 @@ its	PRON
 interest	NOUN
 to	ADP
 of	ADP
+Moleculon's	NOUN
 voting	NOUN
 stock	NOUN
 .	.
@@ -5550,6 +5624,7 @@ stock	NOUN
 Oil	NOUN
 production	NOUN
 from	ADP
+Australia's	NOUN
 fields	NOUN
 will	VERB
 be	VERB
@@ -5588,6 +5663,8 @@ the	DET
 end	NOUN
 of	ADP
 1990	NOUN
+.	.
+
 .	.
 
 ,	.
@@ -5716,6 +5793,7 @@ group	NOUN
 led	VERB
 by	ADP
 the	DET
+unit's	NOUN
 president	NOUN
 ,	.
 ,	.
@@ -5899,6 +5977,9 @@ U.S.	NOUN
 and	CONJ
 the	DET
 .	.
+
+"	.
+Timex	NOUN
 is	VERB
 a	DET
 major	ADJ
@@ -5946,6 +6027,7 @@ main	ADJ
 beneficiaries	NOUN
 of	ADP
 the	DET
+president's	NOUN
 action	NOUN
 .	.
 
@@ -6108,6 +6190,7 @@ in	ADP
 half	DET
 and	CONJ
 the	DET
+company's	NOUN
 Class	NOUN
 A	NOUN
 shares	NOUN
@@ -6167,6 +6250,7 @@ unsuccessfully	ADV
 a	DET
 seat	NOUN
 in	ADP
+Canada's	NOUN
 Parliament	NOUN
 .	.
 
@@ -6372,6 +6456,7 @@ of	ADP
 the	DET
 U.S.	NOUN
 and	CONJ
+Japan's	NOUN
 .	.
 
 The	DET
@@ -6492,6 +6577,9 @@ outside	ADP
 the	DET
 U.S.	NOUN
 .	.
+
+"	.
+Such	ADJ
 devices	NOUN
 have	VERB
 boosted	VERB
@@ -6624,6 +6712,7 @@ it	PRON
 court	NOUN
 protection	NOUN
 from	ADP
+creditors'	NOUN
 lawsuits	NOUN
 while	ADP
 it	PRON
@@ -6683,6 +6772,7 @@ offer	NOUN
 ,	.
 advertised	VERB
 in	ADP
+today's	NOUN
 editions	NOUN
 of	ADP
 ,	.
@@ -6702,6 +6792,7 @@ currently	ADV
 owns	VERB
 about	ADV
 of	ADP
+Erbamont's	NOUN
 common	ADJ
 shares	NOUN
 outstanding	ADJ
@@ -6721,6 +6812,7 @@ the	DET
 companies	NOUN
 .	.
 
+Japan's	NOUN
 reserves	NOUN
 of	ADP
 gold	NOUN
@@ -6787,6 +6879,7 @@ sharper	ADJ
 decline	NOUN
 in	ADP
 the	DET
+country's	NOUN
 foreign	ADJ
 reserves	NOUN
 in	ADP
@@ -6887,6 +6980,7 @@ week	NOUN
 ,	.
 the	DET
 Philippine	NOUN
+Fund's	NOUN
 launch	NOUN
 will	VERB
 be	VERB
@@ -6925,6 +7019,9 @@ possible	ADJ
 --	.
 the	DET
 ?	.
+
+"	.
+quips	VERB
 ,	.
 a	DET
 managing	VERB
@@ -7211,6 +7308,7 @@ Another	DET
 concern	NOUN
 :	.
 The	DET
+funds'	NOUN
 share	NOUN
 prices	NOUN
 tend	VERB
@@ -7265,6 +7363,7 @@ so	ADV
 wild	ADJ
 about	ADP
 the	DET
+funds'	NOUN
 frenzy	NOUN
 right	ADV
 now	ADV
@@ -7395,6 +7494,7 @@ long-term	ADJ
 play	NOUN
 tied	VERB
 to	ADP
+1992's	NOUN
 European	ADJ
 economic	ADJ
 integration	NOUN
@@ -7581,6 +7681,7 @@ buy	VERB
 the	DET
 funds	NOUN
 ,	.
+Newgate's	NOUN
 Mr.	NOUN
 Foot	NOUN
 says	VERB
@@ -7745,6 +7846,7 @@ was	VERB
 lent	VERB
 to	ADP
 the	DET
+country's	NOUN
 short-lived	ADJ
 democratic	ADJ
 Kerensky	NOUN
@@ -8122,6 +8224,9 @@ to	PRT
 the	DET
 slack	NOUN
 ?	.
+
+"	.
+he	PRON
 asked	VERB
 .	.
 
@@ -8131,10 +8236,14 @@ draw	VERB
 a	DET
 blank	NOUN
 .	.
+
+"	.
+By	ADP
 most	ADJ
 measures	NOUN
 ,	.
 the	DET
+nation's	NOUN
 industrial	ADJ
 sector	NOUN
 is	VERB
@@ -8228,6 +8337,7 @@ recession	NOUN
 .	.
 
 But	CONJ
+yesterday's	NOUN
 factory	NOUN
 orders	NOUN
 report	NOUN
@@ -8287,6 +8397,9 @@ inventories	NOUN
 are	VERB
 excessive	ADJ
 .	.
+
+"	.
+A	DET
 soft	ADJ
 landing	NOUN
 is	VERB
@@ -8376,6 +8489,7 @@ the	DET
 noted	VERB
 .	.
 
+Manufacturers'	NOUN
 backlogs	NOUN
 of	ADP
 unfilled	ADJ
@@ -8523,10 +8637,12 @@ ran	VERB
 about	ADV
 above	ADP
 last	ADJ
+year's	NOUN
 level	NOUN
 .	.
 
 The	DET
+government's	NOUN
 construction	NOUN
 spending	NOUN
 figures	NOUN
@@ -8589,6 +8705,7 @@ n't	PRT
 Although	ADP
 the	DET
 purchasing	NOUN
+managers'	NOUN
 index	NOUN
 continues	VERB
 to	PRT
@@ -8610,6 +8727,7 @@ said	VERB
 chairman	NOUN
 of	ADP
 the	DET
+association's	NOUN
 survey	NOUN
 committee	NOUN
 and	CONJ
@@ -8653,6 +8771,7 @@ new	ADJ
 evidence	NOUN
 that	CONJ
 the	DET
+nation's	NOUN
 export	NOUN
 growth	NOUN
 ,	.
@@ -8701,6 +8820,7 @@ before	ADV
 
 The	DET
 purhasing	NOUN
+managers'	NOUN
 report	NOUN
 also	ADV
 added	VERB
@@ -8797,6 +8917,7 @@ rise	VERB
 
 The	DET
 purchasing	NOUN
+managers'	NOUN
 report	NOUN
 is	VERB
 based	VERB
@@ -8812,6 +8933,7 @@ executives	NOUN
 Each	DET
 of	ADP
 the	DET
+survey's	NOUN
 indicators	NOUN
 gauges	VERB
 the	DET
@@ -8903,6 +9025,9 @@ or	CONJ
 not	PRT
 increasing	VERB
 .	.
+
+"	.
+Items	NOUN
 listed	VERB
 as	ADP
 being	VERB
@@ -9073,6 +9198,7 @@ in	ADP
 Japan	NOUN
 ,	.
 the	DET
+novel's	NOUN
 texture	NOUN
 is	VERB
 almost	ADV
@@ -9232,6 +9358,7 @@ us	PRON
 think	VERB
 .	.
 
+That's	PRON
 is	VERB
 not	PRT
 to	PRT
@@ -9336,6 +9463,7 @@ who	PRON
 offers	VERB
 the	DET
 hero	NOUN
+God's	NOUN
 phone	NOUN
 number	NOUN
 ;	.
@@ -9414,6 +9542,7 @@ several	DET
 youthful	ADJ
 writers	NOUN
 --	.
+Tokyo's	NOUN
 brat	NOUN
 pack	NOUN
 --	.
@@ -9449,6 +9578,7 @@ Americana	NOUN
 In	ADP
 ``	.
 You	PRON
+Gotta	NOUN
 Have	NOUN
 Wa	.
 "	.
@@ -9482,6 +9612,9 @@ a	DET
 ``	.
 game	NOUN
 .	.
+
+"	.
+As	ADP
 Mr.	NOUN
 Whiting	NOUN
 describes	VERB
@@ -9494,6 +9627,7 @@ a	DET
 ``	.
 mirror	NOUN
 of	ADP
+Japan's	NOUN
 fabled	ADJ
 virtues	NOUN
 of	ADP
@@ -9502,6 +9636,9 @@ work	NOUN
 and	CONJ
 harmony	NOUN
 .	.
+
+"	.
+``	.
 Wa	NOUN
 "	.
 is	VERB
@@ -9523,6 +9660,7 @@ it	PRON
 .	.
 
 A	DET
+player's	NOUN
 commitment	NOUN
 to	ADP
 practice	NOUN
@@ -9649,6 +9787,7 @@ road	NOUN
 
 ``	.
 You	PRON
+Gotta	NOUN
 Have	NOUN
 Wa	NOUN
 "	.
@@ -9776,6 +9915,7 @@ mundane	ADJ
 aspects	NOUN
 of	ADP
 its	PRON
+workers'	NOUN
 lives	NOUN
 --	.
 at	ADP

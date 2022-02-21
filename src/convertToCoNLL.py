@@ -52,7 +52,7 @@ if __name__ == '__main__':
     coNLL_dict = create_dictionary(dict_lines)
     lines_CoNLL = convert_CoNLL(lines, coNLL_dict)
 
-    file_name = sys.argv[1] + '.univ'
+    file_name = sys.argv[1] + '.conll'
     writeLines(lines_CoNLL,   file_name )
 
-    print("Original file " + sys.argv[1]  + "  with universal tags written in " + file_name)
+    print("Original file " + sys.argv[1]  + "  with conll tags written in " + file_name)
