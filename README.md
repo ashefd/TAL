@@ -120,3 +120,15 @@ python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
 ```
 python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltk
 ```
+
+## Question 3
+### Stanford
+
+```
+python evaluate.py ne_test.txt.ne.stanford.conll ne_reference.txt.conll 
+```
+
+### NLTK
+```
+python evaluate.py ne_test.txt.ne.nltk.conll ne_reference.txt.conll
+```
