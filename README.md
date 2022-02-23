@@ -170,6 +170,11 @@ Résultat sauvegardé dans :
 
 
 ## Question 4
+Le but est d'enlever les \n de notre référence
+```
+python remove_backslashN.py ../data/ne_reference.txt.conll ../data/ne_reference_without_backslash_n.txt.conll
+```
+
 ### Stanford
 
 ```
@@ -185,7 +190,7 @@ Tag F-measure: 0.9042534099066762
 
 ### NLTK
 ```
-python evaluate.py out/ne_test.txt.ne.nltk.conll ../data/ne_reference.txt.conll
+python evaluate.py out/ne_test.txt.ne.nltk.conll ../data/ne_reference.txt.conll 
 ```
 Résultats obtenus :
 Word precision: 0.8114699437934648

@@ -61,8 +61,9 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
 
         #Les mots n'ont pas été tokenisés de la bonne manière :
         else:
-            words2_ref = lines_ref_file[line_index_ref+1].split('\t')
-            words2_to_change_file = lines_to_change_file[line_index_change+1].split('\t')
+            if(line_index_change+ 1 < len(lines_to_change_file) and line_index_ref + 1 < len(lines_ref_file)):
+                words2_ref = lines_ref_file[line_index_ref+1].split('\t')
+                words2_to_change_file = lines_to_change_file[line_index_change+1].split('\t')
 
             #On regarde la ligne d'en dessous pour le fichier à évaluer en concaténant
             if(words_ref[0] == words_to_change_file[0] + words2_to_change_file[0]):
@@ -83,15 +84,16 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
                 #le mot de la référence s'y trouve
                 found = False
                 for i in range(window):
-                    words_to_change_file_i = lines_to_change_file[line_index_change + i].split('\t')
-                    if(words_ref[0] == words_to_change_file_i[0]):
-                        #On retrouve bien le mot de la référence sur le fichier évalué
-                        found = True
-                        line_index_change += i
-                        final_ref.append(lines_ref_file[line_index_ref])
-                        final_to_change_file.append(lines_to_change_file[line_index_change])
-                        nTotalCorrectWords+=1
-                        break
+                    if(line_index_change + i < len(lines_to_change_file)):
+                        words_to_change_file_i = lines_to_change_file[line_index_change + i].split('\t')
+                        if(words_ref[0] == words_to_change_file_i[0]):
+                            #On retrouve bien le mot de la référence sur le fichier évalué
+                            found = True
+                            line_index_change += i
+                            final_ref.append(lines_ref_file[line_index_ref])
+                            final_to_change_file.append(lines_to_change_file[line_index_change])
+                            nTotalCorrectWords+=1
+                            break
 
                 #Affichage des lignes problématiques
                 print(line_index_ref)
