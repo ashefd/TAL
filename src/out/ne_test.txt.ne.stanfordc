@@ -10,8 +10,8 @@ December	O
 ,	O
 2013	O
 The	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 's	O
 largest	O
 car	O
@@ -29,7 +29,7 @@ chief	O
 executive	O
 .	O
 
-Barra	GPE
+Barra	PERSON
 ,	O
 51	O
 ,	O
@@ -44,7 +44,7 @@ a	O
 firm	O
 in	O
 the	O
-American	GPE
+American	O
 auto	O
 industry	O
 .	O
@@ -127,7 +127,7 @@ at	O
 full	O
 speed	O
 .	O
-``	O
+''	O
 
 She	O
 replaces	O
@@ -210,7 +210,7 @@ restoring	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 as	O
-America	GPE
+America	LOCATION
 's	O
 standard	O
 bearer	O
@@ -220,7 +220,7 @@ global	O
 auto	O
 industry	O
 .	O
-``	O
+''	O
 
 Akerson	PERSON
 will	O
@@ -236,8 +236,8 @@ replaced	O
 by	O
 current	O
 director	O
-Theodore	O
-Solso	O
+Theodore	PERSON
+Solso	PERSON
 .	O
 
 The	O
@@ -262,7 +262,7 @@ just	O
 days	O
 after	O
 the	O
-US	GPE
+US	LOCATION
 government	O
 sold	O
 the	O
@@ -299,7 +299,7 @@ ownership	O
 .	O
 
 General	ORGANIZATION
-Motors	PERSON
+Motors	ORGANIZATION
 recovered	O
 from	O
 their	O
@@ -330,8 +330,8 @@ car	O
 manufacturer	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 ,	O
 posting	O
 sales	O
@@ -356,7 +356,7 @@ in	O
 countries	O
 .	O
 
-Barra	GPE
+Barra	PERSON
 holds	O
 a	O
 bachelor	O
@@ -366,19 +366,19 @@ in	O
 electrical	O
 engineering	O
 from	O
-Kettering	O
+Kettering	ORGANIZATION
 University	ORGANIZATION
 in	O
-Flint	GPE
+Flint	LOCATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 ,	O
 and	O
 was	O
 recently	O
 listed	O
 by	O
-Forbes	ORGANIZATION
+Forbes	PERSON
 as	O
 the	O
 35th	O
@@ -390,7 +390,7 @@ the	O
 world	O
 .	O
 
-US	GSP
+US	LOCATION
 automaker	O
 bailout	O
 deal	O
@@ -403,8 +403,7 @@ December	O
 ,	O
 2008	O
 A	O
-US	O
-$	O
+US$	O
 14	O
 billion	O
 bailout	O
@@ -415,26 +414,26 @@ the	O
 ``	O
 Big	O
 Three	O
-``	O
-United	GPE
-States	GPE
+''	O
+United	LOCATION
+States	LOCATION
 automakers	O
 --	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 Ford	ORGANIZATION
 ,	O
 and	O
 General	ORGANIZATION
-Motors	O
+Motors	ORGANIZATION
 --	O
 has	O
 been	O
 rejected	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 Senate	ORGANIZATION
 after	O
 failing	O
@@ -465,7 +464,9 @@ the	O
 United	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
+(	O
 UAW	ORGANIZATION
+)	O
 union	O
 agree	O
 to	O
@@ -486,13 +487,13 @@ line	O
 with	O
 those	O
 of	O
-Japanese	GPE
+Japanese	O
 automobile	O
 companies	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 .	O
 
 The	O
@@ -562,7 +563,7 @@ was	O
 ``	O
 terribly	O
 disappointed	O
-``	O
+''	O
 by	O
 the	O
 failure	O
@@ -578,8 +579,8 @@ I	O
 dread	O
 looking	O
 at	O
-Wall	FACILITY
-Street	FACILITY
+Wall	O
+Street	O
 tomorrow	O
 .	O
 
@@ -593,7 +594,7 @@ a	O
 pleasant	O
 sight	O
 ,	O
-``	O
+''	O
 Reid	PERSON
 said	O
 .	O
@@ -601,7 +602,7 @@ said	O
 ``	O
 Millions	O
 of	O
-Americans	GPE
+Americans	O
 ,	O
 not	O
 only	O
@@ -631,9 +632,9 @@ impacted	O
 and	O
 affected	O
 .	O
-``	O
+''	O
 
-Republican	ORGANIZATION
+Republican	O
 Senator	O
 Bob	PERSON
 Corker	PERSON
@@ -672,7 +673,7 @@ reaching	O
 a	O
 conclusion	O
 ,	O
-``	O
+''	O
 he	O
 said	O
 .	O
@@ -681,7 +682,7 @@ Some	O
 Democrats	O
 now	O
 want	O
-U.S.	GPE
+U.S.	LOCATION
 President	O
 Bush	PERSON
 to	O
@@ -697,8 +698,8 @@ bailout	O
 package	O
 earmarked	O
 for	O
-Wall	FACILITY
-Street	FACILITY
+Wall	O
+Street	O
 to	O
 assist	O
 the	O
@@ -707,7 +708,7 @@ car	O
 industry	O
 .	O
 
-Stock	GPE
+Stock	O
 markets	O
 worldwide	O
 fell	O
@@ -717,9 +718,9 @@ the	O
 news	O
 ,	O
 with	O
-Japan	GPE
+Japan	LOCATION
 's	O
-Nikkei	ORGANIZATION
+Nikkei	O
 average	O
 losing	O
 484.68	O
@@ -737,16 +738,16 @@ of	O
 points	O
 .	O
 
-Shares	GPE
+Shares	O
 in	O
 the	O
 auto	O
 companies	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 ,	O
-Nissan	GPE
+Nissan	ORGANIZATION
 and	O
-Honda	GPE
+Honda	ORGANIZATION
 all	O
 dropped	O
 by	O
@@ -758,7 +759,7 @@ percent	O
 apiece	O
 .	O
 
-European	GPE
+European	O
 stocks	O
 ,	O
 such	O
@@ -766,10 +767,10 @@ as	O
 those	O
 in	O
 the	O
-United	ORGANIZATION
-Kingdom	ORGANIZATION
+United	LOCATION
+Kingdom	LOCATION
 and	O
-Germany	GPE
+Germany	LOCATION
 ,	O
 also	O
 lost	O
@@ -794,7 +795,7 @@ at	O
 midday	O
 .	O
 
-White	FACILITY
+White	ORGANIZATION
 House	ORGANIZATION
 considering	O
 auto	O
@@ -812,7 +813,7 @@ bail	O
 out	O
 three	O
 large	O
-American	GPE
+American	O
 auto	O
 companies	O
 failed	O
@@ -824,8 +825,8 @@ this	O
 week	O
 ,	O
 the	O
-White	FACILITY
-House	FACILITY
+White	ORGANIZATION
+House	ORGANIZATION
 has	O
 said	O
 that	O
@@ -836,8 +837,7 @@ using	O
 some	O
 of	O
 the	O
-US	ORGANIZATION
-$	O
+US$	O
 700	O
 billion	O
 earmarked	O
@@ -854,8 +854,8 @@ automakers	O
 .	O
 
 The	O
-White	FACILITY
-House	FACILITY
+White	ORGANIZATION
+House	ORGANIZATION
 says	O
 that	O
 the	O
@@ -903,7 +903,7 @@ weakened	O
 state	O
 of	O
 the	O
-US	GSP
+US	LOCATION
 economy	O
 ,	O
 we	O
@@ -921,9 +921,9 @@ the	O
 TARP	ORGANIZATION
 Troubled	ORGANIZATION
 Assets	ORGANIZATION
-Relief	O
-Program	O
-]	O
+Relief	ORGANIZATION
+Program	ORGANIZATION
+-RSB-	O
 programme	O
 -	O
 to	O
@@ -934,14 +934,14 @@ of	O
 troubled	O
 automakers	O
 ,	O
-``	O
+''	O
 said	O
 Dana	PERSON
 Perino	PERSON
 ,	O
 the	O
-White	FACILITY
-House	FACILITY
+White	LOCATION
+House	LOCATION
 Press	O
 Secretary	O
 .	O
@@ -978,7 +978,7 @@ at	O
 this	O
 time	O
 .	O
-``	O
+''	O
 
 Earlier	O
 this	O
@@ -988,12 +988,12 @@ the	O
 ``	O
 Big	O
 Three	O
-``	O
+''	O
 automakers	O
 -	O
-Ford	GPE
+Ford	ORGANIZATION
 ,	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 and	O
 General	ORGANIZATION
@@ -1038,7 +1038,7 @@ of	O
 52-35	O
 .	O
 
-Part	GPE
+Part	O
 of	O
 the	O
 failure	O
@@ -1067,12 +1067,12 @@ year	O
 with	O
 those	O
 of	O
-Japanese	GPE
+Japanese	O
 carmakers	O
 .	O
 
-General	O
-Motors	PERSON
+General	ORGANIZATION
+Motors	ORGANIZATION
 stated	O
 that	O
 the	O
@@ -1083,8 +1083,8 @@ stop	O
 %	O
 of	O
 its	O
-North	GPE
-American	GPE
+North	O
+American	O
 production	O
 ``	O
 in	O
@@ -1094,12 +1094,12 @@ rapidly	O
 deteriorating	O
 market	O
 conditions	O
-``	O
+''	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 ,	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 offer	O
 buyouts	O
 and	O
@@ -1113,9 +1113,11 @@ February	O
 2009	O
 General	ORGANIZATION
 Motors	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 have	O
 both	O
 begun	O
@@ -1150,7 +1152,7 @@ federal	O
 aid	O
 from	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 government	O
 .	O
 
@@ -1175,7 +1177,7 @@ vehicle	O
 voucher	O
 .	O
 
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 will	O
 offer	O
 a	O
@@ -1201,10 +1203,12 @@ the	O
 deal	O
 to	O
 most	O
-United	GPE
-Auto	GPE
-Workers	O
+United	ORGANIZATION
+Auto	ORGANIZATION
+Workers	ORGANIZATION
+(	O
 UAW	ORGANIZATION
+)	O
 union	O
 members	O
 -	O
@@ -1265,16 +1269,16 @@ the	O
 money	O
 .	O
 
-UAW	O
+UAW	ORGANIZATION
 workers	O
 in	O
-Detroit	GPE
+Detroit	LOCATION
 earn	O
 $	O
 28	O
 an	O
 hour	O
-``	O
+''	O
 ;	O
 ''	O
 their	O
@@ -1292,7 +1296,7 @@ UAW	ORGANIZATION
 ``	O
 jobs	O
 bank	O
-``	O
+''	O
 ,	O
 a	O
 system	O
@@ -1311,7 +1315,7 @@ both	O
 companies	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 is	O
 also	O
 attempting	O
@@ -1354,10 +1358,10 @@ parts	O
 group	O
 and	O
 the	O
-Hummer	ORGANIZATION
+Hummer	PERSON
 and	O
-Saab	PERSON
-Automobile	PERSON
+Saab	ORGANIZATION
+Automobile	ORGANIZATION
 vehicle	O
 brands	O
 .	O
@@ -1378,7 +1382,7 @@ with	O
 the	O
 Ford	ORGANIZATION
 Motor	ORGANIZATION
-Company	O
+Company	ORGANIZATION
 announcing	O
 a	O
 $	O
@@ -1396,9 +1400,9 @@ federal	O
 aid	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 both	O
 ran	O
 out	O
@@ -1419,8 +1423,8 @@ Automobile	O
 sales	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 down	O
 sharply	O
 February	O
@@ -1432,8 +1436,8 @@ of	O
 automobiles	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 fell	O
 as	O
 much	O
@@ -1460,9 +1464,9 @@ January	O
 sales	O
 .	O
 
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 sales	O
 dropped	O
 42	O
@@ -1476,7 +1480,7 @@ year	O
 .	O
 
 General	ORGANIZATION
-Motors	PERSON
+Motors	ORGANIZATION
 reported	O
 a	O
 49	O
@@ -1484,7 +1488,7 @@ a	O
 decline	O
 .	O
 
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 was	O
 hardest	O
 hit	O
@@ -1511,47 +1515,47 @@ been	O
 limited	O
 to	O
 just	O
-US	O
+US	LOCATION
 manufacturers	O
 .	O
 
-Japanese	GPE
+Japanese	O
 automaker	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 reported	O
 a	O
 32	O
 %	O
 drop	O
 in	O
-US	GSP
+US	LOCATION
 sales	O
 from	O
 a	O
 year	O
 earlier	O
 ,	O
-Nissan	PERSON
-Motors	PERSON
+Nissan	ORGANIZATION
+Motors	ORGANIZATION
 dropped	O
 30	O
 %	O
 ,	O
 and	O
-Honda	GPE
+Honda	ORGANIZATION
 sales	O
 dropped	O
 28	O
 %	O
 .	O
 
-Subaru	GPE
+Subaru	PERSON
 and	O
-South	GPE
-Korean	GPE
-Hyundai	PERSON
-Motor	PERSON
-Company	PERSON
+South	O
+Korean	O
+Hyundai	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 were	O
 two	O
 of	O
@@ -1593,7 +1597,7 @@ plummeting	O
 .	O
 
 Industry-wide	O
-US	GSP
+US	LOCATION
 car	O
 sales	O
 dropped	O
@@ -1607,7 +1611,7 @@ million	O
 automobiles	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 announced	O
 today	O
 that	O
@@ -1621,7 +1625,7 @@ to	O
 employees	O
 in	O
 the	O
-US	GSP
+US	LOCATION
 ,	O
 in	O
 an	O
@@ -1637,13 +1641,12 @@ month	O
 ,	O
 GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 were	O
 given	O
 loans	O
 worth	O
-US	O
-$	O
+US$	O
 17.4	O
 billion	O
 from	O
@@ -1657,11 +1660,11 @@ imminent	O
 bankruptcy	O
 .	O
 
-US	O
+US	LOCATION
 automakers	O
-GM	O
+GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 seek	O
 more	O
 government	O
@@ -1671,11 +1674,11 @@ February	O
 ,	O
 2009	O
 The	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 auto	O
 manufacturer	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 which	O
 has	O
@@ -1690,13 +1693,12 @@ recession	O
 has	O
 asked	O
 the	O
-US	GPE
+US	LOCATION
 government	O
 for	O
 an	O
 additional	O
-US	O
-$	O
+US$	O
 5	O
 billion	O
 in	O
@@ -1757,18 +1759,18 @@ workforce	O
 In	O
 addition	O
 ,	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 will	O
 cut	O
 the	O
 Chrysler	ORGANIZATION
 Aspen	ORGANIZATION
 ,	O
-PT	ORGANIZATION
-Cruiser	ORGANIZATION
+PT	O
+Cruiser	O
 ,	O
 and	O
-Durango	PERSON
+Durango	LOCATION
 from	O
 production	O
 .	O
@@ -1778,7 +1780,9 @@ automaker	O
 ,	O
 General	ORGANIZATION
 Motors	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 ,	O
 announced	O
 that	O
@@ -1807,7 +1811,7 @@ already	O
 received	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 plans	O
 to	O
 lay	O
@@ -1820,7 +1824,7 @@ five	O
 factories	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 says	O
 that	O
 it	O
@@ -1894,7 +1898,7 @@ achievable	O
 ,	O
 and	O
 flexible	O
-``	O
+''	O
 .	O
 
 ``	O
@@ -1922,7 +1926,7 @@ profitable	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 ,	O
-``	O
+''	O
 he	O
 said	O
 ,	O
@@ -1942,9 +1946,9 @@ has	O
 to	O
 be	O
 .	O
-``	O
+''	O
 
-GM	O
+GM	ORGANIZATION
 says	O
 that	O
 it	O
@@ -1972,7 +1976,7 @@ by	O
 
 A	O
 third	O
-US	GSP
+US	LOCATION
 car	O
 manufacturer	O
 ,	O
@@ -2038,25 +2042,27 @@ next	O
 month	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 receive	O
-Canadian	GPE
+Canadian	O
 loans	O
 amid	O
-US	GSP
+US	LOCATION
 restructuring	O
 ultimata	O
 April	O
 3	O
 ,	O
 2009	O
-General	ORGANIZATION
-Motors	ORGANIZATION
+General	O
+Motors	O
+(	O
 GM	O
+)	O
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 will	O
 receive	O
 bridge	O
@@ -2065,13 +2071,13 @@ from	O
 the	O
 government	O
 of	O
-Canada	GPE
+Canada	LOCATION
 and	O
 the	O
 provincial	O
 government	O
 of	O
-Ontario	GPE
+Ontario	LOCATION
 ,	O
 however	O
 no	O
@@ -2081,9 +2087,9 @@ be	O
 forthcoming	O
 from	O
 either	O
-Canadian	GPE
+Canadian	O
 or	O
-US	GSP
+US	LOCATION
 governments	O
 unless	O
 the	O
@@ -2104,7 +2110,7 @@ step	O
 to	O
 protect	O
 the	O
-Canadian	GPE
+Canadian	O
 economy	O
 .	O
 
@@ -2124,16 +2130,16 @@ afford	O
 either	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 or	O
-Canada	GPE
+Canada	LOCATION
 a	O
 catastrophic	O
 short-term	O
 collapse	O
 .	O
-``	O
+''	O
 
 said	O
 Stephen	PERSON
@@ -2142,7 +2148,7 @@ Harper	PERSON
 Prime	O
 Minister	O
 of	O
-Canada	GPE
+Canada	LOCATION
 .	O
 
 ``	O
@@ -2178,9 +2184,9 @@ an	O
 emblem	O
 of	O
 the	O
-American	GPE
+American	O
 spirit	O
-``	O
+''	O
 ;	O
 ''	O
 a	O
@@ -2189,11 +2195,11 @@ and	O
 future	O
 symbol	O
 of	O
-America	GPE
+America	LOCATION
 's	O
 success	O
 ,	O
-``	O
+''	O
 said	O
 Barack	PERSON
 Obama	PERSON
@@ -2201,8 +2207,8 @@ Obama	PERSON
 President	O
 of	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 .	O
 
 ``	O
@@ -2227,13 +2233,12 @@ of	O
 the	O
 state	O
 .	O
-``	O
+''	O
 
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 will	O
 receive	O
-CA	O
-$	O
+CA$	O
 1	O
 billion	O
 and	O
@@ -2246,14 +2251,13 @@ for	O
 as	O
 much	O
 as	O
-CA	O
-$	O
+CA$	O
 4	O
 billion	O
 .	O
 
 If	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 succeeds	O
 in	O
 the	O
@@ -2270,8 +2274,7 @@ be	O
 eligible	O
 for	O
 a	O
-US	O
-$	O
+US$	O
 6	O
 billion	O
 loan	O
@@ -2280,7 +2283,7 @@ loan	O
 A	O
 part	O
 of	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 's	O
 restructuring	O
 plan	O
@@ -2289,18 +2292,18 @@ include	O
 a	O
 partnership	O
 with	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 within	O
 30	O
 days	O
 to	O
 appease	O
 the	O
-US	GSP
+US	LOCATION
 administration	O
 .	O
 
-Fiat	GPE
+Fiat	ORGANIZATION
 is	O
 a	O
 supplier	O
@@ -2314,14 +2317,14 @@ the	O
 merger	O
 will	O
 help	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 to	O
 be	O
 viable	O
 in	O
 the	O
-North	LOCATION
-American	GPE
+North	O
+American	O
 market	O
 .	O
 
@@ -2343,7 +2346,7 @@ As	O
 a	O
 part	O
 of	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 's	O
 restructuring	O
 plans	O
@@ -2354,10 +2357,10 @@ LaSorda	PERSON
 the	O
 president	O
 of	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 announced	O
 that	O
-Canadian	GPE
+Canadian	O
 operations	O
 would	O
 fold	O
@@ -2368,7 +2371,7 @@ not	O
 receive	O
 both	O
 the	O
-US	GSP
+US	LOCATION
 commitment	O
 of	O
 $	O
@@ -2379,7 +2382,7 @@ aid	O
 and	O
 a	O
 new	O
-Canadian	GPE
+Canadian	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
 CAW	ORGANIZATION
@@ -2389,8 +2392,7 @@ reduce	O
 all-in	O
 costs	O
 by	O
-CA	O
-$	O
+CA$	O
 19	O
 per	O
 hour	O
@@ -2402,13 +2404,13 @@ result	O
 of	O
 this	O
 announcement	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 's	O
 auto	O
 sales	O
 volume	O
 in	O
-Canada	GPE
+Canada	LOCATION
 dropped	O
 23	O
 %	O
@@ -2419,7 +2421,7 @@ of	O
 2008	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 has	O
 until	O
 the	O
@@ -2434,8 +2436,7 @@ to	O
 receive	O
 up	O
 to	O
-CA	O
-$	O
+CA$	O
 7.5	O
 billion	O
 .	O
@@ -2515,7 +2516,7 @@ to	O
 seek	O
 bankruptcy	O
 if	O
-GM	O
+GM	ORGANIZATION
 can	O
 not	O
 negotiate	O
@@ -2528,16 +2529,16 @@ and	O
 others	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 recently	O
 brought	O
 forward	O
 the	O
 ``	O
-GM	O
+GM	ORGANIZATION
 Total	O
 Confidence	O
-``	O
+''	O
 program	O
 providing	O
 consumer	O
@@ -2565,16 +2566,16 @@ As	O
 a	O
 result	O
 of	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 's	O
 restructuring	O
 announcement	O
 in	O
-Canada	GPE
+Canada	LOCATION
 ,	O
 GM	ORGANIZATION
 's	O
-Canadian	GPE
+Canadian	O
 vehicle	O
 sales	O
 volume	O
@@ -2594,7 +2595,7 @@ previous	O
 month	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 must	O
 reduce	O
 some	O
@@ -2626,7 +2627,7 @@ in	O
 supplying	O
 truck	O
 and	O
-SUVs	ORGANIZATION
+SUVs	O
 during	O
 an	O
 economy	O
@@ -2644,13 +2645,13 @@ vehicles	O
 .	O
 
 Tony	PERSON
-Clement	ORGANIZATION
+Clement	PERSON
 ,	O
-Canada	GPE
+Canada	LOCATION
 's	O
 Minister	O
 of	O
-Industry	GPE
+Industry	O
 ,	O
 is	O
 hoping	O
@@ -2670,9 +2671,9 @@ agreement	O
 
 Whereas	O
 a	O
-United	GPE
-Auto	GPE
-Workers	O
+United	ORGANIZATION
+Auto	ORGANIZATION
+Workers	ORGANIZATION
 negotiator	O
 has	O
 said	O
@@ -2698,10 +2699,10 @@ will	O
 give	O
 up	O
 .	O
-``	O
+''	O
 
 The	O
-Obama	ORGANIZATION
+Obama	PERSON
 administration	O
 is	O
 looking	O
@@ -2728,7 +2729,7 @@ stronger	O
 
 It	O
 will	O
-]	O
+-RSB-	O
 quickly	O
 clear	O
 away	O
@@ -2796,11 +2797,10 @@ endless	O
 government	O
 bailouts	O
 .	O
-``	O
+''	O
 
 said	O
-PERSON	O
-NNP	O
+Obama	PERSON
 .	O
 
 The	O
@@ -2812,7 +2812,7 @@ IT	O
 software	O
 exporters	O
 in	O
-India	GPE
+India	LOCATION
 have	O
 already	O
 been	O
@@ -2824,14 +2824,13 @@ auto	O
 sales	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 software	O
 contracts	O
 provide	O
-US	ORGANIZATION
-$	O
+US$	O
 300	O
 to	O
 350	O
@@ -2841,7 +2840,7 @@ year	O
 to	O
 vendors	O
 in	O
-India	GPE
+India	LOCATION
 .	O
 
 As	O
@@ -2852,8 +2851,7 @@ major	O
 automakers	O
 usually	O
 award	O
-US	ORGANIZATION
-$	O
+US$	O
 1	O
 billion	O
 contracts	O
@@ -2874,7 +2872,7 @@ the	O
 developments	O
 in	O
 the	O
-US	GSP
+US	LOCATION
 to	O
 gauge	O
 the	O
@@ -2888,7 +2886,7 @@ auto	O
 sales	O
 in	O
 the	O
-US	ORGANIZATION
+US	LOCATION
 has	O
 already	O
 hit	O
@@ -2896,13 +2894,13 @@ the	O
 order	O
 books	O
 of	O
-Indian	GPE
+Indian	O
 suppliers	O
 ,	O
-``	O
+''	O
 said	O
 a	O
-Delhi	O
+Delhi	LOCATION
 auto	O
 parts	O
 supplier	O
@@ -2936,29 +2934,28 @@ support	O
 good	O
 jobs	O
 for	O
-Canadians	GPE
+Canadians	O
 ,	O
-``	O
+''	O
 said	O
-Clements	O
+Clements	PERSON
 .	O
 
 Betty	PERSON
-Sutton	ORGANIZATION
+Sutton	PERSON
 ,	O
-Ohio	PERSON
+Ohio	LOCATION
 's	O
-Congresswoman	ORGANIZATION
+Congresswoman	O
 put	O
 forward	O
 the	O
-CARS	ORGANIZATION
+CARS	O
 act	O
 which	O
 provides	O
 a	O
-US	O
-$	O
+US$	O
 3	O
 to	O
 5	O
@@ -3023,25 +3020,25 @@ in	O
 two	O
 respects	O
 .	O
-``	O
+''	O
 
 said	O
 William	PERSON
 Clay	PERSON
 Ford	PERSON
-Jr.	O
+Jr.	PERSON
 ,	O
 executive	O
 chairman	O
 of	O
 Ford	ORGANIZATION
 Motor	ORGANIZATION
-Co.	O
+Co.	ORGANIZATION
 .	O
 
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 has	O
 not	O
 come	O
@@ -3054,13 +3051,12 @@ assistance	O
 
 Since	O
 December	O
-GM	O
+GM	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 have	O
 received	O
-US	ORGANIZATION
-$	O
+US$	O
 17.4	O
 billion	O
 government	O
@@ -3082,7 +3078,9 @@ April	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 Corporation	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 announced	O
 on	O
 Wednesday	O
@@ -3094,8 +3092,8 @@ a	O
 %	O
 drop	O
 in	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 vehicle	O
 sales	O
 for	O
@@ -3157,7 +3155,7 @@ nourished	O
 like	O
 seedlings	O
 ,	O
-``	O
+''	O
 said	O
 the	O
 vice	O
@@ -3165,12 +3163,12 @@ president	O
 and	O
 chairman	O
 of	O
-Chrysler	PERSON
-I-PER	O
-LLC	O
-I-PER	O
-Jim	PERSON
-Press	PERSON
+Chrysler	ORGANIZATION
+I-PER	ORGANIZATION
+LLC	ORGANIZATION
+I-PER	ORGANIZATION
+Jim	ORGANIZATION
+Press	ORGANIZATION
 .	O
 
 ``	O
@@ -3190,7 +3188,7 @@ signs	O
 of	O
 hope	O
 .	O
-``	O
+''	O
 
 Other	O
 automobile	O
@@ -3202,11 +3200,11 @@ car	O
 sales	O
 slip	O
 :	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 and	O
 the	O
-Japanese	GPE
-Toyota	O
+Japanese	O
+Toyota	ORGANIZATION
 both	O
 reported	O
 a	O
@@ -3215,9 +3213,9 @@ a	O
 loss	O
 ,	O
 whilst	O
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 sales	O
 fell	O
 41	O
@@ -3234,7 +3232,7 @@ car	O
 industry	O
 in	O
 the	O
-US	GSP
+US	LOCATION
 are	O
 predicted	O
 to	O
@@ -3244,7 +3242,7 @@ below	O
 nine	O
 million	O
 in	O
-March	GPE
+March	O
 ,	O
 compared	O
 to	O
@@ -3301,7 +3299,7 @@ today	O
 's	O
 economy	O
 ,	O
-``	O
+''	O
 Jesse	PERSON
 Toprak	PERSON
 ,	O
@@ -3311,7 +3309,7 @@ for	O
 Edmunds	PERSON
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 shares	O
 gained	O
 2.3	O
@@ -3320,14 +3318,13 @@ to	O
 a	O
 level	O
 of	O
-US	GPE
-$	O
+US$	O
 2.69	O
 in	O
 early	O
 trading	O
 at	O
-US	ORGANIZATION
+US	LOCATION
 stock	O
 markets	O
 on	O
@@ -3336,9 +3333,9 @@ Wednesday	O
 while	O
 stocks	O
 for	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 's	O
-US	ORGANIZATION
+US	LOCATION
 depository	O
 increased	O
 5.9	O
@@ -3348,7 +3345,7 @@ $	O
 67	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 shares	O
 slipped	O
 1.6	O
@@ -3359,14 +3356,14 @@ $	O
 1.92	O
 .	O
 
-Chrysler	GPE
+Chrysler	ORGANIZATION
 files	O
 for	O
 bankruptcy	O
 ,	O
-Fiat	PERSON
-Group	PERSON
-SpA	O
+Fiat	ORGANIZATION
+Group	ORGANIZATION
+SpA	ORGANIZATION
 to	O
 run	O
 company	O
@@ -3375,10 +3372,10 @@ May	O
 ,	O
 2009	O
 The	O
-American	GPE
+American	O
 auto	O
 company	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 filed	O
 for	O
 bankruptcy	O
@@ -3388,17 +3385,17 @@ however	O
 a	O
 deal	O
 with	O
-European	GPE
+European	O
 auto	O
 maker	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 went	O
 through	O
 .	O
 
 The	O
 emerging	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 will	O
 be	O
 owned	O
@@ -3414,18 +3411,18 @@ eight	O
 percent	O
 by	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 Government	O
 ,	O
 two	O
 percent	O
 by	O
 the	O
-Canadian	GPE
-Government	O
+Canadian	ORGANIZATION
+Government	ORGANIZATION
 and	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 would	O
 begin	O
 with	O
@@ -3435,7 +3432,7 @@ percent	O
 share	O
 .	O
 
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 Chief	O
 Executive	O
 Robert	PERSON
@@ -3454,10 +3451,10 @@ finalized	O
 Initially	O
 ,	O
 the	O
-Italian	GPE
+Italian	O
 company	O
 ,	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 ,	O
 will	O
 appoint	O
@@ -3466,22 +3463,22 @@ members	O
 on	O
 the	O
 emerging	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 's	O
 new	O
 board	O
 ,	O
 and	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 government	O
 will	O
 appoint	O
 six	O
 .	O
 
-Fiat	GPE
+Fiat	ORGANIZATION
 can	O
 assume	O
 the	O
@@ -3492,11 +3489,11 @@ ownership	O
 upon	O
 repayment	O
 of	O
-American	GPE
+American	O
 loans	O
 .	O
 
-Chrysler	GPE
+Chrysler	ORGANIZATION
 administrators	O
 expect	O
 that	O
@@ -3532,7 +3529,7 @@ will	O
 function	O
 normally	O
 ,	O
-``	O
+''	O
 a	O
 top	O
 administration	O
@@ -3562,14 +3559,14 @@ go	O
 on	O
 normally	O
 .	O
-``	O
+''	O
 
 The	O
 bankruptcy	O
 filing	O
 indicated	O
 that	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 was	O
 in	O
 debt	O
@@ -3593,19 +3590,19 @@ Meanwhile	O
 the	O
 deal	O
 with	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 did	O
 go	O
 through	O
 ,	O
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 should	O
 have	O
 cars	O
 designed	O
 by	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 out	O
 on	O
 the	O
@@ -3622,7 +3619,7 @@ partnership	O
 that	O
 will	O
 give	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 a	O
 chance	O
 not	O
@@ -3639,14 +3636,14 @@ global	O
 auto	O
 industry	O
 ,	O
-``	O
+''	O
 said	O
-American	GPE
+American	O
 president	O
 Obama	PERSON
 ,	O
 ``	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 has	O
 demonstrated	O
 that	O
@@ -3666,7 +3663,7 @@ of	O
 the	O
 industry	O
 .	O
-``	O
+''	O
 
 However	O
 ,	O
@@ -3691,7 +3688,7 @@ work	O
 that	O
 well	O
 ,	O
-``	O
+''	O
 Merkle	PERSON
 said	O
 ,	O
@@ -3709,7 +3706,7 @@ look	O
 on	O
 paper	O
 .	O
-``	O
+''	O
 
 The	O
 restructuring	O
@@ -3727,23 +3724,23 @@ banker	O
 ,	O
 and	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 Government	O
 auto	O
 task	O
 force	O
 .	O
 
-Obama	GPE
+Obama	PERSON
 has	O
 set	O
 three	O
 ultimatums	O
 before	O
-Fiat	GPE
+Fiat	ORGANIZATION
 .	O
 
-Fiat	GPE
+Fiat	ORGANIZATION
 should	O
 produce	O
 a	O
@@ -3756,37 +3753,37 @@ while	O
 managing	O
 the	O
 new	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 transfer	O
 fuel	O
 efficient	O
-Fiat	O
+Fiat	ORGANIZATION
 technology	O
 to	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 factories	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 ,	O
 and	O
 produce	O
 cars	O
 in	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 factories	O
 and	O
 distribute	O
 them	O
 in	O
-Europe	GPE
+Europe	LOCATION
 .	O
 
-US	GSP
+US	LOCATION
 automaker	O
-GM	O
+GM	ORGANIZATION
 reports	O
 losses	O
 of	O
@@ -3797,8 +3794,8 @@ May	O
 7	O
 ,	O
 2009	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 automobile	O
 company	O
 General	ORGANIZATION
@@ -3807,8 +3804,7 @@ announced	O
 it	O
 has	O
 lost	O
-US	ORGANIZATION
-$	O
+US$	O
 6	O
 billion	O
 in	O
@@ -3898,7 +3894,7 @@ per	O
 share	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 had	O
 also	O
 reported	O
@@ -4003,7 +3999,7 @@ ca	O
 n't	O
 recover	O
 ,	O
-``	O
+''	O
 said	O
 Ray	PERSON
 Young	PERSON
@@ -4027,7 +4023,7 @@ percent	O
 chance	O
 of	O
 a	O
-GM	O
+GM	ORGANIZATION
 bankruptcy	O
 .	O
 
@@ -4043,7 +4039,7 @@ uninvestable	O
 we	O
 increasingly	O
 believe	O
-GM	O
+GM	ORGANIZATION
 may	O
 emerge	O
 substantially	O
@@ -4072,16 +4068,16 @@ targeted	O
 dealer	O
 cuts	O
 ,	O
-``	O
+''	O
 analyst	O
 Himanshu	PERSON
 Patel	PERSON
 said	O
 .	O
 
-U.S.	GPE
+U.S.	LOCATION
 automaker	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 wants	O
 to	O
 eliminate	O
@@ -4091,11 +4087,11 @@ May	O
 14	O
 ,	O
 2009	O
-American	GPE
+American	O
 automobile	O
 manufacturer	O
-Chrysler	PERSON
-LLC	PERSON
+Chrysler	ORGANIZATION
+LLC	ORGANIZATION
 has	O
 said	O
 that	O
@@ -4185,7 +4181,7 @@ be	O
 prepared	O
 for	O
 ,	O
-``	O
+''	O
 said	O
 Jim	PERSON
 Press	PERSON
@@ -4194,10 +4190,10 @@ the	O
 Vice	O
 Chairman	O
 of	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 .	O
 
-Company	GPE
+Company	O
 executives	O
 said	O
 the	O
@@ -4268,7 +4264,7 @@ term	O
 the	O
 dealer	O
 network	O
-]	O
+-RSB-	O
 is	O
 key	O
 and	O
@@ -4289,12 +4285,12 @@ better	O
 financial	O
 viability	O
 ,	O
-``	O
+''	O
 said	O
-Press	PERSON
+Press	O
 .	O
 
-U.S.	GPE
+U.S.	LOCATION
 automaker	O
 GM	ORGANIZATION
 plans	O
@@ -4306,12 +4302,14 @@ May	O
 15	O
 ,	O
 2009	O
-American	GPE
+American	O
 automobile	O
 manufacturer	O
 General	ORGANIZATION
 Motors	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 announced	O
 plans	O
 Friday	O
@@ -4336,17 +4334,17 @@ its	O
 expenditures	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 's	O
 move	O
 comes	O
 a	O
 day	O
 after	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 another	O
-U.S.	GPE
+U.S.	LOCATION
 car	O
 maker	O
 ,	O
@@ -4363,7 +4361,7 @@ closing	O
 .	O
 
 Unlike	O
-Chrylser	GPE
+Chrylser	ORGANIZATION
 ,	O
 GM	ORGANIZATION
 will	O
@@ -4416,7 +4414,7 @@ has	O
 dealers	O
 in	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 .	O
 
 It	O
@@ -4434,7 +4432,7 @@ of	O
 2010	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 said	O
 the	O
 dealerships	O
@@ -4451,10 +4449,10 @@ very	O
 small	O
 sales	O
 volume	O
-U.S.	GPE
+U.S.	LOCATION
 dealers	O
 .	O
-``	O
+''	O
 
 ``	O
 They	O
@@ -4480,7 +4478,7 @@ of	O
 business	O
 anyway	O
 ,	O
-``	O
+''	O
 said	O
 GM	ORGANIZATION
 's	O
@@ -4526,7 +4524,7 @@ do	O
 it	O
 today	O
 .	O
-``	O
+''	O
 
 The	O
 dealers	O
@@ -4556,11 +4554,11 @@ GM	ORGANIZATION
 revenue	O
 .	O
 
-Bankruptcy	GPE
+Bankruptcy	O
 for	O
-U.S.	GPE
+U.S.	LOCATION
 automaker	O
-GM	O
+GM	ORGANIZATION
 becomes	O
 almost	O
 certain	O
@@ -4573,8 +4571,8 @@ May	O
 ,	O
 2009	O
 The	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 automobile	O
 manufacturing	O
 firm	O
@@ -4593,8 +4591,7 @@ not	O
 exchange	O
 GM	ORGANIZATION
 's	O
-US	ORGANIZATION
-$	O
+US$	O
 27	O
 billion	O
 debt	O
@@ -4639,7 +4636,7 @@ reduction	O
 measures	O
 .	O
 
-U.S.	GPE
+U.S.	LOCATION
 President	O
 Barack	PERSON
 Obama	PERSON
@@ -4700,8 +4697,8 @@ debt	O
 reduction	O
 requirement	O
 ,	O
-``	O
-GM	O
+''	O
+GM	ORGANIZATION
 said	O
 in	O
 a	O
@@ -4736,7 +4733,7 @@ file	O
 for	O
 bankruptcy	O
 ,	O
-``	O
+''	O
 said	O
 a	O
 university	O
@@ -4744,15 +4741,15 @@ professor	O
 from	O
 the	O
 University	ORGANIZATION
-of	O
-Michigan	PERSON
+of	ORGANIZATION
+Michigan	ORGANIZATION
 who	O
 specializes	O
 in	O
 bankruptcy	O
 .	O
 
-U.S.	GPE
+U.S.	LOCATION
 manufacturer	O
 General	ORGANIZATION
 Motors	ORGANIZATION
@@ -4763,8 +4760,8 @@ June	O
 1	O
 ,	O
 2009	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 automobile	O
 manufacturing	O
 firm	O
@@ -4782,15 +4779,15 @@ its	O
 creditors	O
 at	O
 12:00	O
-UTC	ORGANIZATION
+UTC	O
 Monday	O
 ,	O
 in	O
 a	O
-Manhattan	GPE
+Manhattan	LOCATION
 ,	O
-New	GPE
-York	GPE
+New	LOCATION
+York	LOCATION
 federal	O
 bankruptcy	O
 court	O
@@ -4804,7 +4801,7 @@ bankruptcy	O
 filing	O
 for	O
 a	O
-U.S.	GPE
+U.S.	LOCATION
 manufacturing	O
 company	O
 ,	O
@@ -4832,7 +4829,7 @@ bankruptcy	O
 filing	O
 in	O
 recent	O
-U.S.	GPE
+U.S.	LOCATION
 history	O
 --	O
 after	O
@@ -4841,25 +4838,31 @@ bankruptcies	O
 of	O
 Lehman	ORGANIZATION
 Brothers	ORGANIZATION
+(	O
 $	O
 691.06	O
 billion	O
+)	O
 ,	O
 Washington	ORGANIZATION
 Mutual	ORGANIZATION
+(	O
 $	O
 327.91	O
 billion	O
+)	O
 ,	O
 and	O
 WorldCom	ORGANIZATION
+(	O
 $	O
 103.91	O
 billion	O
+)	O
 .	O
 
 Barack	PERSON
-Obama	ORGANIZATION
+Obama	PERSON
 presents	O
 rescue	O
 plan	O
@@ -4878,8 +4881,8 @@ televised	O
 speech	O
 from	O
 the	O
-White	FACILITY
-House	FACILITY
+White	LOCATION
+House	LOCATION
 at	O
 16:00	O
 UTC	O
@@ -4888,8 +4891,8 @@ today	O
 President	O
 of	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 Barack	PERSON
 Obama	PERSON
 presented	O
@@ -4899,7 +4902,7 @@ plan	O
 following	O
 the	O
 12:00	O
-UTC	O
+UTC	ORGANIZATION
 announcement	O
 by	O
 General	ORGANIZATION
@@ -4923,7 +4926,7 @@ largest	O
 bankruptcy	O
 of	O
 a	O
-U.S.	GPE
+U.S.	LOCATION
 manufacturing	O
 company	O
 .	O
@@ -4945,7 +4948,7 @@ in	O
 the	O
 making	O
 ,	O
-``	O
+''	O
 Obama	PERSON
 explained	O
 the	O
@@ -4970,7 +4973,7 @@ not	O
 to	O
 ``	O
 perpetuate	O
-]	O
+-RSB-	O
 the	O
 bad	O
 business	O
@@ -4979,7 +4982,7 @@ of	O
 the	O
 past	O
 ,	O
-``	O
+''	O
 and	O
 that	O
 loaning	O
@@ -5010,8 +5013,8 @@ stated	O
 was	O
 for	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 government	O
 ,	O
 in	O
@@ -5020,9 +5023,10 @@ with	O
 the	O
 governments	O
 of	O
-Canada	GPE
+Canada	LOCATION
 and	O
-Ontario	GPE
+Ontario	LOCATION
+(	O
 which	O
 he	O
 thanked	O
@@ -5033,7 +5037,7 @@ alongside	O
 the	O
 government	O
 of	O
-Germany	GPE
+Germany	LOCATION
 which	O
 he	O
 thanked	O
@@ -5048,6 +5052,7 @@ stake	O
 in	O
 GM	ORGANIZATION
 Europe	ORGANIZATION
+)	O
 ,	O
 to	O
 become	O
@@ -5058,8 +5063,8 @@ Motors	ORGANIZATION
 .	O
 
 The	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 government	O
 would	O
 hold	O
@@ -5073,13 +5078,12 @@ The	O
 government	O
 will	O
 give	O
-GM	O
+GM	ORGANIZATION
 a	O
 capital	O
 infusion	O
 of	O
-US	GPE
-$	O
+US$	O
 30	O
 billion	O
 in	O
@@ -5108,20 +5112,20 @@ let	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 become	O
 wards	O
 of	O
 the	O
 state	O
-``	O
+''	O
 ,	O
 and	O
 described	O
 the	O
 bankruptcy	O
 of	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 ,	O
 and	O
 the	O
@@ -5140,7 +5144,7 @@ quick	O
 surgical	O
 ,	O
 bankruptcies	O
-``	O
+''	O
 .	O
 
 He	O
@@ -5149,7 +5153,7 @@ to	O
 the	O
 bankruptcy	O
 of	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 as	O
 an	O
 example	O
@@ -5172,9 +5176,9 @@ a	O
 more	O
 complex	O
 company	O
-``	O
+''	O
 than	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 .	O
 
 Responding	O
@@ -5212,7 +5216,7 @@ had	O
 ``	O
 no	O
 interest	O
-``	O
+''	O
 in	O
 running	O
 GM	ORGANIZATION
@@ -5229,7 +5233,7 @@ from	O
 exercising	O
 its	O
 rights	O
-``	O
+''	O
 as	O
 a	O
 corporate	O
@@ -5268,7 +5272,7 @@ car	O
 to	O
 make	O
 .	O
-``	O
+''	O
 
 He	O
 stated	O
@@ -5277,7 +5281,7 @@ he	O
 expected	O
 the	O
 restructured	O
-GM	O
+GM	ORGANIZATION
 to	O
 make	O
 ``	O
@@ -5292,7 +5296,7 @@ cars	O
 of	O
 tomorrow	O
 ,	O
-``	O
+''	O
 and	O
 several	O
 times	O
@@ -5303,11 +5307,11 @@ anticipated	O
 as	O
 ``	O
 better	O
-``	O
+''	O
 and	O
 ``	O
 fuel-efficient	O
-``	O
+''	O
 cars	O
 ,	O
 after	O
@@ -5338,7 +5342,7 @@ times	O
 are	O
 over	O
 .	O
-``	O
+''	O
 
 He	O
 described	O
@@ -5372,7 +5376,7 @@ for	O
 the	O
 next	O
 generation	O
-``	O
+''	O
 on	O
 their	O
 parts	O
@@ -5386,20 +5390,20 @@ live	O
 in	O
 ``	O
 an	O
-America	GPE
+America	LOCATION
 that	O
 still	O
 makes	O
 things	O
 ,	O
-``	O
+''	O
 concluding	O
 that	O
 one	O
 day	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 might	O
 return	O
 to	O
@@ -5408,6 +5412,7 @@ time	O
 when	O
 the	O
 maxim	O
+(	O
 a	O
 widely-repeated	O
 mis-quotation	O
@@ -5420,8 +5425,8 @@ once	O
 testified	O
 before	O
 the	O
-U.S.	GPE
-Senate	O
+U.S.	ORGANIZATION
+Senate	ORGANIZATION
 when	O
 nominated	O
 for	O
@@ -5430,7 +5435,8 @@ position	O
 of	O
 Secretary	O
 of	O
-Defense	GPE
+Defense	ORGANIZATION
+)	O
 would	O
 once	O
 more	O
@@ -5448,12 +5454,12 @@ is	O
 good	O
 for	O
 the	O
-United	GPE
-States	GPE
-of	O
-America	GPE
+United	LOCATION
+States	LOCATION
+of	LOCATION
+America	LOCATION
 .	O
-``	O
+''	O
 
 CEO	O
 of	O
@@ -5462,9 +5468,9 @@ outlines	O
 plan	O
 for	O
 ``	O
-New	GPE
-GM	O
-``	O
+New	ORGANIZATION
+GM	ORGANIZATION
+''	O
 after	O
 auto	O
 company	O
@@ -5476,13 +5482,13 @@ June	O
 2009	O
 In	O
 a	O
-New	GPE
-York	GPE
+New	LOCATION
+York	LOCATION
 press	O
 conference	O
 at	O
 16:15	O
-UTC	O
+UTC	ORGANIZATION
 ,	O
 June	O
 1st	O
@@ -5521,9 +5527,9 @@ he	O
 called	O
 a	O
 ``	O
-New	GPE
+New	O
 GM	O
-``	O
+''	O
 .	O
 
 Speaking	O
@@ -5535,7 +5541,7 @@ safe	O
 harbor	O
 provisions	O
 of	O
-U.S.	GPE
+U.S.	LOCATION
 law	O
 ,	O
 Henderson	PERSON
@@ -5549,7 +5555,7 @@ a	O
 ``	O
 defining	O
 moment	O
-``	O
+''	O
 in	O
 the	O
 history	O
@@ -5567,7 +5573,7 @@ said	O
 that	O
 ``	O
 The	O
-GM	O
+GM	ORGANIZATION
 that	O
 let	O
 you	O
@@ -5575,14 +5581,14 @@ down	O
 is	O
 history	O
 ,	O
-``	O
+''	O
 and	O
 described	O
 a	O
 ``	O
-New	GPE
+New	O
 GM	O
-``	O
+''	O
 that	O
 he	O
 expected	O
@@ -5641,7 +5647,7 @@ but	O
 pure	O
 unadulterated	O
 speed	O
-``	O
+''	O
 was	O
 his	O
 expectation	O
@@ -5654,12 +5660,12 @@ He	O
 emphasized	O
 that	O
 ``	O
-GM	O
+GM	ORGANIZATION
 remains	O
 open	O
 for	O
 business	O
-``	O
+''	O
 during	O
 the	O
 bankruptcy	O
@@ -5715,7 +5721,7 @@ do	O
 it	O
 once	O
 .	O
-``	O
+''	O
 
 He	O
 stated	O
@@ -5736,14 +5742,14 @@ Workers	ORGANIZATION
 union	O
 ,	O
 the	O
-Canadian	GPE
+Canadian	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
 union	O
 ,	O
 the	O
 GM	ORGANIZATION
-VEBA	O
+VEBA	ORGANIZATION
 ,	O
 and	O
 a	O
@@ -5772,7 +5778,7 @@ bridge	O
 financing	O
 from	O
 the	O
-German	GPE
+German	O
 government	O
 .	O
 
@@ -5785,8 +5791,8 @@ the	O
 possibility	O
 of	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 federal	O
 government	O
 ,	O
@@ -5815,7 +5821,7 @@ fuel-efficient	O
 and	O
 green	O
 vehicles	O
-``	O
+''	O
 ;	O
 ''	O
 he	O
@@ -5841,7 +5847,7 @@ in	O
 running	O
 our	O
 business	O
-``	O
+''	O
 and	O
 that	O
 he	O
@@ -5887,7 +5893,7 @@ business	O
 ,	O
 and	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 government	O
 wants	O
 to	O
@@ -5911,7 +5917,7 @@ going	O
 to	O
 happen	O
 .	O
-``	O
+''	O
 
 Expanding	O
 on	O
@@ -5924,9 +5930,9 @@ he	O
 expected	O
 the	O
 ``	O
-New	GPE
+New	O
 GM	O
-``	O
+''	O
 to	O
 focus	O
 upon	O
@@ -5936,7 +5942,7 @@ fuel-efficient	O
 and	O
 green	O
 technology	O
-``	O
+''	O
 ,	O
 and	O
 that	O
@@ -5945,7 +5951,7 @@ both	O
 in	O
 accordance	O
 with	O
-U.S.	GPE
+U.S.	LOCATION
 environmental	O
 laws	O
 and	O
@@ -5959,7 +5965,7 @@ naturally	O
 result	O
 in	O
 the	O
-New	ORGANIZATION
+New	O
 GM	O
 producing	O
 the	O
@@ -5968,7 +5974,7 @@ of	O
 vehicles	O
 that	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 government	O
 would	O
 encourage	O
@@ -5976,9 +5982,9 @@ encourage	O
 
 The	O
 ``	O
-New	GPE
+New	O
 GM	O
-``	O
+''	O
 he	O
 also	O
 expected	O
@@ -5989,7 +5995,7 @@ on	O
 four	O
 core	O
 brands	O
-``	O
+''	O
 ,	O
 and	O
 will	O
@@ -6011,7 +6017,7 @@ a	O
 ``	O
 deferred	O
 termination	O
-``	O
+''	O
 package	O
 to	O
 dealers	O
@@ -6023,7 +6029,7 @@ to	O
 cease	O
 dealing	O
 in	O
-GM	O
+GM	ORGANIZATION
 vehicles	O
 in	O
 a	O
@@ -6047,20 +6053,20 @@ Motors	ORGANIZATION
 '	O
 businesses	O
 in	O
-Latin	GPE
-America	GPE
+Latin	LOCATION
+America	LOCATION
 ,	O
-Europe	GPE
+Europe	LOCATION
 and	O
 the	O
-Middle	GPE
-East	GPE
+Middle	LOCATION
+East	LOCATION
 ,	O
 and	O
-Asia	GPE
+Asia	LOCATION
 and	O
 the	O
-Pacific	ORGANIZATION
+Pacific	LOCATION
 .	O
 
 Of	O
@@ -6069,7 +6075,7 @@ GM	ORGANIZATION
 profitable	O
 ventures	O
 in	O
-China	GPE
+China	LOCATION
 ,	O
 specifically	O
 ,	O
@@ -6084,9 +6090,9 @@ critical	O
 part	O
 of	O
 the	O
-New	ORGANIZATION
+New	O
 GM	O
-``	O
+''	O
 .	O
 
 In	O
@@ -6097,15 +6103,15 @@ of	O
 whether	O
 the	O
 New	ORGANIZATION
-GM	O
+GM	ORGANIZATION
 would	O
 import	O
 cars	O
 from	O
-China	GPE
+China	LOCATION
 to	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 ,	O
 he	O
 stated	O
@@ -6122,7 +6128,7 @@ build	O
 where	O
 we	O
 sell	O
-``	O
+''	O
 applied	O
 in	O
 both	O
@@ -6132,21 +6138,21 @@ with	O
 GM	ORGANIZATION
 building	O
 in	O
-China	GPE
+China	LOCATION
 to	O
 sell	O
 in	O
-China	GPE
+China	LOCATION
 and	O
 building	O
 in	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 to	O
 sell	O
 in	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 ,	O
 stating	O
 that	O
@@ -6162,7 +6168,7 @@ to	O
 predict	O
 when	O
 the	O
-New	ORGANIZATION
+New	O
 GM	O
 would	O
 return	O
@@ -6194,7 +6200,7 @@ speculate	O
 upon	O
 when	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 government	O
 would	O
 sell	O
@@ -6215,9 +6221,9 @@ better	O
 addressed	O
 to	O
 the	O
-U.S.	GPE
-Treasury	O
-``	O
+U.S.	ORGANIZATION
+Treasury	ORGANIZATION
+''	O
 ,	O
 and	O
 merely	O
@@ -6233,10 +6239,10 @@ years	O
 ,	O
 not	O
 months	O
-``	O
+''	O
 when	O
 the	O
-U.S.	GPE
+U.S.	ORGANIZATION
 Treasury	ORGANIZATION
 felt	O
 it	O
@@ -6249,17 +6255,17 @@ return	O
 for	O
 taxpayers	O
 .	O
-``	O
+''	O
 
-Penske	PERSON
-Auto	PERSON
+Penske	ORGANIZATION
+Auto	ORGANIZATION
 selected	O
 to	O
 buy	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 '	O
-Saturn	PERSON
+Saturn	ORGANIZATION
 unit	O
 June	O
 5	O
@@ -6268,10 +6274,12 @@ June	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 Corporation	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 ,	O
 an	O
-American	GPE
+American	O
 automaker	O
 which	O
 has	O
@@ -6288,13 +6296,15 @@ the	O
 Penske	ORGANIZATION
 Automotive	ORGANIZATION
 Group	ORGANIZATION
+(	O
 PAG	ORGANIZATION
+)	O
 was	O
 selected	O
 to	O
 purchase	O
-Saturn	PERSON
-Corporation	PERSON
+Saturn	ORGANIZATION
+Corporation	ORGANIZATION
 .	O
 
 The	O
@@ -6312,7 +6322,7 @@ includes	O
 rights	O
 to	O
 the	O
-Saturn	ORGANIZATION
+Saturn	O
 brand	O
 ,	O
 its	O
@@ -6332,26 +6342,26 @@ be	O
 discontinued	O
 ,	O
 the	O
-Sky	ORGANIZATION
+Sky	O
 and	O
-Astra	PERSON
+Astra	ORGANIZATION
 .	O
 
-GM	O
+GM	ORGANIZATION
 would	O
 continue	O
 building	O
 the	O
-Aura	ORGANIZATION
+Aura	O
 sedan	O
 ,	O
 the	O
-SUV	ORGANIZATION
+SUV	O
 's	O
 ,	O
-Vue	PERSON
+Vue	O
 and	O
-Outlook	PERSON
+Outlook	O
 for	O
 at	O
 least	O
@@ -6360,14 +6370,14 @@ more	O
 years	O
 .	O
 
-Saturn	GPE
+Saturn	ORGANIZATION
 has	O
 350	O
 dealers	O
 across	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 .	O
 
 The	O
@@ -6381,12 +6391,12 @@ and	O
 sell	O
 only	O
 the	O
-Saturn	ORGANIZATION
+Saturn	O
 autos	O
 .	O
 
-Canadian	GPE
-Saturn	ORGANIZATION
+Canadian	O
+Saturn	O
 dealers	O
 are	O
 not	O
@@ -6398,9 +6408,9 @@ deal	O
 
 According	O
 to	O
-Penske	GPE
+Penske	PERSON
 future	O
-Saturn	O
+Saturn	ORGANIZATION
 vehicles	O
 will	O
 be	O
@@ -6416,7 +6426,7 @@ that	O
 this	O
 would	O
 move	O
-Saturn	PERSON
+Saturn	O
 back	O
 to	O
 its	O
@@ -6439,20 +6449,20 @@ international	O
 automakers	O
 to	O
 replace	O
-GM	O
+GM	ORGANIZATION
 after	O
 2011	O
 .	O
 
-Automotive	O
-News	O
+Automotive	ORGANIZATION
+News	ORGANIZATION
 reports	O
 that	O
-Renault	PERSON
-Samsung	PERSON
-Motors	PERSON
+Renault	ORGANIZATION
+Samsung	ORGANIZATION
+Motors	ORGANIZATION
 of	O
-Korea	GPE
+Korea	LOCATION
 is	O
 the	O
 most	O
@@ -6460,12 +6470,12 @@ likely	O
 candidate	O
 .	O
 
-Penske	GPE
+Penske	PERSON
 wants	O
 Jill	PERSON
 Lajdziak	PERSON
 ,	O
-Saturn	PERSON
+Saturn	ORGANIZATION
 's	O
 general	O
 manager	O
@@ -6490,17 +6500,17 @@ of	O
 GM	ORGANIZATION
 .	O
 
-Serra	PERSON
+Serra	ORGANIZATION
 Automotive	ORGANIZATION
 in	O
-Grand	GPE
-Blanc	O
-Township	O
+Grand	LOCATION
+Blanc	LOCATION
+Township	LOCATION
 ,	O
-Genesee	PERSON
-County	PERSON
+Genesee	LOCATION
+County	LOCATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 ,	O
 is	O
 in	O
@@ -6521,7 +6531,7 @@ Penske	PERSON
 
 Automobile	O
 manufacturer	O
-Ford	O
+Ford	ORGANIZATION
 posts	O
 unexpected	O
 profits	O
@@ -6530,7 +6540,7 @@ November	O
 ,	O
 2009	O
 The	O
-US	GSP
+US	LOCATION
 automobile	O
 manufacturer	O
 Ford	ORGANIZATION
@@ -6543,8 +6553,7 @@ a	O
 net	O
 profit	O
 of	O
-US	GPE
-$	O
+US$	O
 997	O
 million	O
 in	O
@@ -6564,7 +6573,7 @@ be	O
 ``	O
 solidly	O
 profitable	O
-``	O
+''	O
 by	O
 2011	O
 .	O
@@ -6587,7 +6596,7 @@ lose	O
 money	O
 .	O
 
-Ford	GPE
+Ford	ORGANIZATION
 's	O
 profits	O
 equate	O
@@ -6634,7 +6643,7 @@ prolonged	O
 economic	O
 slump	O
 ,	O
-``	O
+''	O
 said	O
 the	O
 firm	O
@@ -6670,9 +6679,9 @@ to	O
 grow	O
 stronger	O
 .	O
-``	O
+''	O
 
-Mulally	O
+Mulally	PERSON
 predicted	O
 that	O
 his	O
@@ -6706,8 +6715,8 @@ operating	O
 profit	O
 .	O
 
-Automaker	PERSON
-GM	O
+Automaker	O
+GM	ORGANIZATION
 to	O
 cut	O
 10	O
@@ -6719,11 +6728,11 @@ November	O
 ,	O
 2009	O
 The	O
-US	GSP
+US	LOCATION
 car	O
 manufacturer	O
 General	ORGANIZATION
-Motors	PERSON
+Motors	ORGANIZATION
 said	O
 that	O
 it	O
@@ -6733,10 +6742,10 @@ axe	O
 jobs	O
 at	O
 its	O
-European	GPE
+European	O
 division	O
 ,	O
-Opel	PERSON
+Opel	ORGANIZATION
 .	O
 
 According	O
@@ -6794,12 +6803,12 @@ of	O
 the	O
 plan	O
 to	O
-European	GPE
+European	O
 governments	O
 ``	O
 very	O
 soon	O
-``	O
+''	O
 .	O
 
 A	O
@@ -6817,12 +6826,12 @@ a	O
 deal	O
 to	O
 sell	O
-Opel	PERSON
-to	O
-Magna	GPE
+Opel	ORGANIZATION
+to	ORGANIZATION
+Magna	ORGANIZATION
 ,	O
 a	O
-Canadian	GPE
+Canadian	O
 automobile	O
 parts	O
 company	O
@@ -6830,7 +6839,7 @@ company	O
 
 Politicians	O
 in	O
-Germany	GPE
+Germany	LOCATION
 expressed	O
 disappointment	O
 at	O
@@ -6852,19 +6861,19 @@ favoured	O
 .	O
 
 ``	O
-GM	O
+GM	ORGANIZATION
 's	O
-]	O
+-RSB-	O
 behaviour	O
 towards	O
-Germany	GPE
+Germany	LOCATION
 is	O
 completely	O
 unacceptable	O
 ,	O
-``	O
+''	O
 said	O
-German	GPE
+German	O
 economy	O
 minister	O
 Rainer	PERSON
@@ -6875,11 +6884,11 @@ The	O
 premier	O
 of	O
 the	O
-German	GPE
+German	O
 state	O
 of	O
-North	GPE
-Rhine-Westphalia	O
+North	LOCATION
+Rhine-Westphalia	LOCATION
 remarked	O
 that	O
 ``	O
@@ -6900,10 +6909,10 @@ is	O
 completely	O
 unacceptable	O
 .	O
-``	O
+''	O
 
 The	O
-UK	ORGANIZATION
+UK	LOCATION
 government	O
 ,	O
 however	O
@@ -6922,21 +6931,21 @@ the	O
 best	O
 decision	O
 for	O
-Britain	GPE
+Britain	LOCATION
 and	O
 our	O
 plants	O
 ,	O
-``	O
+''	O
 said	O
 the	O
 general	O
 secretary	O
 of	O
 the	O
-British	GPE
-union	O
-Unite	PERSON
+British	ORGANIZATION
+union	ORGANIZATION
+Unite	ORGANIZATION
 ,	O
 Tony	PERSON
 Woodley	PERSON
@@ -6962,7 +6971,7 @@ and	O
 for	O
 us	O
 ,	O
-``	O
+''	O
 he	O
 told	O
 the	O
@@ -6975,21 +6984,20 @@ people	O
 are	O
 employed	O
 by	O
-Opel	PERSON
+Opel	ORGANIZATION
 ,	O
 about	O
 25	O
 of	O
 them	O
 in	O
-Germany	GPE
+Germany	LOCATION
 .	O
 
-Ford	O
-Motors	O
+Ford	ORGANIZATION
+Motors	ORGANIZATION
 posts	O
-US	ORGANIZATION
-$	O
+US$	O
 2.7	O
 billion	O
 annual	O
@@ -6998,9 +7006,9 @@ January	O
 28	O
 ,	O
 2010	O
-Ford	O
-Motors	O
-Co.	O
+Ford	ORGANIZATION
+Motors	ORGANIZATION
+Co.	ORGANIZATION
 ,	O
 the	O
 automobile	O
@@ -7017,8 +7025,7 @@ the	O
 last	O
 year	O
 of	O
-US	GPE
-$	O
+US$	O
 2.7	O
 billion	O
 ,	O
@@ -7103,7 +7110,7 @@ year	O
 previous	O
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 had	O
 a	O
 $	O
@@ -7138,7 +7145,7 @@ in	O
 2008	O
 in	O
 the	O
-US	GSP
+US	LOCATION
 ,	O
 and	O
 obtained	O
@@ -7194,7 +7201,7 @@ yet	O
 that	O
 our	O
 One	O
-Ford	O
+Ford	ORGANIZATION
 plan	O
 is	O
 working	O
@@ -7209,7 +7216,7 @@ toward	O
 profitable	O
 growth	O
 ,	O
-``	O
+''	O
 he	O
 said	O
 ,	O
@@ -7225,11 +7232,11 @@ but	O
 remain	O
 fragile	O
 .	O
-``	O
+''	O
 
-Ford	GPE
+Ford	ORGANIZATION
 's	O
-US	ORGANIZATION
+US	LOCATION
 auto	O
 sales	O
 spike	O
@@ -7240,9 +7247,9 @@ March	O
 3	O
 ,	O
 2010	O
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 said	O
 on	O
 Tuesday	O
@@ -7251,8 +7258,8 @@ its	O
 sales	O
 in	O
 the	O
-United	GPE
-States	GPE
+United	LOCATION
+States	LOCATION
 rose	O
 43	O
 %	O
@@ -7271,13 +7278,13 @@ the	O
 automaker	O
 outsold	O
 rivals	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 and	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 .	O
 
-Ford	PERSON
+Ford	ORGANIZATION
 said	O
 that	O
 total	O
@@ -7298,7 +7305,7 @@ GM	ORGANIZATION
 
 Additionally	O
 ,	O
-Ford	PERSON
+Ford	ORGANIZATION
 said	O
 that	O
 its	O
@@ -7306,7 +7313,7 @@ share	O
 of	O
 the	O
 total	O
-US	GSP
+US	LOCATION
 car	O
 market	O
 rose	O
@@ -7353,7 +7360,7 @@ the	O
 day	O
 .	O
 
-Ford	GPE
+Ford	ORGANIZATION
 's	O
 sales	O
 were	O
@@ -7371,7 +7378,7 @@ to	O
 businesses	O
 .	O
 
-Rental	GPE
+Rental	O
 car	O
 agencies	O
 alone	O
@@ -7404,9 +7411,9 @@ two	O
 sedans	O
 ,	O
 the	O
-Fusion	ORGANIZATION
+Fusion	O
 and	O
-Taurus	GPE
+Taurus	O
 ,	O
 which	O
 rose	O
@@ -7423,7 +7430,7 @@ other	O
 models	O
 such	O
 as	O
-SUVs	ORGANIZATION
+SUVs	O
 and	O
 pickup	O
 trucks	O
@@ -7477,10 +7484,10 @@ large	O
 as	O
 those	O
 of	O
-Ford	O
+Ford	ORGANIZATION
 .	O
 
-Toyota	PERSON
+Toyota	ORGANIZATION
 was	O
 the	O
 sole	O
@@ -7535,7 +7542,7 @@ resonating	O
 with	O
 customers	O
 ,	O
-``	O
+''	O
 said	O
 Ken	PERSON
 Czubay	PERSON
@@ -7556,7 +7563,7 @@ he	O
 believed	O
 that	O
 traditional	O
-Toyota	O
+Toyota	ORGANIZATION
 customers	O
 were	O
 not	O
@@ -7574,19 +7581,19 @@ the	O
 recalls	O
 .	O
 
-Fiat	GPE
+Fiat	ORGANIZATION
 plans	O
 to	O
 buy	O
 majority	O
 stake	O
 in	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 May	O
 29	O
 ,	O
 2011	O
-Fiat	O
+Fiat	ORGANIZATION
 announced	O
 on	O
 Friday	O
@@ -7600,10 +7607,10 @@ six	O
 percent	O
 of	O
 automaker	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 that	O
 the	O
-US	GPE
+US	LOCATION
 government	O
 currently	O
 owns	O
@@ -7612,7 +7619,7 @@ which	O
 would	O
 give	O
 the	O
-Italian	GPE
+Italian	O
 company	O
 a	O
 52	O
@@ -7620,12 +7627,12 @@ percent	O
 majority	O
 stake	O
 in	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 .	O
 
 According	O
 to	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 's	O
 announcement	O
 ,	O
@@ -7648,11 +7655,11 @@ buy	O
 the	O
 share	O
 in	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 held	O
 by	O
 the	O
-US	GPE
+US	LOCATION
 government	O
 ,	O
 a	O
@@ -7677,7 +7684,7 @@ by	O
 that	O
 time	O
 ,	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 will	O
 pay	O
 the	O
@@ -7694,14 +7701,14 @@ banks	O
 In	O
 2009	O
 ,	O
-Fiat	PERSON
+Fiat	ORGANIZATION
 bought	O
 a	O
 twenty	O
 percent	O
 stake	O
 in	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 ,	O
 which	O
 had	O
@@ -7752,7 +7759,7 @@ companies	O
 as	O
 ``	O
 n	O
-]	O
+-RSB-	O
 either	O
 one	O
 has	O
@@ -7771,9 +7778,9 @@ that	O
 they	O
 face	O
 .	O
-``	O
+''	O
 
-Analyst	PERSON
+Analyst	O
 Rebecca	PERSON
 Lindland	PERSON
 said	O
@@ -7809,11 +7816,11 @@ with	O
 the	O
 bailout	O
 .	O
-``	O
+''	O
 
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 cutting	O
 30	O
 jobs	O
@@ -7833,7 +7840,7 @@ second-largest	O
 car	O
 manufacturer	O
 in	O
-America	GPE
+America	LOCATION
 ,	O
 will	O
 cut	O
@@ -7850,19 +7857,18 @@ restructuring	O
 plan	O
 to	O
 relieve	O
-Ford	O
+Ford	ORGANIZATION
 after	O
 a	O
-US	O
-$	O
+US$	O
 1.6	O
 billion	O
 loss	O
 last	O
 year	O
 in	O
-North	GPE
-American	GPE
+North	O
+American	O
 sales	O
 .	O
 
@@ -7873,7 +7879,7 @@ called	O
 ``	O
 Way	O
 Forward	O
-``	O
+''	O
 ,	O
 the	O
 brainchild	O
@@ -7887,15 +7893,15 @@ Officer	O
 William	PERSON
 Clay	PERSON
 Ford	PERSON
-Jr.	O
+Jr.	PERSON
 ,	O
 is	O
 to	O
 end	O
 Ford	ORGANIZATION
 's	O
-North	LOCATION
-American	GPE
+North	O
+American	O
 losses	O
 by	O
 2008	O
@@ -7916,8 +7922,8 @@ percent	O
 of	O
 Ford	ORGANIZATION
 's	O
-North	LOCATION
-American	GPE
+North	O
+American	O
 workforce	O
 of	O
 122	O
@@ -7953,21 +7959,21 @@ this	O
 year	O
 ,	O
 the	O
-Atlanta	ORGANIZATION
+Atlanta	LOCATION
 and	O
-St.	GPE
-Louis	O
+St.	LOCATION
+Louis	LOCATION
 plants	O
 will	O
 be	O
 closed	O
 .	O
 
-Atlanta	GPE
+Atlanta	LOCATION
 makes	O
 the	O
-Ford	ORGANIZATION
-Taurus	ORGANIZATION
+Ford	O
+Taurus	O
 sedan	O
 ,	O
 which	O
@@ -7978,8 +7984,8 @@ out	O
 .	O
 
 The	O
-St.	ORGANIZATION
-Louis	ORGANIZATION
+St.	LOCATION
+Louis	LOCATION
 plant	O
 is	O
 one	O
@@ -7990,7 +7996,7 @@ that	O
 manufactures	O
 the	O
 Ford	ORGANIZATION
-Explorer	ORGANIZATION
+Explorer	O
 ,	O
 whose	O
 sales	O
@@ -8008,27 +8014,27 @@ will	O
 also	O
 close	O
 its	O
-Wixom	O
+Wixom	LOCATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 plant	O
 ,	O
-Batavia	PERSON
-Transmission	PERSON
+Batavia	LOCATION
+Transmission	LOCATION
 in	O
-Ohio	GPE
+Ohio	LOCATION
 the	O
-Windsor	ORGANIZATION
+Windsor	O
 Casting	O
 plant	O
 in	O
-Ontario	GPE
+Ontario	LOCATION
 which	O
 was	O
 previously	O
 announced	O
 by	O
-Ford	O
+Ford	ORGANIZATION
 that	O
 it	O
 was	O
@@ -8040,7 +8046,7 @@ contract	O
 negotiations	O
 with	O
 the	O
-Canadian	GPE
+Canadian	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
 union	O
@@ -8049,10 +8055,10 @@ union	O
 The	O
 plant	O
 in	O
-St.	GPE
-Thomas	GPE
+St.	LOCATION
+Thomas	LOCATION
 ,	O
-Ontario	GPE
+Ontario	LOCATION
 plant	O
 will	O
 have	O
@@ -8067,11 +8073,11 @@ The	O
 plant	O
 makes	O
 the	O
-Crown	FACILITY
-Victoria	FACILITY
+Crown	LOCATION
+Victoria	LOCATION
 and	O
-Grand	PERSON
-Marquis	PERSON
+Grand	LOCATION
+Marquis	LOCATION
 cars	O
 .	O
 
@@ -8088,10 +8094,10 @@ MacDonald	PERSON
 ,	O
 chairperson	O
 of	O
-Local	ORGANIZATION
-1520	ORGANIZATION
+Local	O
+1520	O
 ,	O
-Canadian	GPE
+Canadian	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
 union	O
@@ -8163,7 +8169,7 @@ our	O
 track	O
 record	O
 .	O
-``	O
+''	O
 
 Positive	O
 news	O
@@ -8202,10 +8208,10 @@ contrary	O
 ,	O
 according	O
 to	O
-Automotive	GPE
+Automotive	O
 analyst	O
 Dennis	PERSON
-DesRosier	O
+DesRosier	PERSON
 believes	O
 that	O
 the	O
@@ -8214,18 +8220,18 @@ is	O
 still	O
 ``	O
 likely	O
-``	O
+''	O
 to	O
 close	O
 .	O
 
-DesRoiser	O
+DesRoiser	PERSON
 said	O
 ,	O
 ``	O
 The	O
-St.	ORGANIZATION
-Thomas	ORGANIZATION
+St.	LOCATION
+Thomas	LOCATION
 plant	O
 is	O
 old	O
@@ -8266,7 +8272,7 @@ to	O
 three	O
 years	O
 .	O
-``	O
+''	O
 
 Two	O
 more	O
@@ -8389,7 +8395,7 @@ is	O
 extremely	O
 disappointing	O
 .	O
-``	O
+''	O
 
 The	O
 UAW	ORGANIZATION
@@ -8454,9 +8460,9 @@ in	O
 the	O
 future	O
 .	O
-``	O
+''	O
 
-GM	O
+GM	ORGANIZATION
 posts	O
 first	O
 annual	O
@@ -8475,7 +8481,9 @@ logo	O
 General	ORGANIZATION
 Motors	ORGANIZATION
 Corporation	ORGANIZATION
-GM	O
+(	O
+GM	ORGANIZATION
+)	O
 has	O
 posted	O
 its	O
@@ -8489,8 +8497,7 @@ since	O
 GM	ORGANIZATION
 reported	O
 losing	O
-US	ORGANIZATION
-$	O
+US$	O
 4.8	O
 billion	O
 in	O
@@ -8513,7 +8520,7 @@ entire	O
 year	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 admitted	O
 Thursday	O
 night	O
@@ -8537,7 +8544,7 @@ former	O
 workers	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 warned	O
 that	O
 the	O
@@ -8558,7 +8565,7 @@ officially	O
 reported	O
 to	O
 the	O
-US	ORGANIZATION
+US	LOCATION
 securities	O
 and	O
 exchanges	O
@@ -8577,7 +8584,7 @@ analysts	O
 predicted	O
 .	O
 
-Ford	GPE
+Ford	ORGANIZATION
 ,	O
 the	O
 second	O
@@ -8585,7 +8592,7 @@ of	O
 the	O
 big	O
 three	O
-American	GPE
+American	O
 car	O
 manufacturers	O
 ,	O
@@ -8600,7 +8607,7 @@ week	O
 In	O
 contrast	O
 ,	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 is	O
 expected	O
 to	O
@@ -8619,7 +8626,7 @@ $	O
 billion	O
 .	O
 
-GM	O
+GM	ORGANIZATION
 's	O
 automotive	O
 division	O
@@ -8636,8 +8643,8 @@ driven	O
 by	O
 losses	O
 in	O
-North	GPE
-America	GPE
+North	LOCATION
+America	LOCATION
 .	O
 
 This	O
@@ -8656,11 +8663,11 @@ has	O
 been	O
 taken	O
 by	O
-Japanese	GPE
+Japanese	O
 manufacturers	O
-Toyota	PERSON
+Toyota	ORGANIZATION
 and	O
-Nissan	GPE
+Nissan	ORGANIZATION
 .	O
 
 A	O
@@ -8701,13 +8708,15 @@ for	O
 Kirk	PERSON
 Kerkorian	PERSON
 ,	O
-GMs	ORGANIZATION
+GMs	O
 largest	O
 individual	O
 investor	O
+(	O
 at	O
 9.9	O
 %	O
+)	O
 ,	O
 has	O
 called	O
@@ -8728,10 +8737,10 @@ executive	O
 pay	O
 and	O
 sell	O
-Saab	PERSON
+Saab	ORGANIZATION
 .	O
 
-Australian	GPE
+Australian	O
 government	O
 announces	O
 $	O
@@ -8746,7 +8755,7 @@ May	O
 5	O
 ,	O
 2006	O
-Australian	GPE
+Australian	O
 Prime	O
 Minister	O
 John	PERSON
@@ -8770,19 +8779,19 @@ Ford	ORGANIZATION
 Australia	ORGANIZATION
 with	O
 a	O
-AU	O
-$	O
+AU$	O
 52.5	O
 million	O
-US	ORGANIZATION
-$	O
+(	O
+US$	O
 40.4	O
 million	O
+)	O
 ``	O
 financial	O
 assistance	O
 package	O
-``	O
+''	O
 .	O
 
 Additional	O
@@ -8793,7 +8802,7 @@ be	O
 provided	O
 by	O
 the	O
-Victorian	GPE
+Victorian	O
 state	O
 government	O
 .	O
@@ -8812,21 +8821,20 @@ Ford	ORGANIZATION
 manufacturing	O
 operations	O
 in	O
-Australia	GPE
+Australia	LOCATION
 ``	O
 for	O
 the	O
 long	O
 term	O
-``	O
+''	O
 .	O
 
 From	O
 the	O
 package	O
 ,	O
-AU	O
-$	O
+AU$	O
 40	O
 million	O
 will	O
@@ -8842,9 +8850,9 @@ Ford	ORGANIZATION
 's	O
 next	O
 model	O
-Falcon	PERSON
+Falcon	ORGANIZATION
 and	O
-Territory	ORGANIZATION
+Territory	O
 vehicles	O
 ,	O
 which	O
@@ -8852,7 +8860,7 @@ will	O
 be	O
 built	O
 in	O
-Australia	GPE
+Australia	LOCATION
 .	O
 
 Despite	O
@@ -8869,7 +8877,7 @@ in	O
 2005	O
 ,	O
 the	O
-Falcon	ORGANIZATION
+Falcon	O
 's	O
 bodyshell	O
 dates	O
@@ -8880,7 +8888,7 @@ to	O
 
 The	O
 current	O
-Falcon	PERSON
+Falcon	ORGANIZATION
 will	O
 need	O
 to	O
@@ -8914,11 +8922,13 @@ completely	O
 new	O
 Holden	PERSON
 Commodore	PERSON
+(	O
 the	O
-Falcon	ORGANIZATION
+Falcon	O
 's	O
 major	O
 competitor	O
+)	O
 which	O
 will	O
 be	O
@@ -8934,8 +8944,7 @@ year	O
 
 The	O
 additional	O
-AU	O
-$	O
+AU$	O
 12.5	O
 million	O
 will	O
@@ -8988,9 +8997,7 @@ become	O
 the	O
 base	O
 for	O
-R	O
-&	O
-D	O
+R&D	O
 projects	O
 in	O
 the	O
@@ -8998,7 +9005,7 @@ region	O
 .	O
 
 Mr	O
-MacFarlane	ORGANIZATION
+MacFarlane	PERSON
 said	O
 that	O
 the	O
@@ -9007,14 +9014,14 @@ facility	O
 was	O
 exciting	O
 for	O
-Australia	GPE
+Australia	LOCATION
 and	O
 that	O
 it	O
 would	O
 put	O
 the	O
-Australian	GPE
+Australian	O
 automotive	O
 in	O
 the	O
@@ -9032,14 +9039,12 @@ secure	O
 the	O
 largest	O
 automotive	O
-R	O
-&	O
-D	O
+R&D	O
 project	O
 ever	O
 undertaken	O
 in	O
-Australia	GPE
+Australia	LOCATION
 which	O
 is	O
 equally	O
@@ -9047,13 +9052,13 @@ exciting	O
 news	O
 for	O
 local	O
-Ford	O
+Ford	ORGANIZATION
 employees	O
 and	O
-Australian	GPE
+Australian	O
 component	O
 producers	O
-``	O
+''	O
 he	O
 said	O
 .	O
@@ -9076,8 +9081,8 @@ engineering	O
 excellence	O
 in	O
 the	O
-Asia	GPE
-Pacific	O
+Asia	LOCATION
+Pacific	LOCATION
 region	O
 which	O
 will	O
@@ -9089,19 +9094,19 @@ the	O
 broader	O
 industry	O
 ,	O
-``	O
+''	O
 ``	O
 This	O
 opportunity	O
 will	O
 put	O
 both	O
-Ford	O
-Australia	GPE
+Ford	ORGANIZATION
+Australia	ORGANIZATION
 ,	O
 and	O
 the	O
-Australian	GPE
+Australian	O
 automotive	O
 and	O
 components	O
@@ -9122,12 +9127,11 @@ capabilities	O
 are	O
 concerned	O
 .	O
-``	O
+''	O
 
 Mr	O
-ORGANIZATION	O
-NNP	O
-VBD	O
+MacFarlane	PERSON
+said	O
 .	O
 
 Mr	O
@@ -9148,16 +9152,16 @@ of	O
 the	O
 ``	O
 iconic	O
-``	O
-Ford	O
-Falcon	O
+''	O
+Ford	ORGANIZATION
+Falcon	ORGANIZATION
 ,	O
 which	O
 has	O
 been	O
 built	O
 in	O
-Australia	GPE
+Australia	LOCATION
 since	O
 1960	O
 .	O
@@ -9169,10 +9173,10 @@ is	O
 conditional	O
 upon	O
 Ford	ORGANIZATION
-Australia	O
+Australia	ORGANIZATION
 giving	O
 the	O
-Australian	GPE
+Australian	O
 automotive	O
 component	O
 industry	O
@@ -9191,7 +9195,7 @@ two	O
 projects	O
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 announces	O
 deep	O
 production	O
@@ -9205,7 +9209,7 @@ August	O
 19	O
 ,	O
 2006	O
-Ford	O
+Ford	ORGANIZATION
 has	O
 announced	O
 sweeping	O
@@ -9213,13 +9217,15 @@ cuts	O
 of	O
 21	O
 %	O
+(	O
 168	O
 units	O
+)	O
 in	O
 its	O
-US	ORGANIZATION
+US	LOCATION
 and	O
-Canadian	GPE
+Canadian	O
 production	O
 ,	O
 resulting	O
@@ -9268,7 +9274,7 @@ by	O
 2012	O
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 is	O
 the	O
 world	O
@@ -9277,7 +9283,7 @@ third-largest	O
 automaker	O
 and	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 's	O
 second-largest	O
 .	O
@@ -9335,7 +9341,7 @@ July	O
 .	O
 
 George	PERSON
-Pipas	GPE
+Pipas	PERSON
 ,	O
 director	O
 of	O
@@ -9358,7 +9364,7 @@ sale	O
 of	O
 the	O
 companies	O
-SUV	ORGANIZATION
+SUV	O
 lines	O
 as	O
 well	O
@@ -9397,91 +9403,93 @@ affected	O
 St.	O
 Thomas	PERSON
 Assembly	PERSON
-of	O
-St.	GPE
-Thomas	GPE
+of	PERSON
+St.	PERSON
+Thomas	PERSON
 ,	O
-Ontario	PERSON
+Ontario	LOCATION
 ,	O
-Canada	PERSON
+Canada	LOCATION
 *	O
-Chicago	GPE
+Chicago	LOCATION
 ,	O
-Illinois	PERSON
+Illinois	LOCATION
 *	O
-Wixom	PERSON
-Assembly	PERSON
-Plant	PERSON
-of	O
-Wixom	GPE
+Wixom	ORGANIZATION
+Assembly	ORGANIZATION
+Plant	ORGANIZATION
+of	ORGANIZATION
+Wixom	ORGANIZATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 *	O
-Louisville	PERSON
-Assembly	PERSON
-of	O
-Louisville	GPE
+Louisville	LOCATION
+Assembly	LOCATION
+of	LOCATION
+Louisville	LOCATION
 ,	O
-Kentucky	PERSON
+Kentucky	LOCATION
 *	O
-Michigan	PERSON
-Truck	PERSON
-Plant	PERSON
-of	O
-Wayne	GPE
+Michigan	LOCATION
+Truck	LOCATION
+Plant	LOCATION
+of	LOCATION
+Wayne	LOCATION
 ,	O
-Michigan	PERSON
+Michigan	LOCATION
 *	O
 St.	O
 Paul	PERSON
 ,	O
-Minnesota	PERSON
+Minnesota	LOCATION
 *	O
-Kansas	PERSON
-City	PERSON
-Assembly	PERSON
+Kansas	ORGANIZATION
+City	ORGANIZATION
+Assembly	ORGANIZATION
 of	O
-Kansas	PERSON
-City	PERSON
+Kansas	LOCATION
+City	LOCATION
 ,	O
-Missouri	PERSON
+Missouri	LOCATION
 *	O
-Norfolk	PERSON
-Assembly	PERSON
-of	O
-Norfolk	GPE
+Norfolk	LOCATION
+Assembly	LOCATION
+of	LOCATION
+Norfolk	LOCATION
 ,	O
-Virginia	PERSON
-*	O
-River	O
-Rouge	O
-Plant	O
-of	O
-Dearborn	GPE
+Virginia	LOCATION
+*	LOCATION
+River	LOCATION
+Rouge	LOCATION
+Plant	LOCATION
+of	LOCATION
+Dearborn	LOCATION
 ,	O
-Michigan	PERSON
-Ford	PERSON
+Michigan	LOCATION
+Ford	ORGANIZATION
 's	O
 stock	O
 fell	O
 17	O
 cents	O
+(	O
 2.1	O
 %	O
+)	O
 to	O
 $	O
 8	O
 on	O
 the	O
-New	GPE
-York	GPE
-Stock	O
-Exchange	O
+New	ORGANIZATION
+York	ORGANIZATION
+Stock	ORGANIZATION
+Exchange	ORGANIZATION
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 Taurus	O
 to	O
 be	O
@@ -9491,9 +9499,9 @@ February	O
 ,	O
 2007	O
 thumb	O
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 CEO	O
 Alan	PERSON
 Mulally	PERSON
@@ -9505,11 +9513,11 @@ will	O
 rename	O
 the	O
 Ford	ORGANIZATION
-Five	ORGANIZATION
-Hundred	ORGANIZATION
+Five	O
+Hundred	O
 to	O
 the	O
-Taurus	GPE
+Taurus	O
 for	O
 the	O
 2008	O
@@ -9536,10 +9544,10 @@ outgoing	O
 model	O
 .	O
 
-Mulally	GPE
+Mulally	PERSON
 says	O
 that	O
-Ford	PERSON
+Ford	ORGANIZATION
 's	O
 decision	O
 to	O
@@ -9578,7 +9586,7 @@ Ford	ORGANIZATION
 nameplates	O
 ,	O
 the	O
-Taurus	ORGANIZATION
+Taurus	O
 being	O
 one	O
 of	O
@@ -9586,7 +9594,7 @@ them	O
 ,	O
 and	O
 the	O
-Falcon	ORGANIZATION
+Falcon	O
 possibly	O
 in	O
 the	O
@@ -9594,8 +9602,8 @@ future	O
 .	O
 
 The	O
-Ford	ORGANIZATION
-Taurus	ORGANIZATION
+Ford	O
+Taurus	O
 was	O
 originally	O
 introduced	O
@@ -9620,7 +9628,7 @@ and	O
 pushed	O
 the	O
 other	O
-American	GPE
+American	O
 automakers	O
 to	O
 follow	O
@@ -9634,12 +9642,12 @@ revolution	O
 that	O
 completely	O
 rid	O
-Detroit	O
+Detroit	LOCATION
 of	O
 the	O
 ``	O
 boxy	O
-``	O
+''	O
 cars	O
 of	O
 the	O
@@ -9649,7 +9657,7 @@ and	O
 .	O
 
 The	O
-Taurus	ORGANIZATION
+Taurus	O
 survived	O
 for	O
 four	O
@@ -9662,7 +9670,7 @@ units	O
 .	O
 
 The	O
-Taurus	GPE
+Taurus	O
 was	O
 discontinued	O
 in	O
@@ -9689,7 +9697,7 @@ it	O
 go	O
 away	O
 ?	O
-``	O
+''	O
 
 Alan	PERSON
 Mulally	PERSON
@@ -9703,9 +9711,9 @@ the	O
 best-selling	O
 car	O
 in	O
-America	GPE
+America	LOCATION
 .	O
-``	O
+''	O
 
 While	O
 it	O
@@ -9719,8 +9727,8 @@ change	O
 to	O
 turn	O
 the	O
-Five	FACILITY
-Hundred	FACILITY
+Five	O
+Hundred	O
 into	O
 a	O
 400	O
@@ -9731,7 +9739,7 @@ year	O
 blockbuster	O
 like	O
 the	O
-Taurus	GPE
+Taurus	O
 ,	O
 it	O
 is	O
@@ -9752,7 +9760,7 @@ known	O
 ,	O
 since	O
 the	O
-Taurus	GPE
+Taurus	O
 is	O
 a	O
 well	O
@@ -9785,8 +9793,8 @@ cut	O
 13	O
 jobs	O
 in	O
-North	GPE
-America	GPE
+North	LOCATION
+America	LOCATION
 .	O
 
 It	O
@@ -9805,14 +9813,14 @@ plans	O
 to	O
 cut	O
 two	O
-Chrysler	O
+Chrysler	ORGANIZATION
 plants	O
 in	O
 an	O
 attempt	O
 to	O
 make	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 business	O
 profitable	O
 by	O
@@ -9828,13 +9836,13 @@ be	O
 cut	O
 in	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 ,	O
 2	O
 production	O
 jobs	O
 in	O
-Canada	GPE
+Canada	LOCATION
 ,	O
 and	O
 2	O
@@ -9878,15 +9886,15 @@ one	O
 at	O
 Chrysler	ORGANIZATION
 ,	O
-``	O
+''	O
 said	O
 chief	O
 investment	O
 officer	O
 at	O
-Solaris	FACILITY
-Asset	FACILITY
-Management	FACILITY
+Solaris	ORGANIZATION
+Asset	ORGANIZATION
+Management	ORGANIZATION
 ,	O
 Tim	PERSON
 Ghriskey	PERSON
@@ -9898,10 +9906,12 @@ speculation	O
 that	O
 the	O
 companies	O
-Daimler-Benz	O
-Mercedes-Benz	O
+Daimler-Benz	ORGANIZATION
+(	O
+Mercedes-Benz	ORGANIZATION
+)	O
 and	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 ,	O
 which	O
 merged	O
@@ -9944,17 +9954,17 @@ Group	ORGANIZATION
 and	O
 DaimlerChrysler	ORGANIZATION
 .	O
-``	O
+''	O
 
-DaimlerChrysler	GPE
+DaimlerChrysler	ORGANIZATION
 to	O
 sell	O
-Chrysler	PERSON
-Group	PERSON
+Chrysler	ORGANIZATION
+Group	ORGANIZATION
 for	O
 $	O
 7.4	O
-Billion	PERSON
+Billion	O
 May	O
 14	O
 ,	O
@@ -9978,18 +9988,17 @@ by	O
 selling	O
 it	O
 to	O
-New	GPE
-York	GPE
+New	LOCATION
+York	LOCATION
 City-based	O
 private	O
 equity	O
 firm	O
-Cerberus	PERSON
-Capital	PERSON
-Management	PERSON
+Cerberus	ORGANIZATION
+Capital	ORGANIZATION
+Management	ORGANIZATION
 for	O
-US	GSP
-$	O
+US$	O
 7.4	O
 billion	O
 .	O
@@ -10004,12 +10013,12 @@ to	O
 be	O
 changed	O
 to	O
-Daimler	PERSON
-AG	PERSON
+Daimler	ORGANIZATION
+AG	ORGANIZATION
 and	O
-Chrysler	PERSON
-Holding	PERSON
-LLC	PERSON
+Chrysler	ORGANIZATION
+Holding	ORGANIZATION
+LLC	ORGANIZATION
 .	O
 
 DaimlerChrysler	ORGANIZATION
@@ -10021,7 +10030,7 @@ of	O
 its	O
 stake	O
 in	O
-Chrysler	GPE
+Chrysler	ORGANIZATION
 ,	O
 retaining	O
 the	O
@@ -10039,7 +10048,7 @@ and	O
 partnerships	O
 .	O
 
-Cerberus	GPE
+Cerberus	ORGANIZATION
 has	O
 agreed	O
 to	O
@@ -10059,7 +10068,7 @@ at	O
 Chrysler	ORGANIZATION
 .	O
 
-Cerberus	GPE
+Cerberus	ORGANIZATION
 also	O
 led	O
 a	O
@@ -10075,7 +10084,7 @@ of	O
 last	O
 year	O
 in	O
-GMAC	GPE
+GMAC	ORGANIZATION
 ,	O
 the	O
 financing	O
@@ -10103,7 +10112,7 @@ Hargrove	PERSON
 the	O
 president	O
 of	O
-Canadian	GPE
+Canadian	ORGANIZATION
 Auto	ORGANIZATION
 Workers	ORGANIZATION
 said	O
@@ -10117,7 +10126,7 @@ collective	O
 bargaining	O
 agreement	O
 with	O
-Chrysler	PERSON
+Chrysler	ORGANIZATION
 would	O
 remain	O
 and	O
@@ -10134,12 +10143,12 @@ name	O
 change	O
 of	O
 the	O
-German	GPE
+German	O
 company	O
 DaimlerChrysler	ORGANIZATION
 to	O
-Daimler	PERSON
-AG	PERSON
+Daimler	ORGANIZATION
+AG	ORGANIZATION
 is	O
 pending	O
 shareholder	O
@@ -10155,26 +10164,25 @@ fall	O
 2007	O
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 offers	O
-US	GPE
-$	O
+US$	O
 78	O
 million	O
 for	O
-Romanian	GPE
+Romanian	O
 auto	O
 plant	O
 September	O
 8	O
 ,	O
 2007	O
-Ford	O
-Motor	O
-Company	O
+Ford	ORGANIZATION
+Motor	ORGANIZATION
+Company	ORGANIZATION
 ,	O
 the	O
-U.S.	GPE
+U.S.	LOCATION
 car	O
 maker	O
 ,	O
@@ -10184,10 +10192,11 @@ pay	O
 $	O
 57	O
 million	O
-US	ORGANIZATION
-$	O
+(	O
+US$	O
 78	O
 million	O
+)	O
 for	O
 a	O
 72.4	O
@@ -10195,14 +10204,14 @@ percent	O
 stake	O
 in	O
 the	O
-Romanian	GPE
+Romanian	O
 assembly	O
 plant	O
 Automobile	O
 Craiova	O
 ,	O
 a	O
-Romanian	GPE
+Romanian	O
 official	O
 said	O
 Friday	O
@@ -10231,7 +10240,7 @@ $	O
 million	O
 overall	O
 ,	O
-``	O
+''	O
 said	O
 Sebastian	PERSON
 Vladescu	PERSON
@@ -10242,7 +10251,9 @@ the	O
 State	ORGANIZATION
 Property	ORGANIZATION
 Agency	ORGANIZATION
-AVAS	ORGANIZATION
+(	O
+AVAS	O
+)	O
 ,	O
 after	O
 opening	O
@@ -10269,11 +10280,11 @@ the	O
 auto	O
 show	O
 in	O
-Frankfurt	GPE
+Frankfurt	LOCATION
 .	O
 
 The	O
-Romanian	GPE
+Romanian	O
 government	O
 bought	O
 back	O
@@ -10289,15 +10300,14 @@ in	O
 late	O
 2006	O
 for	O
-US	GSP
-$	O
+US$	O
 51	O
 million	O
 .	O
 
 As	O
 the	O
-Korean	GPE
+Korean	O
 company	O
 was	O
 bankrupt	O
@@ -10319,7 +10329,7 @@ past	O
 loans	O
 .	O
 
-Ford	O
+Ford	ORGANIZATION
 is	O
 the	O
 only	O
@@ -10334,8 +10344,8 @@ factory	O
 
 According	O
 to	O
-Washington	GPE
-Post	GPE
+Washington	ORGANIZATION
+Post	ORGANIZATION
 ,	O
 many	O
 auto-part	O
@@ -10346,7 +10356,7 @@ up	O
 in	O
 the	O
 new	O
-European	GPE
+European	ORGANIZATION
 Union	ORGANIZATION
 member	O
 country	O
@@ -10364,9 +10374,9 @@ the	O
 rising	O
 output	O
 of	O
-Renault	PERSON
+Renault	ORGANIZATION
 's	O
-Dacia	O
+Dacia	LOCATION
 plant	O
 .	O
 
@@ -10374,16 +10384,16 @@ The	O
 vice	O
 president	O
 of	O
-Dacia	GPE
+Dacia	LOCATION
 ,	O
-Constantin	ORGANIZATION
-Stroe	ORGANIZATION
+Constantin	PERSON
+Stroe	PERSON
 ,	O
 said	O
 that	O
 the	O
 price	O
-Ford	O
+Ford	ORGANIZATION
 offers	O
 is	O
 not	O
@@ -10403,7 +10413,7 @@ as	O
 soon	O
 as	O
 possible	O
-``	O
+''	O
 ,	O
 he	O
 added	O
@@ -10415,7 +10425,7 @@ this	O
 production	O
 facility	O
 ,	O
-Romania	GPE
+Romania	LOCATION
 will	O
 become	O
 an	O
@@ -10424,8 +10434,8 @@ auto	O
 production	O
 center	O
 in	O
-Europe	GPE
-``	O
+Europe	LOCATION
+''	O
 ,	O
 concluded	O
 Stroe	PERSON

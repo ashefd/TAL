@@ -35,8 +35,9 @@ Etapes :
 1. Ouvrir un terminal
 2. Se placer dans le dossier stanford-postagger-full-2018-10-16 et lancer stanford-postagger.sh
 ```
-cd stanford-postagger-full-2018-10-16/
+cd ../stanford-postagger-full-2018-10-16/
 ./stanford-postagger.sh models/english-left3words-distsim.tagger ../src/out/pos_test.wc.txt > ../data/pos_test.txt.pos.stanford
+cd ../src
 ```
 
 Résultat du fichier taggé par stanford disponible dans :
@@ -45,7 +46,7 @@ Résultat du fichier taggé par stanford disponible dans :
 
 3. Lancer la commande suivante :
 ```
-python post_processing_stanford.py ../data/pos_test.txt.pos.stanford
+python post_processing_stanford.py ../data/pos_test.txt.pos.stanford pos_tag
 ```
 
 Résultat du fichier stanford au format modifié : 
@@ -111,10 +112,13 @@ Tag F-measure: 0.967156262749898
 # Partie 2
 ## Question 1
 ```
-python getOriginalCorpus.py ../data/ne_reference.txt.conll.txt out/ne_test.txt
+python getOriginalCorpus.py ../data/ne_reference.txt.conll out/ne_test.txt
 ```
 
-nb : Les fichiers xc ne servent à rien ici
+Résultat sauvegardé et disponible sur :
+
+- out/ne_test.txt
+
 
 ## Question 2
 Execution des NE recognizers et conversion des fichiers de sortie au bon format :
@@ -127,12 +131,18 @@ cd ../src
 python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
 ```
 
+Résultat sauvegardé et disponible sur :
+
+- out/ne_test.txt.ne.stanford
+
 ### NLTK
 
 ```
 python use_ne_chunk.py out/ne_test.txt out/ne_test.txt.ne.nltk
 ```
+Résultat sauvegardé et disponible sur :
 
+- out/ne_test.txt.ne.nltk
 
 ## Question 3
 
@@ -141,11 +151,12 @@ Conversion des fichiers en étiquettes coNLL-2003 :
 ### Stanford
 
 ```
-python convertToCoNLL.py out/ne_test.txt.ne.stanford ../data/dict_ne_standard_etiquettes.txt
+python post_processing_stanford.py out/ne_test.txt.ne.stanford ne
+python convertToCoNLL.py out/ne_test.txt.ne.stanfordc ../data/dict_ne_standard_etiquettes.txt
 ```
 
 Résultat sauvegardé dans :
-- out/ne_test.txt.ne.stanford.conll
+- out/ne_test.txt.ne.stanfordc.conll
 
 
 ### NLTK
@@ -162,7 +173,7 @@ Résultat sauvegardé dans :
 ### Stanford
 
 ```
-python evaluate.py out/ne_test.txt.ne.stanford.conll ../data/ne_reference.txt.conll 
+python evaluate.py out/ne_test.txt.ne.stanfordc.conll ../data/ne_reference.txt.conll 
 ```
 Résultats obtenus :
 Word precision: 0.8314756597122988
