@@ -1,4 +1,6 @@
 import sys
+# Tsha et Alya
+
 
 def extractSentences(file_name):
     line = ''

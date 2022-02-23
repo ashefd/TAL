@@ -3,7 +3,7 @@ import sys
 import io
 from nltk.corpus import state_union
 from nltk.tokenize import PunktSentenceTokenizer
-
+# Tsha 
 def process_content(filename, tokenized):
     """ Recuperer l'ensemble des entites nommees identifiees contenu dans une liste de mot tokenisee.
     Cet ensemble est ensuite stocke dans un fichier

@@ -170,10 +170,6 @@ Résultat sauvegardé dans :
 
 
 ## Question 4
-Le but est d'enlever les \n de notre référence
-```
-python remove_backslashN.py ../data/ne_reference.txt.conll ../data/ne_reference_without_backslash_n.txt.conll
-```
 
 ### Stanford
 

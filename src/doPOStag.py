@@ -2,7 +2,7 @@ import nltk
 import sys
 from nltk import pos_tag
 from nltk import RegexpParser
-
+# Tsha 
 def nltk_parse(text_file_name):
     """ Extraction de chunk "matchant" un pattern.
 

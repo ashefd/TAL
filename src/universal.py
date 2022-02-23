@@ -1,5 +1,6 @@
 import nltk
 import sys
+# Tsha et Alya
 
 def read_file(file_name):
     f = open(file_name, "r") # fichier a remplacer
