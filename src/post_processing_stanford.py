@@ -46,10 +46,10 @@ def two_columns_without_underscore(file_name, file_name_out):
 
     for line in lines:
         for word_cat in line.split():
-            if(word_cat in dict.keys()):
-                out.write(dict[word_cat] + '\n')
+            if(word_cat in dict.keys()): # quand on rencontre une ligne dans laquelle on trouve un LCB, RCB, LRB ou RRB
+                out.write(dict[word_cat] + '\n') # on remplace ca par le bon caractere correspondant et son tag
             else:
-                out.write(word_cat.replace('_', '\t') + '\n')
+                out.write(word_cat.replace('_', '\t') + '\n') # on reecrit sans le underscore
         out.write('\n')
 
     out.close()
@@ -108,9 +108,9 @@ def two_columns_without_slash(file_name, file_name_out):
     f.close()
     out = open(file_name_out, 'w')
 
-    for line in lines:
-        for word_chunk in line.split():
-                out.write(word_chunk.replace('/', '\t') + '\n')
+    for line in lines: # pour chaque ligne du fichier
+        for word_chunk in line.split(): 
+                out.write(word_chunk.replace('/', '\t') + '\n') # on remplace les / par une tabulation
         out.write('\n')
 
     out.close()
@@ -174,11 +174,11 @@ def two_columns_without_LRB_RRB(file_name, file_name_out):
 
     for line in lines:
         word_cat = line.split()
-        if(len(word_cat) > 0 and word_cat[0] in dict.keys()):
+        if(len(word_cat) > 0 and word_cat[0] in dict.keys()): # si ce n'est pas un saut de ligne et que le mot (surement une parenthese ou une accolade)
             
-            out.write(dict[word_cat[0]] + '\t' +  word_cat[1])
+            out.write(dict[word_cat[0]] + '\t' +  word_cat[1])  # on reecrit le token par le caractere associe. Par exemple, les -LRB- seront remplaces par un (
         elif(len(word_cat) > 0):
-            out.write('\t'.join(word_cat))
+            out.write('\t'.join(word_cat)) # sinon, on reecrit directement la ligne en ajoutant une tabulation
         out.write('\n')
         
     out.close()
@@ -192,16 +192,17 @@ if __name__ == '__main__':
         'pos_tag': '_',
         'ne': '/',
     }
-    if(sys.argv[2] == 'pos_tag') :
+    if(sys.argv[2] == 'pos_tag') : # pour faire du post processing avec le post_tag
         file_name_out = "out/" + sys.argv[1][8:]
         lines = two_columns_without_underscore(sys.argv[1], file_name_out)
         print("Stanford file with post-processing written in " +file_name_out)
 
-    elif(sys.argv[2] == 'ne'):
+    elif(sys.argv[2] == 'ne'): # pour faire du post processing avec le ne_chunk
         file_name_out = sys.argv[1] + 'c'
         lines = two_columns_without_LRB_RRB(sys.argv[1], file_name_out)
         print("Stanford file with post-processing written in " +file_name_out)
-    elif(sys.argv[2] == 'slash'):
+
+    elif(sys.argv[2] == 'slash'): # pour faire du post processing pour enlever les /
         file_name_out = sys.argv[1][:-2]
         lines = two_columns_without_slash(sys.argv[1], file_name_out)
         print("Stanford file with post-processing written in " +file_name_out)

@@ -21,25 +21,30 @@ def process_content(filename, tokenized):
     None
     """
     try:
-        with io.open(filename, 'a', encoding='utf8') as fout:
+        with io.open(filename, 'a', encoding='utf8') as fout: # rajouter dans le ficher filename
             for i in tokenized:
-                words = nltk.word_tokenize(i)
-                tagged = nltk.pos_tag(words)
-                namedEnt = nltk.ne_chunk(tagged, binary=False)
-                for subtree in namedEnt.subtrees():
-                    if subtree.label() == 'S':
+                words = nltk.word_tokenize(i)   # on obtient la liste des tokens
+                tagged = nltk.pos_tag(words)    # on associe un tag pour chaque token
+                namedEnt = nltk.ne_chunk(tagged, binary=False) # on regarde les liens (entites nommees) entre chaque token
+
+                for subtree in namedEnt.subtrees(): # on regarde dans l'arbre des liens
+                    if subtree.label() == 'S': # si c'est une phrase
                         x = str(subtree)
-                        for element in x[3:len(x)-1].splitlines():
-                            line = element.translate({ ord(c): ' ' for c in "()/" })
+
+                        for element in x[3:len(x)-1].splitlines(): # pour chaque lien contenu dans la phrase
+                            line = element.translate({ ord(c): ' ' for c in "()/" }) # on remplace les () et / par un espace
                             element_in_line = line.split()
-                            if(len(element_in_line) == 2):
-                                fout.write(element_in_line[0] + '\tO' + '\n')
-                            elif('/' not in element.split()[0]):
+
+                            if(len(element_in_line) == 2): # si on n'a pas d'entite nommee dans cette ligne
+                                fout.write(element_in_line[0] + '\tO' + '\n') # on la reecrit directement en ajoutant une tabulation
+
+                            elif('/' not in element.split()[0]): # s'il n'y a pas de tag dans le tout premier element, ie : si la ligne est une entite nommee (PERSON, ORGANISATION)
                                 for w in range(1, len(element_in_line), 2):
                                     fout.write(element_in_line[w] + '\t' + element_in_line[0] + '\n')
-                            else:
+
+                            else: # Sinon, on est bien dans une phrase
                                 for w in range(0, len(element_in_line), 2):
-                                    fout.write(element_in_line[w] + '\tO' + '\n')
+                                    fout.write(element_in_line[w] + '\tO' + '\n') # on la reecrit directement en ajoutant une tabulation
                         fout.write('\n')
 
                 
@@ -109,8 +114,7 @@ if __name__ == '__main__':
     file = open(sys.argv[2], 'w') 
 
     lignes = f.read()
-    #lignes = '\n'.join(lines[115:120])
-    #print(lignes)
+
     custom_sent_tokenizer = PunktSentenceTokenizer(lignes)
 
     tokenized = custom_sent_tokenizer.tokenize(lignes)

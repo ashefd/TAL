@@ -12,6 +12,26 @@ def read_file(file_name):
 
 
 def create_dictionary(lines):
+    """Creation d'un dictionnaire.
+
+    Cette fonction permet de creer un dictionnaire a partir d'une liste de lignes
+
+    Parameters
+    ----------
+    lines : list of string
+        Liste a 2 dimensions contenant 'une_categorie_grammaticale', 'la_categorie_grammaticale_dans_un_autre_type'
+        exemple :
+            ["SCONJ CC", "SENT .", "COMMA ,"]
+
+    Returns
+    -------
+    mydict : dictionary
+        Dictionnaire ressemblant a  'une_categorie_grammaticale' : 'la_categorie_grammaticale_dans_un_autre_type'
+        exemple : 
+            SCONJ CC
+            SENT .
+            COMMA ,
+    """
     mydict = {}
     for line in lines:
         words = line.split()
@@ -20,8 +40,30 @@ def create_dictionary(lines):
 
 
 def write_with_uni_tag(file_name, lines, mydict):
-    """
-    From
+    """Reecrit un fichier en remplacant ses tag par d'autres tags
+
+    Parameters
+    ----------
+    file_name : string
+        Nom du fichier dans lequel on stocke le tout
+
+    lines : list of string
+        Liste des lignes dans lequel on doit remplacer les tag par d'autres tags
+
+    mydict : dictionary
+        Dictionnaire ressemblant a  'une_categorie_grammaticale' : 'la_categorie_grammaticale_dans_un_autre_type'
+        exemple : 
+            SCONJ CC
+            SENT .
+            COMMA ,
+
+    Returns
+    -------
+    None
+
+
+
+    content of lines :
     ,	,
     ,	,
     will	MD
@@ -34,7 +76,7 @@ def write_with_uni_tag(file_name, lines, mydict):
     director	NN
     .	.
 
-    To : 
+    content of file_name
     ,	.
     ,	.
     will	VERB
@@ -47,15 +89,15 @@ def write_with_uni_tag(file_name, lines, mydict):
     director	NOUN
     .	.
     """
-    f = open(file_name, "w") # fichier a remplacer
+    f = open(file_name, "w") # fichier 
 
-    print(mydict)
+    # print(mydict)
     for line in lines:
-        print((line))
+        # print((line))
         if(len(line) != 0):
             words = line.split('\t')
 
-            f.write("\t".join((words[0], mydict[words[1]])))
+            f.write("\t".join((words[0], mydict[words[1]]))) # on reecrit la ligne en remplacant le tag par le tag associe d'apres le dictionnaire mydict
 
         f.write("\n")
 
