@@ -1,7 +1,10 @@
 import sys
 # Tsha 
 def two_columns_without_underscore(file_name, file_name_out):
-
+    """
+    before
+    Mary/PERSON Barra/PERSON appointed/O as/O General/ORGANIZATION Motors/ORGANIZATION chief/O December/O 10/O ,/O 2013/O The/O United/LOCATION States/LOCATION 's/O largest/O car/O manufacturer/O General/ORGANIZATION Motors/ORGANIZATION today/O named/O Mary/PERSON Barra/PERSON as/O its/O new/O chief/O executive/O ./O  
+    """
     f = open(file_name, 'r')
     lines = f.read().splitlines()
     f.close()

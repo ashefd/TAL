@@ -3,6 +3,7 @@ import sys
 # Tsha et Alya
 
 def read_file(file_name):
+
     f = open(file_name, "r") # fichier a remplacer
 
     lines = f.read().splitlines()
@@ -19,6 +20,33 @@ def create_dictionary(lines):
 
 
 def write_with_uni_tag(file_name, lines, mydict):
+    """
+    From
+    ,	,
+    ,	,
+    will	MD
+    join	VB
+    the	DT
+    board	NN
+    as	IN
+    a	DT
+    nonexecutive	JJ
+    director	NN
+    .	.
+
+    To : 
+    ,	.
+    ,	.
+    will	VERB
+    join	VERB
+    the	DET
+    board	NOUN
+    as	ADP
+    a	DET
+    nonexecutive	ADJ
+    director	NOUN
+    .	.
+    """
     f = open(file_name, "w") # fichier a remplacer
 
     print(mydict)

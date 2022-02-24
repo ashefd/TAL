@@ -128,7 +128,7 @@ Execution des NE recognizers et conversion des fichiers de sortie au bon format 
 cd ../stanford-ner-2018-10-16
 java -mx600m -cp stanford-ner.jar:lib/* edu.stanford.nlp.ie.crf.CRFClassifier -loadClassifier classifiers/english.all.3class.distsim.crf.ser.gz -textFile ../src/out/ne_test.txt > ../src/out/ne_test.txt.ne.stanfordbf
 cd ../src
-python two_column_ne_stanford.py out/ne_test.txt.ne.stanfordbf
+python post_processing_stanford.py out/ne_test.txt.ne.stanfordbf slash
 ```
 
 Résultat sauvegardé et disponible sur :
