@@ -3,17 +3,53 @@ import sys
 
 
 def number_nonempty_lines(array):
+    """
+    Cette fonction permet de retourner le nombre d'élements (lignes) non vides d'un tableau
+
+    Parameters
+    ----------
+   array : array
+        tableau pour lequel on osuhaite obtenir le nombre de lignes non vides
+
+    Returns
+    -------
+    number_nonempty : Number
+    nombre de string non vide dans le tableau
+    """
     empty = 0
     for line in array:
         if (line.replace('\n', '') == '' or line == ''):
             empty += 1
-    return len(array) -empty
+    number_nonempty = len(array) -empty
+    return  number_nonempty
 
 def harmonize_by_concatenation(file_name_ref, file_to_change):
     """
-    Le but de la fonction est d'harmoniser le fichier file_to_change en fonction de file_name_ref
-    et de calculer les différentes métriques d'évaluation : TP, FP, FN,
-    """
+       Cette fonction permet de de calculer les différentes métriques d'évaluation : TP, FP, FN
+       principalement en concaténant des lignes du candidat pour obtenir un même mot de la référence
+
+       Parameters
+       ----------
+      file_name_ref:string
+      nom du fichier de reference
+      file_to_change : string
+      nom du fichier candidat
+
+       Returns
+       -------
+       final_ref : array of string
+       les mots de la référence qui sont tokenizés comme le fichier candidat
+
+        final_to_change_file : array of string
+        les mots du candidat qui sont tokenizés comme le fichier référence
+
+        nb_TP : Le nombre de mot étiquetté dans la référence
+        nb_FN : Le nombre de mot qui n'est étiquetté par aucune étiquette
+        nb_FP : Le nombre de mot qui n'a pas été étiquetté correctement
+        nCandidateWords : nombre de mots dans le candidat (sans les lignes vides)
+        nTotalCorrectWords : nombre de mots du candidat étiquetés correctement comme la référence
+       """
+
     ref_file = open(file_name_ref, 'r')
     to_change_file = open(file_to_change, 'r')
 
@@ -45,7 +81,7 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
         words_ref = lines_ref_file[line_index_ref].split('\t')
         words_to_change_file = lines_to_change_file[line_index_change].split('\t')
 
-        # on trouve bien le même mot
+        # si on trouve bien le même mot reference/candidat
         if(words_ref[0] == words_to_change_file[0]):
 
             final_ref.append(lines_ref_file[line_index_ref])
@@ -60,9 +96,9 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
                 if(words_ref[1] != words_to_change_file[1]):# si le mot n'a pas la bonne etiquette
                     nb_FP += 1
 
-        #Les mots n'ont pas été tokenisés de la bonne manière :
+        #Ce n'est pas le même mot : Les mots n'ont pas été tokenisés de la bonne manière :
         else:
-            if(line_index_change+ 1 < len(lines_to_change_file) and line_index_ref + 1 < len(lines_ref_file)):
+            if(line_index_change+ 1 < len(lines_to_change_file) and line_index_ref + 1 < len(lines_ref_file)): #si on ne dépasse pas la taille des tableaux
                 words2_ref = lines_ref_file[line_index_ref+1].split('\t')
                 words2_to_change_file = lines_to_change_file[line_index_change+1].split('\t')
 
@@ -71,14 +107,14 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
                 line_index_ref += 1 
                 line_index_change += 2
                 nb_FN += 1
-                print(words_ref[0] + " VS " + words_to_change_file[0] +"    "+ words2_to_change_file[0])
+                #print(words_ref[0] + " VS " + words_to_change_file[0] +"    "+ words2_to_change_file[0])
 
             #On regarde la ligne d'en dessous pour la référence en concaténant
             elif(words_ref[0] + words2_ref[0] == words_to_change_file[0]):
                 line_index_ref += 2
                 line_index_change += 1
                 nb_FN += 2
-                print(words_ref[0] + " " + words2_ref[0] + " VS " + words_to_change_file[0] )
+                #print(words_ref[0] + " " + words2_ref[0] + " VS " + words_to_change_file[0] )
 
             else :
                 #Si la concaténation a échoué, on itère sur un certains nombre de mots pour voir si
@@ -97,13 +133,13 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
                             break
 
                 #Affichage des lignes problématiques
-                print(line_index_ref)
-                print(line_index_change)
-                print(words_ref[0])
-                print(words2_ref[0])
-                print(words_to_change_file[0])
-                print(words2_to_change_file[0])
-                print('\n')
+                #print(line_index_ref)
+                #print(line_index_change)
+                #print(words_ref[0])
+                #print(words2_ref[0])
+                #print(words_to_change_file[0])
+                #print(words2_to_change_file[0])
+                #print('\n')
 
                 if(not found):
                     #Le fichier n'a pas été trouvé donc on passe à la ligne suivante et on retire ce mot
@@ -118,10 +154,25 @@ def harmonize_by_concatenation(file_name_ref, file_to_change):
 
 def evaluate(nb_TP, nb_FN, nb_FP, nCandidateWords, nTotalCorrectWords):
     """
-    nb_TP : Le nombre de mot étiquetté correctement par les experts
-    nb_FN : Le nombre de mot qui n'est étiquetté par aucune étiquette
-    nb_FP : Le nombre de mot qui n'a pas été étiquetté correctement
-    TN : Les occurences ont été catégorisées comme des instances normales
+       Cette fonction permet de de calculer les différentes métriques d'évaluation : tag-precision ,tag-recall, tag-f-measure
+       word-precision ,word-recall, word-f-measure
+
+       Parameters
+       ----------
+
+        nb_TP : string
+        Le nombre de mot étiquetté dans la référence
+        nb_FN : string
+         Le nombre de mot qui n'est étiquetté par aucune étiquette
+        nb_FP : string
+         Le nombre de mot qui n'a pas été étiquetté correctement
+        nCandidateWords : string
+         nombre de mots dans le candidat (sans les lignes vides)
+        nTotalCorrectWords : nombre de mots du candidat étiquetés correctement comme la référence
+
+       Returns
+       -------
+       tag_recall, tag_precision, tag_fmeasure, word_precision,  word_recall ,  word_fmeasure : string
 
     Précision : Le ration entre les étiquettes correctement étiquettés et l'ensemble des mots étiquetés 
     Précision = nb_TP / (nb_TP + nb_FP)
@@ -130,17 +181,6 @@ def evaluate(nb_TP, nb_FN, nb_FP, nCandidateWords, nTotalCorrectWords):
     Rappel = nb_TP / (nb_TP + nb_FN)
     """
 
-    """"
-       word_precision = float(nTotalCorrectWords) / float(nCandidateWords)
-       word_recall = float(nTotalCorrectWords) / float(nReferenceWords)
-       tag_precision = float(nTotalCorrectTags) / float(nCandidateWords)
-       tag_recall = float(nTotalCorrectTags) / float(nReferenceWords)
-       word_fmeasure = (2*word_precision*word_recall)/(word_precision+word_recall)
-       if tag_precision+tag_recall==0:
-             tag_fmeasure = 0.0
-        else:
-            tag_fmeasure = (2*tag_precision*tag_recall)/(tag_precision+tag_recall)
-      """
 
     tag_recall = nb_TP / (nb_TP + nb_FN)
     tag_precision = nb_TP / (nb_TP + nb_FP)
@@ -157,6 +197,21 @@ def evaluate(nb_TP, nb_FN, nb_FP, nCandidateWords, nTotalCorrectWords):
 
 
 def writeLines(lines, file_out):
+    """écriture dans un fichier .
+
+          Cette fonction permet d'écrire des lignes dans un fichier
+
+          Parameters
+          ----------
+          file_out : string
+          Correspond au nom du fichier de sortie
+
+          lines: array of string
+          le tableau des lignes à écrire
+          Returns
+          -------
+           void
+          """
     file = open(file_out, 'w')
     file.writelines("%s\n" % l for l in lines)
 
@@ -191,11 +246,11 @@ if __name__ == '__main__':
     final_to_change_name_file = sys.argv[2] + ".harmonised"
 
     #ecriture des fichiers harmonisés
-    writeLines(final_ref, final_ref_name_file)
-    writeLines(final_to_change_file, final_to_change_name_file)
+    #writeLines(final_ref, final_ref_name_file)
+    #writeLines(final_to_change_file, final_to_change_name_file)
 
-    print("Reference harmonized with candidate file " + sys.argv[2] + " written in " +  final_ref_name_file )
-    print("Candidate file " + sys.argv[2] + " harmonized with reference written in " + final_to_change_name_file)
+    #print("Reference harmonized with candidate file " + sys.argv[2] + " written in " +  final_ref_name_file )
+    #print("Candidate file " + sys.argv[2] + " harmonized with reference written in " + final_to_change_name_file)
 
 
 

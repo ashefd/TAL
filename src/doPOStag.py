@@ -4,24 +4,19 @@ from nltk import pos_tag
 from nltk import RegexpParser
 # Tsha 
 def nltk_parse(text_file_name):
-    """ Extraction de chunk "matchant" un pattern.
+    """
 
-    Cette fonction permet d'extraire  d'un texte des groupes de mots correspondants
-    à un schema (structure) syntaxique donne.
+    Cette fonction permet d'appliquer le pos tagging de nltk sur un fichier de mots
 
     Parameters
     ----------
     text_file_name : string
-        Nom du fichier qui contient le texte duquel on souhaite extraire les "chunk" (groupes de mots)
-
-    pattern : RegexpChunkRule
-        Une expression reguliere qui represente la structure syntaxique (pattern) des mots que l'on souhaite
-        extraire
+        Nom du fichier qui contient le texte pour lequel on souhaite appliquer les tags
 
     Returns
     -------
-    matched_compounds : list of string
-        Liste de groupes de mots (chunks) qui ont concorde (matche) avec le pattern donne en entree
+    line_tag : list of tuples
+        Liste de tuples (mot, tag) qui correpondent à chaque mot avec son tag associé
     """
     text  = open(text_file_name, 'r')
     print(text)
@@ -30,28 +25,18 @@ def nltk_parse(text_file_name):
     for line in lines:
         line_tag.append(pos_tag(line.split()))
     print(line_tag)
-    """
-    #Separation des lignes du text
-    text = text.read().split()
-    #Etiquettage (Tag) des mots de la liste
-    tokens_tag = pos_tag(text)
-    """
-    #print("After Token:", tokens_tag)
-    ##patterns = """COMPOUND:{<DT>?<JJ>*<NN>}""" # le pattern qui specifie la structure syntaxique à extraire
+
 
     return line_tag
 
-def write_compounds_in_file(list_of_tags, file_name):
+def write_tags_in_file(list_of_tags, file_name):
     """
-    Cette fonction permet d'ecrire dans un fichier les elements de la liste compound,
-    en precisant au debut le nom de la structure syntaxique qui concerne ces elements
+    Cette fonction permet d'ecriredans un fichier (avec le bon format) les elements d'une liste dans un fichier
 
     Parameters
     ----------
-    compounds : list of string
-        Liste de mots composes qui match la syntaxe "structure"
-    structure : string
-        Nom de la structure syntaxique des mots à extraire
+    list_of_tags: list of tuples
+       Liste de tuples (mot, tag) qui correpondent à chaque mot avec son tag associé
     file_name : string
         Nom du fichier dans lequel on souhaite ecrire
         
@@ -72,6 +57,6 @@ if __name__ == '__main__':
 
     list_of_tags = nltk_parse(sys.argv[1])
     print(list_of_tags)
-    write_compounds_in_file(list_of_tags, "out/pos_test.txt.pos.nltk")
+    write_tags_in_file(list_of_tags, "out/pos_test.txt.pos.nltk")
 
     print("File tagged by nltk written in " + "out/pos_test.txt.pos.nltk")
