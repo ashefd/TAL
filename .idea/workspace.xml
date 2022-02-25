@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="comments alya">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_reference.txt..wcconll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk..harmonised.onllconll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.nltk.conll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.stanford" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.stanfordbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.stanfordc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.stanfordc..harmonised.onllconll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.txt.ne.stanfordc.conll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/ne_test.wc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_reference.txt.univ.lima" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_reference.txt.wc.lima" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.nltk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.nltk.univ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.nltk.univ.harmonised" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.stanford" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.stanford.univ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.txt.pos.stanford.univ.harmonised" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/pos_test.wc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/reference.txt.wc.univ.harmonised.univ.lima" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/reference.txt.wc.univ.lima" beforeDir="false" />
+    <list default="true" id="28b88137-897c-454c-ae09-f0ac1d9f29ea" name="Changes" comment="comments alya et readme">
+      <change beforePath="$PROJECT_DIR$/doc/CoreNLP_TheStanfordNaturalLanguageToolkit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/NLTK_TheNaturalLanguageToolkit.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Rapport.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645730009723</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="comments alya et readme">
+      <created>1645782927716</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645782927716</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +175,7 @@
     <MESSAGE value="convert to coNLL et readme" />
     <MESSAGE value="univ ne stanford" />
     <MESSAGE value="comments alya" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments alya" />
+    <MESSAGE value="comments alya et readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments alya et readme" />
   </component>
 </project>
