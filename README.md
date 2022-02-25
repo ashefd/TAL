@@ -1,3 +1,5 @@
+# README
+
 ## Question 1 : récupérer le corpus original et la référence à partir d'un fichier annoté tout en enlevant les mots composés  
 ```
 python getOriginalCorpus.py ../data/pos_reference.txt.lima out/pos_test.txt
@@ -92,24 +94,24 @@ python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.stanford.
 ```
 Résultats obtenus : 
 
-Word precision: 0.979500052295785
-Word recall: 0.987660831048302
-Tag precision: 0.9545957918050941
-Tag recall: 0.9854500103928497
-Word F-measure: 0.9835635141521819
-Tag F-measure: 0.9697775504985937
+Word precision: 0.979500052295785<br>
+Word recall: 0.987660831048302<br>
+Tag precision: 0.9545957918050941<br>
+Tag recall: 0.9854500103928497<br>
+Word F-measure: 0.9835635141521819<br>
+Tag F-measure: 0.9697775504985937<br>
 
 ### NLTK
 ```
 python evaluate.py out/reference.txt.wc.univ.lima out/pos_test.txt.pos.nltk.univ
 ```
 
-Word precision: 1.0
-Word recall: 1.0
-Tag precision: 0.9364013430772269
-Tag recall: 1.0
-Word F-measure: 1.0
-Tag F-measure: 0.967156262749898
+Word precision: 1.0<br>
+Word recall: 1.0<br>
+Tag precision: 0.9364013430772269<br>
+Tag recall: 1.0<br>
+Word F-measure: 1.0<br>
+Tag F-measure: 0.967156262749898<br>
 
 
 # Partie 2
@@ -180,25 +182,25 @@ Résultat sauvegardé dans :
 python evaluate.py out/ne_test.txt.ne.stanfordc.conll ../data/ne_reference.txt.conll 
 ```
 Résultats obtenus :
-Word precision: 0.8314756597122988
-Word recall: 0.8661307928947107
-Tag precision: 0.9277296998711103
-Tag recall: 0.8819359355855068
-Word F-measure: 0.8484494993681345
-Tag F-measure: 0.9042534099066762
+Word precision: 0.8314756597122988<br>
+Word recall: 0.8661307928947107<br>
+Tag precision: 0.9277296998711103<br>
+Tag recall: 0.8819359355855068<br>
+Word F-measure: 0.8484494993681345<br>
+Tag F-measure: 0.9042534099066762<br>
 
 ### NLTK
 ```
 python evaluate.py out/ne_test.txt.ne.nltk.conll ../data/ne_reference.txt.conll 
 ```
 Résultats obtenus :
-Word precision: 0.8114699437934648
-Word recall: 0.8461309228171252
-Tag precision: 0.9229006233956729
-Tag recall: 0.8666494490358126
-Word F-measure: 0.8284380470725541
-Tag F-measure: 0.8938909607529747
+Word precision: 0.8114699437934648<br>
+Word recall: 0.8461309228171252<br>
+Tag precision: 0.9229006233956729<br>
+Tag recall: 0.8666494490358126<br>
+Word F-measure: 0.8284380470725541<br>
+Tag F-measure: 0.8938909607529747<br>
 
-#Question 5 
+## Question 5 
 
 Analyse faite dans le Rapport : Partie "Evaluation de la reconnaissance dentités nommées (NE recognition)" et "Analyse de chaque Plateforme"
