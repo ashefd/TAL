@@ -6,7 +6,7 @@ python getOriginalCorpus.py ../data/pos_reference.txt.lima out/pos_test.txt
 Trois fichiers de sortie : 
 
 - Le corpus original : sauvegardé dans out/pos_test.txt
-- Le coprus sans les mots composés: sauvegardé dans out/pos_test.wc.txt
+- Le corpus sans les mots composés: sauvegardé dans out/pos_test.wc.txt
 - La référence lima sans les mots composés: sauvegardée dans  out/pos_reference.txt.wc.lima
 
 
@@ -81,7 +81,10 @@ Résultat sauvegardé et disponible sur :
 - out/pos_test.txt.pos.nltk.univ
 
 ## Question 5
-Le fichier evaluate permet l'harmonisation ainsi que l'évaluation des fichiers de Stanford et NLTK
+
+Analyse faite dans le Rapport : Partie "Evaluation de lanalyse morpho-syntaxique (POStagging)
+" et Partie "Analyse de chaque Plateforme"
+
 
 ### Stanford
 ```
@@ -195,3 +198,7 @@ Tag precision: 0.9229006233956729
 Tag recall: 0.8666494490358126
 Word F-measure: 0.8284380470725541
 Tag F-measure: 0.8938909607529747
+
+#Question 5 
+
+Analyse faite dans le Rapport : Partie "Evaluation de la reconnaissance dentités nommées (NE recognition)" et "Analyse de chaque Plateforme"
