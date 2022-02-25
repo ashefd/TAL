@@ -1,5 +1,10 @@
 # README
 
+Pour répondre aux différentes questions, nous nous sommes placé dans le dossier src.
+```
+cd src
+```
+
 ## Question 1 : récupérer le corpus original et la référence à partir d'un fichier annoté tout en enlevant les mots composés  
 ```
 python getOriginalCorpus.py ../data/pos_reference.txt.lima out/pos_test.txt
